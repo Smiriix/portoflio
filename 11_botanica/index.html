@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botanical</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<bod>
+    <div class="modalwindow" id="feedbackorder">
+        <div class="panel">
+            <div class="top d-flex align-items-center justify-content-between">
+                <span>Обратная связь</span>
+                <a class="closemodal">
+                    &times;
+                </a>
+            </div>
+            <div class="info">
+                <p class="caption">
+                    Оставьте свои контактные данные<br> и мы с Вами свяжемся!
+                </p>
+                <form action="">
+                    <label class="req">
+                        Ваше имя:
+                    </label>
+                    <input type="text">
+                    <label class="req">
+                        Телефон
+                    </label>
+                    <input type="text">
+                    <label>
+                        e-mail:
+                    </label>
+                    <input type="text">
+                    <label>
+                        Комментарий
+                    </label>
+                    <textarea></textarea>
+                    <label class="check d-flex align-items-start">
+                        <input type="checkbox" hidden>
+                        <div class="indicator"></div>
+                        <span>
+                            Нажимая на кнопку Позвонить мне, Вы соглашаетесь с условиями передачи данных
+                        </span>
+                    </label>
+                    <input type="submit" value="Позвоните мне">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modalwindow" id="quizform">
+        <div class="panel">
+            <div class="top d-flex align-items-center justify-content-between">
+                <span>Узнайте стоимость сервисного ухода</span>
+                <div class="count"></div>
+                <a class="closemodal">
+                    &times;
+                </a>
+            </div>
+            <div class="quiz__wrapper">
+                <div class="quiz__list d-flex align-items-start" style="width: 800%">
+                    <div class="quiz" style="width: calc(100% / 8)">
+                        <p>Какой у вас объект?</p>
+                        <div class="d-flex justify-content-start flex-wrap">
+                            <label>
+                                <input type="radio" name="object" checked hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Офис
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="object" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Бизнес или торговый-центр
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="object" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Ресторан или отель
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="object" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Другое
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="quiz" style="width: calc(100% / 8)">
+                        <p>Где вы находитесь?</p>
+                        <div class="d-flex justify-content-start flex-wrap">
+                            <label>
+                                <input type="radio" name="position" checked hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Москва (МКАД)
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="position" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Москва (В пределах 3-го кольца)
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="position" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Московская обл.
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="position" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Другое
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="quiz" style="width: calc(100% / 8)">
+                        <p>Какие растения у вас?</p>
+                        <div class="d-flex justify-content-start flex-wrap">
+                            <label>
+                                <input type="radio" name="whyflowers" checked hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Напольные и настольные
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="whyflowers" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Фитостены (Вертикальное озеленение)
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="whyflowers" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Фитостены и растения
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="whyflowers" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Другое
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="quiz" style="width: calc(100% / 8)">
+                        <p>Сколько растений на вашем объекте?</p>
+                        <div class="d-flex justify-content-start flex-wrap">
+                            <label>
+                                <input type="radio" name="count" checked hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    До 10 растений
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="count" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    От 10 до 50 растений
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="count" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    От 50 до 100 растений
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="count" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Более 100
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="quiz" style="width: calc(100% / 8)">
+                        <p>Есть ли спецификация растений с указанием размеров?</p>
+                        <div class="d-flex justify-content-start flex-wrap list">
+                            <label>
+                                <input type="radio" name="spec" checked hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Да
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="spec" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Нет
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="quiz" style="width: calc(100% / 8)">
+                        <p>Нужен ли бесплатный выезд специалиста ,для составления точной сметы?</p>
+                        <div class="d-flex justify-content-start flex-wrap list">
+                            <label>
+                                <input type="radio" name="freedelivery" checked hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Да
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="freedelivery" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Нет
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="quiz" style="width: calc(100% / 8)">
+                        <p>Куда отправить расчеты стоимости?</p>
+                        <div class="d-flex justify-content-start flex-wrap">
+                            <label>
+                                <input type="radio" name="payment" checked hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Viber
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="payment" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    WhatsApp
+                                </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="payment" hidden>
+                                <div class="indicator"></div>
+                                <img src="assets/img/banner4.png">
+                                <span>
+                                    Жду звонка специалиста
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="quiz" style="width: calc(100% / 8)">
+                        <p>Ваш телефон?</p>
+                        <div class="d-flex justify-content-start flex-wrap">
+                            <form action="">
+                                <p>
+                                    <span><textarea></textarea></span>
+                                    <span><input type="text" placeholder="+7(___)-___-__-__" class="number"></span>
+                                    <span class="desc">Отправляя форму, вы даете согласие на обработку персональных данных</span>
+                                    <input type="submit" placeholder="">
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="quiz__btns d-flex align-items-center justify-content-between">
+                <div class="quiznbtn prev">
+                    <svg width="39" height="13" viewBox="0 0 39 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M38.5996 5.54995L29.27 0.16355C28.887 -0.0575572 28.3973 0.0736977 28.1761 0.45665C27.9549 0.839683 28.0862 1.32938 28.4692 1.55057L35.2132 5.44417H0.800821C0.358528 5.44417 0 5.80277 0 6.24499C0 6.68712 0.358528 7.04581 0.800821 7.04581H35.2078L28.4692 10.9364C28.0862 11.1576 27.9549 11.6473 28.1761 12.0304C28.3245 12.2873 28.5936 12.4309 28.8703 12.4309C29.0061 12.4309 29.1439 12.3962 29.27 12.3235L38.5996 6.93698C38.8474 6.79395 39 6.52952 39 6.24346C39 5.95741 38.8474 5.69298 38.5996 5.54995Z" fill="#4B6256"/>
+</svg> Назад
+                </div>
+                <div class="quiznbtn next">
+                   Далее <svg width="39" height="13" viewBox="0 0 39 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M38.5996 5.54995L29.27 0.16355C28.887 -0.0575572 28.3973 0.0736977 28.1761 0.45665C27.9549 0.839683 28.0862 1.32938 28.4692 1.55057L35.2132 5.44417H0.800821C0.358528 5.44417 0 5.80277 0 6.24499C0 6.68712 0.358528 7.04581 0.800821 7.04581H35.2078L28.4692 10.9364C28.0862 11.1576 27.9549 11.6473 28.1761 12.0304C28.3245 12.2873 28.5936 12.4309 28.8703 12.4309C29.0061 12.4309 29.1439 12.3962 29.27 12.3235L38.5996 6.93698C38.8474 6.79395 39 6.52952 39 6.24346C39 5.95741 38.8474 5.69298 38.5996 5.54995Z" fill="#4B6256"/>
+</svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a href="#">
+                        <img src="assets/img/logo.png" alt="logo" width="164px">
+                    </a>
+                    <a href="tel:+79637506109" class="phone">
+                        +7(963) 750-61-09
+                    </a>
+                    <a href="#">Обратная связь</a>
+                    <div id="menu-toggle" class="d-flex flex-column align-items-center">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menufix">
+        <ul>
+            <li>
+                <a href='#'>О нас</a>
+            </li>
+            <li>
+                <a href='#'>Услуги</a>
+                <ul>
+                    <li><a href='#'>Озеленение</a></li>
+                    <li><a href='#'>Вертикальное озеленение</a></li>
+                    <li><a href='#'>Уход</a></li>
+                    <li><a href='#'>Ландшафт</a></li>
+                    <li><a href='#'>Новый год</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href='#'>Портфолио</a>
+            </li>
+            <li>
+                <a href='#'>Статьи</a>
+            </li>
+            <li>
+                <a href='#'>Контакты</a>
+            </li>
+        </ul>
+        <img class="first" src="assets/img/menu_flower2.png">
+        <img class='second' src="assets/img/menu_flower.png">
+    </div>
+    <div class="banner main d-flex align-items-center justify-content-center flex-column"
+        style="background-image: url('assets/img/banner1.jpeg');">
+        <div class="logo">
+            <img src="assets/img/bannerlogo.svg">
+        </div>
+        <h1 class="title">
+            растения в интерьере
+        </h1>
+        <div class="subtitle">
+            botanical
+        </div>
+    </div>
+    <div class="we-services grey">
+        <div class="container">
+            <div class="row">
+                <div class="section_title">
+                    Наши услуги
+                </div>
+            </div>
+            <div class="row">
+                <div class="owl-carousel owl-theme" id="servicesSlider">
+                    <div class="item">
+                        <p>Озеленение</p>
+                        <span>несем обязательства в части обеспечения профессионального качественного ухода</span>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div class="item">
+                        <p>Вертикальное озеленение</p>
+                        <span>несем обязательства в части обеспечения профессионального качественного ухода</span>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div class="item">
+                        <p>Уход</p>
+                        <span>несем обязательства в части обеспечения профессионального качественного ухода</span>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div class="item">
+                        <p>Ландшафт</p>
+                        <span>несем обязательства в части обеспечения профессионального качественного ухода</span>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div class="item">
+                        <p>Новый год</p>
+                        <span>несем обязательства в части обеспечения профессионального качественного ухода</span>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="motivation">
+        <div class="d-flex align-items-center justify-content-start">
+            <div class="left" style="background-image: url('assets/img/motivationbanner.jpg');">
+                <div class="text">
+                    <img src="assets/img/44752311_fa498e38cc8ed3e24d67ac5e6e2019f8.gif">
+                    <span>
+                        Мы искренне уверены, что успех любого дела заключается в деталях, и воплотим в жизнь любые
+                        дизайнерские задумки по озеленению.
+                    </span>
+                    <img src="assets/img/44752311_fa498e38cc8ed3e24d67ac5e6e2019f8.gif">
+                </div>
+            </div>
+            <div class="right" style="background-image: url(assets/img/motivationimg.jpg);"></div>
+        </div>
+    </div>
+    <div class="ambulance container">
+        <div class="row">
+            <div class="col-12 col-lg-11">
+                <div class="row">
+                    <div class="d-flex justify-content-center flex-column flex-lg-row">
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-column align-items-center justify-content-center h-100 grey panel">
+                                <img src="assets/img/ambulance_logo.png">
+                                <h2>Скорая помощь растениям</h2>
+                                <span>Закажите помощь растениям в удобное для Вас время</span>
+                                <a href="#feedbackorder" class="showmodal">
+                                    заказать скорую помощь
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <div class="info">
+                                <p>Что входит в разовый выезд:</p>
+                                <ul>
+                                    <li>Диагностика и обработка растений от вредителей и болезней</li>
+                                    <li>Проведение комплекса лечебных мероприятий от грибных заболеваний</li>
+                                    <li>Формирующая и санитарная обрезка растений</li>
+                                    <li>Пересадка растений или замена верхнего слоя грунта</li>
+                                    <li>Установка опор и выравнивание наклонившихся растений</li>
+                                    <li>Рекомендации по дальнейшему уходу</li>
+                                </ul>
+                                <img src="assets/img/sadovnikman.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ordercall_form d-flex">
+        <div class="left">
+            <img src="assets/img/orderform_left.jpg">
+            <div class="info d-flex flex-column align-items-start">
+                <p>Остались вопросы?</p>
+                <span class="desc">
+                    С удовольствием ответим на них!
+                </span>
+                <a href="tel:+79637506109" class="number">
+                    +7 963 750 61 09
+                </a>
+                <div class="links d-flex align-items-center">
+                    <a href="#">
+                        <img src="assets/img/telegramicon.svg">
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/whatsappicon.svg">
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/vibericon.svg">
+                    </a>
+                    <span>Напишите нам в любой удобный чат</span>
+                </div>
+                <a href="#feedbackorder" class="order showmodal">
+                    <span>
+                        Заказать звонок
+                    </span>
+                </a>
+                <img src="assets/img/44752311_fa498e38cc8ed3e24d67ac5e6e2019f8.gif" class="zhuk">
+            </div>
+        </div>
+        <div class="right">
+            <img src="assets/img/logoongreen.jpg" class="logo">
+            <img src="assets/img/orderform_right.jpg">
+        </div>
+    </div>
+    <div class="service-plant grey">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex flex-column align-items-center justify-content-center">
+                    <div class="section_title">
+                        Сервисный уход за растениями
+                    </div>
+                    <span>
+                        Профессиональный уход и обслуживание растений в Москве и Московской области.Рассчитайте
+                        стоимость ухода, ответив на 8 вопросов
+                    </span>
+                    <a href="#">
+                        Рассчитать стоимость
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer grey">
+        <div class="container">
+            <div class="row">
+                <div
+                    class="d-flex justify-content-between flex-column flex-lg-row align-items-center align-items-lg-start">
+                    <ul>
+                        <li>
+                            <p>Информация</p>
+                        </li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Портфолио</a></li>
+                        <li><a href="#">Статьи</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>Услуги</p>
+                        </li>
+                        <li><a href="#">Озеленение</a></li>
+                        <li><a href="#">Вертикальное озеленение</a></li>
+                        <li><a href="#">Уход</a></li>
+                        <li><a href="#">Ландшафт</a></li>
+                        <li><a href="#">Новый год</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>Дополнительно</p>
+                        </li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Рассчитать стоимость</a></li>
+                        <li><a href="#">Заказать скорую помощь</a></li>
+                        <li><a href="#">Заказать звонок</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>Контакты</p>
+                        </li>
+                        <li><span class="address">107140, г. Москва, ул. Большой Краснопрудный тупик,<br> дом 8/12,
+                                цокольный эт., пом. 2, ком. 6, офис 3</span></li>
+                        <li><a href="#">+7 963 750 61 09</a></li>
+                        <li><a href="#">info@botanical.ru</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="links d-flex justify-content-center align-items-center">
+                    <a href="#">
+                        <img src="assets/img/telegramiconfooter.svg">
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/whatsappiconfooter.svg">
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/vibericonfooter.svg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom d-flex align-items-center justify-content-center flex-column">
+        <p>© Copyright 2008-2016 Botanical Group</p>
+        <a href="http://agrachoff.ru" target="agrachoff">
+            <img src="assets/img/agrachoff.svg" width="20">
+            <span>Разработка и продвижение сайтов</span>
+        </a>
+    </div>
+    </body>
+    <!-- Scripts -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</html>

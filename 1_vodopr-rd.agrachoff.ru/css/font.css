@@ -1,0 +1,63 @@
+/* Akrobat */
+@font-face {
+    font-family: AkrobatBlack;
+    src: url("../assets/font/Akrobat-Black.otf");
+}
+@font-face {
+    font-family: AkrobatBold;
+    src: url("../assets/font/Akrobat-Bold.otf");
+}
+@font-face {
+    font-family: AkrobatExtraBold;
+    src: url("../assets/font/Akrobat-ExtraBold.otf");
+}
+@font-face {
+    font-family: AkrobatRegular;
+    src: url("../assets/font/Akrobat-Regular.otf");
+}
+@font-face {
+    font-family: AkrobatLight;
+    src: url("../assets/font/Akrobat-Light.otf");
+}
+/* Raleway */
+@font-face {
+    font-family: RalewayBlack;
+    src: url("../assets/font/Raleway-Black.ttf");
+}
+@font-face {
+    font-family: RalewayBold;
+    src: url("../assets/font/Raleway-Bold.ttf");
+}
+@font-face {
+    font-family: RalewayExtraBold;
+    src: url("../assets/font/Raleway-ExtraBold.ttf");
+}
+@font-face {
+    font-family: RalewayLight;
+    src: url("../assets/font/Raleway-Light.ttf");
+}
+@font-face {
+    font-family: RalewayRegular;
+    src: url("../assets/font/Raleway-Regular.ttf");
+}
+@font-face {
+    font-family: RalewayMedium;
+    src: url("../assets/font/Raleway-Medium.ttf");
+}
+@font-face {
+    font-family: RalewayItalic;
+    src: url("../assets/font/Raleway-Italic.ttf");
+}
+@font-face {
+    font-family: RalewayExtraLightItalic;
+    src: url("../assets/font/Raleway-ExtraLightItalic.ttf");
+}
+@font-face {
+    font-family: RalewaySemiBold;
+    src: url("../assets/font/Raleway-SemiBold.ttf");
+}
+/* OpenSans */
+@font-face {
+    font-family: OpenSansBold;
+    src: url("../assets/font/OpenSans-Bold.ttf");
+}

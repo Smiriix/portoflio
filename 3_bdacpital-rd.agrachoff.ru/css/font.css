@@ -1,0 +1,366 @@
+/* Yanone Kaffeesatz */
+@font-face {
+	font-family: 'Yanone Kaffeesatz';
+	src: url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Thin.eot');
+	src: local('../assets/fonts/Montserrat/../assets/fonts/YanoneKaffeesatz/Yanone Kaffeesatz-Thin'), local('../assets/fonts/Montserrat/../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Thin'),
+		url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Thin.woff') format('woff'),
+		url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Yanone Kaffeesatz';
+	src: url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Light.eot');
+	src: local('../assets/fonts/Montserrat/../assets/fonts/YanoneKaffeesatz/Yanone Kaffeesatz-Light'), local('../assets/fonts/Montserrat/../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Light'),
+		url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Light.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Light.woff') format('woff'),
+		url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Yanone Kaffeesatz';
+	src: url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Regular.eot');
+	src: local('../assets/fonts/Montserrat/../assets/fonts/YanoneKaffeesatz/Yanone Kaffeesatz-Regular'), local('../assets/fonts/Montserrat/../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Regular'),
+		url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Regular.woff') format('woff'),
+		url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Yanone Kaffeesatz';
+	src: url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Bold.eot');
+	src: local('../assets/fonts/Montserrat/../assets/fonts/YanoneKaffeesatz/Yanone Kaffeesatz-Bold'), local('../assets/fonts/Montserrat/../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Bold'),
+		url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Bold.woff') format('woff'),
+		url('../assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+/* Montserrat */
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-Light.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat Light'), local('../assets/fonts/Montserrat/Montserrat-Light'),
+		url('../assets/fonts/Montserrat/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-Light.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-MediumItalic.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat Medium Italic'), local('../assets/fonts/Montserrat/Montserrat-MediumItalic'),
+		url('../assets/fonts/Montserrat/Montserrat-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-MediumItalic.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-Thin.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat Thin'), local('../assets/fonts/Montserrat/Montserrat-Thin'),
+		url('../assets/fonts/Montserrat/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-Thin.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-ExtraLightItalic.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat ExtraLight Italic'), local('../assets/fonts/Montserrat/Montserrat-ExtraLightItalic'),
+		url('../assets/fonts/Montserrat/Montserrat-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-ExtraLightItalic.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf') format('truetype');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-BoldItalic.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat Bold Italic'), local('../assets/fonts/Montserrat/Montserrat-BoldItalic'),
+		url('../assets/fonts/Montserrat/Montserrat-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-BoldItalic.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-SemiBold.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat SemiBold'), local('../assets/fonts/Montserrat/Montserrat-SemiBold'),
+		url('../assets/fonts/Montserrat/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-SemiBold.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-ExtraLight.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat ExtraLight'), local('../assets/fonts/Montserrat/Montserrat-ExtraLight'),
+		url('../assets/fonts/Montserrat/Montserrat-ExtraLight.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-ExtraLight.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat ExtraBold Italic'), local('../assets/fonts/Montserrat/Montserrat-ExtraBoldItalic'),
+		url('../assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-Italic.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat Italic'), local('../assets/fonts/Montserrat/Montserrat-Italic'),
+		url('../assets/fonts/Montserrat/Montserrat-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-Italic.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-Bold.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat Bold'), local('../assets/fonts/Montserrat/Montserrat-Bold'),
+		url('../assets/fonts/Montserrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-Bold.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-LightItalic.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat Light Italic'), local('../assets/fonts/Montserrat/Montserrat-LightItalic'),
+		url('../assets/fonts/Montserrat/Montserrat-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-LightItalic.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-BlackItalic.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat Black Italic'), local('../assets/fonts/Montserrat/Montserrat-BlackItalic'),
+		url('../assets/fonts/Montserrat/Montserrat-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-BlackItalic.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-SemiBoldItalic.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat SemiBold Italic'), local('../assets/fonts/Montserrat/Montserrat-SemiBoldItalic'),
+		url('../assets/fonts/Montserrat/Montserrat-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-SemiBoldItalic.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-Regular.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat Regular'), local('../assets/fonts/Montserrat/Montserrat-Regular'),
+		url('../assets/fonts/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-Medium.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat Medium'), local('../assets/fonts/Montserrat/Montserrat-Medium'),
+		url('../assets/fonts/Montserrat/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-Medium.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-ExtraBold.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat ExtraBold'), local('../assets/fonts/Montserrat/Montserrat-ExtraBold'),
+		url('../assets/fonts/Montserrat/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-ExtraBold.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-Black.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat Black'), local('../assets/fonts/Montserrat/Montserrat-Black'),
+		url('../assets/fonts/Montserrat/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-Black.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat/Montserrat-ThinItalic.eot');
+	src: local('../assets/fonts/Montserrat/Montserrat Thin Italic'), local('../assets/fonts/Montserrat/Montserrat-ThinItalic'),
+		url('../assets/fonts/Montserrat/Montserrat-ThinItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Montserrat/Montserrat-ThinItalic.woff') format('woff'),
+		url('../assets/fonts/Montserrat/Montserrat-ThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+/* Rubik */
+@font-face {
+	font-family: 'Rubik';
+	src: url('../assets/fonts/Rubik/Rubik-BlackItalic.eot');
+	src: local('../assets/fonts/Rubik/Rubik Black Italic'), local('../assets/fonts/Rubik/Rubik-BlackItalic'),
+		url('../assets/fonts/Rubik/Rubik-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Rubik/Rubik-BlackItalic.woff') format('woff'),
+		url('../assets/fonts/Rubik/Rubik-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../assets/fonts/Rubik/Rubik-BoldItalic.eot');
+	src: local('../assets/fonts/Rubik/Rubik Bold Italic'), local('../assets/fonts/Rubik/Rubik-BoldItalic'),
+		url('../assets/fonts/Rubik/Rubik-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Rubik/Rubik-BoldItalic.woff') format('woff'),
+		url('../assets/fonts/Rubik/Rubik-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../assets/fonts/Rubik/Rubik-Light.eot');
+	src: local('../assets/fonts/Rubik/Rubik Light'), local('../assets/fonts/Rubik/Rubik-Light'),
+		url('../assets/fonts/Rubik/Rubik-Light.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Rubik/Rubik-Light.woff') format('woff'),
+		url('../assets/fonts/Rubik/Rubik-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../assets/fonts/Rubik/Rubik-Medium.eot');
+	src: local('../assets/fonts/Rubik/Rubik Medium'), local('../assets/fonts/Rubik/Rubik-Medium'),
+		url('../assets/fonts/Rubik/Rubik-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Rubik/Rubik-Medium.woff') format('woff'),
+		url('../assets/fonts/Rubik/Rubik-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../assets/fonts/Rubik/Rubik-Italic.eot');
+	src: local('../assets/fonts/Rubik/Rubik Italic'), local('../assets/fonts/Rubik/Rubik-Italic'),
+		url('../assets/fonts/Rubik/Rubik-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Rubik/Rubik-Italic.woff') format('woff'),
+		url('../assets/fonts/Rubik/Rubik-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../assets/fonts/Rubik/Rubik-Bold.eot');
+	src: local('../assets/fonts/Rubik/Rubik Bold'), local('../assets/fonts/Rubik/Rubik-Bold'),
+		url('../assets/fonts/Rubik/Rubik-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Rubik/Rubik-Bold.woff') format('woff'),
+		url('../assets/fonts/Rubik/Rubik-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../assets/fonts/Rubik/Rubik-LightItalic.eot');
+	src: local('../assets/fonts/Rubik/Rubik Light Italic'), local('../assets/fonts/Rubik/Rubik-LightItalic'),
+		url('../assets/fonts/Rubik/Rubik-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Rubik/Rubik-LightItalic.woff') format('woff'),
+		url('../assets/fonts/Rubik/Rubik-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../assets/fonts/Rubik/Rubik-Regular.eot');
+	src: local('../assets/fonts/Rubik/Rubik'), local('../assets/fonts/Rubik/Rubik-Regular'),
+		url('../assets/fonts/Rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Rubik/Rubik-Regular.woff') format('woff'),
+		url('../assets/fonts/Rubik/Rubik-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../assets/fonts/Rubik/Rubik-MediumItalic.eot');
+	src: local('../assets/fonts/Rubik/Rubik Medium Italic'), local('../assets/fonts/Rubik/Rubik-MediumItalic'),
+		url('../assets/fonts/Rubik/Rubik-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Rubik/Rubik-MediumItalic.woff') format('woff'),
+		url('../assets/fonts/Rubik/Rubik-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Rubik Mono One';
+	src: url('../assets/fonts/Rubik/RubikMonoOne-Regular.eot');
+	src: local('../assets/fonts/Rubik/Rubik Mono One Regular'), local('../assets/fonts/Rubik/RubikMonoOne-Regular'),
+		url('../assets/fonts/Rubik/RubikMonoOne-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Rubik/RubikMonoOne-Regular.woff') format('woff'),
+		url('../assets/fonts/Rubik/RubikMonoOne-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../assets/fonts/Rubik/Rubik-Black.eot');
+	src: local('../assets/fonts/Rubik/Rubik Black'), local('../assets/fonts/Rubik/Rubik-Black'),
+		url('../assets/fonts/Rubik/Rubik-Black.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Rubik/Rubik-Black.woff') format('woff'),
+		url('../assets/fonts/Rubik/Rubik-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}

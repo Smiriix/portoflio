@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профитек</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Scripts -->
+    <script defer src="js/jquery.js"></script>
+    <script defer src="js/owl.carousel.min.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-2">
+                    <div class="img">
+                        <img src="assets/img/logo.svg" class="logo">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-10">
+                    <div class="d-flex align-items-center justify-content-between flex-column-reverse flex-lg-row">
+                        <nav class="navbar navbar-expand-lg bg-light">
+                            <div class="container-fluid">
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <form action="#" class="search d-flex" method="GET">
+                                  <input type="text" name="S">
+                                  <button type=""><img src="assets/img/search.svg"></button>
+                              </form>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link active" aria-current="page" href="podkladka.html">Товары</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link active" aria-current="page" href="about.html">О нас</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link active" aria-current="page" href="contact.html">Контакты</a>
+                                    </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </nav>
+                        <form action="#" class="search d-flex" method="GET">
+                            <input type="text" name="S">
+                            <button type=""><img src="assets/img/search.svg"></button>
+                        </form>
+                        
+                        <a href="cart.html" class="cart d-flex align-items-center">
+                            <img src="assets/img/cart.svg">
+                            корзина
+                            <span>1</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container tabs">
+        <a href="index.html">Главная</a> / <a href="#" class="active">Рукавка</a>
+    </div>
+    <div class="container category_desc">
+        <input type="checkbox" id="showdesc" hidden>
+        <p class="text">
+            <span>Как уже видно из названия в рукавная подкладочная ткань используется в основном в рукавах и главным образом в рукавах мужского пиджака, но применяется и как подкладка в других местах текстильных изделий.</span><br>
+            <span>Классическая рукавная ткань белого цвета с повторяющимися по основе черными либо цветными нитями. По составу и фактуре рукавка может быть любой, но обязательно должна скользить, что-бы было удобно одевать и снимать пиджак.</span><br>
+            <span>На сайте представлены несколько дизайнов и их характеристики.</span>
+        </p>
+        <label for="showdesc">
+            <span>Подробнее</span>
+        </label>
+    </div>
+    <div class="container shop__wrapper">
+        <div class="row">
+            <div class="col-12 col-lg-2 sidebar">
+                    <h2 class="title">
+                        Фильтры
+                    </h2>
+                    <div class="panel">
+                        <input type="checkbox" id="panel1" hidden>
+                        <label for="panel1">Цена 
+                            <span class="indicator"></span>
+                        </label>
+                        <div class="attributs">
+                            <div class="data">
+                                <div class="range">
+                                    <div class="slide"></div>
+                                    <div class="dot start"></div>
+                                    <div class="dot end"></div>
+                                </div>
+                                <div class="d-flex prices">
+                                    ₱ <input> ₱ <input>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="panel">
+                        <input type="checkbox" id="panel2" hidden>
+                        <label for="panel2">цвет 
+                            <span class="indicator"></span>
+                        </label>
+                        <div class="attributs">
+                            <div class="data">
+                                <label>
+                                    <input type="checkbox"> Белый
+                                </label>
+                                <label>
+                                    <input type="checkbox"> Красный
+                                </label>
+                                <label>
+                                    <input type="checkbox"> Синий
+                                </label>
+                                <label>
+                                    <input type="checkbox"> Жёлтый
+                                </label>
+                                <label>
+                                    <input type="checkbox"> Чёрный
+                                </label>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="panel">
+                        <input type="checkbox" id="panel3" hidden>
+                        <label for="panel3">Наличие 
+                            <span class="indicator"></span>
+                        </label>
+                        <div class="attributs">
+                            <div class="data">
+                                <label>
+                                    <input type="checkbox"> В наличии
+                                </label>
+                                <label>
+                                    <input type="checkbox"> Заказ: на завтра
+                                </label>
+                                <label>
+                                    <input type="checkbox"> Нет в наличии
+                                </label>
+                            </div>
+                        </div> 
+                    </div>
+            </div>
+            <div class="col-12 col-lg-10 shop__items">
+                <div class="row items">
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img" style="background-image: url('assets/img/new_item.jpg')"></div>
+                        <p class="caption">Название товара</p>
+                        <span class="price">1000 р.</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-start flex-column flex-lg-row">
+                <div class="left">
+                    <img src="assets/img/logo.svg">
+                    <div class="desc">
+                        Текст о компании Текст о компании Текст о компании Текст о компании Текст о компании 
+                    </div>
+                </div>
+                <ul>
+                    <li><p>Навигация по сайту</p></li>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="podkladka.html">Товары</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>Часы работы</p>
+                    </li>
+                    <li>Пн - Пт: 9:00 - 17:00</li>
+                    <li>Сб: 11:00 - 15:00</li>
+                    <li>Вс: Выходной</li>
+                </ul>
+                <div class="links">
+                    <p>Социальные сети</p>
+                    <a href="#">
+                        <img src="assets/img/vk_icon.png">
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/telegram_icon.png">
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/whatsapp_icon.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

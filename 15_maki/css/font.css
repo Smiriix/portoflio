@@ -1,0 +1,577 @@
+/* OpenSans */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans/OpenSans-SemiBoldItalic.eot');
+    src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'),
+        url('../assets/fonts/OpenSans/OpenSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/OpenSans/OpenSans-SemiBoldItalic.woff') format('woff'),
+        url('../assets/fonts/OpenSans/OpenSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans/OpenSans-LightItalic.eot');
+    src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'),
+        url('../assets/fonts/OpenSans/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/OpenSans/OpenSans-LightItalic.woff') format('woff'),
+        url('../assets/fonts/OpenSans/OpenSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans/OpenSans-Bold.eot');
+    src: local('Open Sans Bold'), local('OpenSans-Bold'),
+        url('../assets/fonts/OpenSans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/OpenSans/OpenSans-Bold.woff') format('woff'),
+        url('../assets/fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans/OpenSans-ExtraBoldItalic.eot');
+    src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'),
+        url('../assets/fonts/OpenSans/OpenSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/OpenSans/OpenSans-ExtraBoldItalic.woff') format('woff'),
+        url('../assets/fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans/OpenSans-Light.eot');
+    src: local('Open Sans Light'), local('OpenSans-Light'),
+        url('../assets/fonts/OpenSans/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/OpenSans/OpenSans-Light.woff') format('woff'),
+        url('../assets/fonts/OpenSans/OpenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans/OpenSans-Italic.eot');
+    src: local('Open Sans Italic'), local('OpenSans-Italic'),
+        url('../assets/fonts/OpenSans/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/OpenSans/OpenSans-Italic.woff') format('woff'),
+        url('../assets/fonts/OpenSans/OpenSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans/OpenSans-Regular.eot');
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+        url('../assets/fonts/OpenSans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/OpenSans/OpenSans-Regular.woff') format('woff'),
+        url('../assets/fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans/OpenSans-SemiBold.eot');
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+        url('../assets/fonts/OpenSans/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/OpenSans/OpenSans-SemiBold.woff') format('woff'),
+        url('../assets/fonts/OpenSans/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans/OpenSans-ExtraBold.eot');
+    src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
+        url('../assets/fonts/OpenSans/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/OpenSans/OpenSans-ExtraBold.woff') format('woff'),
+        url('../assets/fonts/OpenSans/OpenSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans/OpenSans-BoldItalic.eot');
+    src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
+        url('../assets/fonts/OpenSans/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/OpenSans/OpenSans-BoldItalic.woff') format('woff'),
+        url('../assets/fonts/OpenSans/OpenSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* DIN Next W1G */
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Medium.eot');
+    src: local('DIN Next Rounded LT Pro Medium'), local('DINNextRoundedLTPro-Medium'),
+        url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Medium.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-UltraLightIt.eot');
+    src: local('DIN Next LT Pro UltraLight Italic'), local('DINNextLTPro-UltraLightIt'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-UltraLightIt.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-UltraLightIt.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-UltraLightIt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Bold.eot');
+    src: local('DIN Next Rounded LT Pro Bold'), local('DINNextRoundedLTPro-Bold'),
+        url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Bold.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-BlackItalic.eot');
+    src: local('DIN Next LT Pro Black Italic'), local('DINNextLTPro-BlackItalic'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-BlackItalic.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-HeavyCondensed.eot');
+    src: local('DIN Next LT Pro Heavy Condensed'), local('DINNextLTPro-HeavyCondensed'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-HeavyCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-HeavyCondensed.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-HeavyCondensed.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-Light.eot');
+    src: local('DIN Next LT Pro Light'), local('DINNextLTPro-Light'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Light.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-Condensed.eot');
+    src: local('DIN Next LT Pro Condensed'), local('DINNextLTPro-Condensed'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Condensed.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Condensed.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-BoldCondensed.eot');
+    src: local('DIN Next LT Pro Bold Condensed'), local('DINNextLTPro-BoldCondensed'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-BoldCondensed.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-BoldCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-MediumItalic.eot');
+    src: local('DIN Next LT Pro Medium Italic'), local('DINNextLTPro-MediumItalic'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-MediumItalic.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-LightCondensed.eot');
+    src: local('DIN Next LT Pro Light Condensed'), local('DINNextLTPro-LightCondensed'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-LightCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-LightCondensed.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-LightCondensed.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Regular.eot');
+    src: local('DIN Next Rounded LT Pro Regular'), local('DINNextRoundedLTPro-Regular'),
+        url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Regular.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-MediumCond.eot');
+    src: local('DIN Next LT Pro Medium Condensed'), local('DINNextLTPro-MediumCond'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-MediumCond.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-MediumCond.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-MediumCond.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-Italic.eot');
+    src: local('DIN Next LT Pro Italic'), local('DINNextLTPro-Italic'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Italic.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-LightItalic.eot');
+    src: local('DIN Next LT Pro Light Italic'), local('DINNextLTPro-LightItalic'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-LightItalic.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-UltraLightCond.eot');
+    src: local('DIN Next LT Pro UltraLight Condensed'), local('DINNextLTPro-UltraLightCond'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-UltraLightCond.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-UltraLightCond.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-UltraLightCond.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-Heavy.eot');
+    src: local('DIN Next LT Pro Heavy'), local('DINNextLTPro-Heavy'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Heavy.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-Regular.eot');
+    src: local('DIN Next LT Pro Regular'), local('DINNextLTPro-Regular'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Regular.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-Black.eot');
+    src: local('DIN Next LT Pro Black'), local('DINNextLTPro-Black'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Black.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-Bold.eot');
+    src: local('DIN Next LT Pro Bold'), local('DINNextLTPro-Bold'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Bold.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-BlackCondensed.eot');
+    src: local('DIN Next LT Pro Black Condensed'), local('DINNextLTPro-BlackCondensed'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-BlackCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-BlackCondensed.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-BlackCondensed.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-HeavyItalic.eot');
+    src: local('DIN Next LT Pro Heavy Italic'), local('DINNextLTPro-HeavyItalic'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-HeavyItalic.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-UltraLight.eot');
+    src: local('DIN Next LT Pro UltraLight'), local('DINNextLTPro-UltraLight'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-UltraLight.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-Medium.eot');
+    src: local('DIN Next LT Pro Medium'), local('DINNextLTPro-Medium'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Medium.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextLTPro-BoldItalic.eot');
+    src: local('DIN Next LT Pro Bold Italic'), local('DINNextLTPro-BoldItalic'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-BoldItalic.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextLTPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Light.eot');
+    src: local('DIN Next Rounded LT Pro Light'), local('DINNextRoundedLTPro-Light'),
+        url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Light.woff') format('woff'),
+        url('../assets/fonts/DINNextW1G/DINNextRoundedLTPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+/* Helvetica */
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-Medium.eot');
+	src: local('HelveticaNeueCyr-Medium'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Medium.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-Heavy.eot');
+	src: local('HelveticaNeueCyr-Heavy'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Heavy.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-HeavyItalic.eot');
+	src: local('HelveticaNeueCyr-HeavyItalic'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-HeavyItalic.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-HeavyItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-Black.eot');
+	src: local('HelveticaNeueCyr-Black'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Black.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Black.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-UltraLightItalic.eot');
+	src: local('HelveticaNeueCyr-UltraLightItalic'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-UltraLightItalic.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-UltraLightItalic.ttf') format('truetype');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-BlackItalic.eot');
+	src: local('HelveticaNeueCyr-BlackItalic'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-BlackItalic.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-ThinItalic.eot');
+	src: local('HelveticaNeueCyr-ThinItalic'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-ThinItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-ThinItalic.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-ThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-MediumItalic.eot');
+	src: local('HelveticaNeueCyr-MediumItalic'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-MediumItalic.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-LightItalic.eot');
+	src: local('HelveticaNeueCyr-LightItalic'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-LightItalic.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-UltraLight.eot');
+	src: local('HelveticaNeueCyr-UltraLight'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-UltraLight.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-UltraLight.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-UltraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-BoldItalic.eot');
+	src: local('HelveticaNeueCyr-BoldItalic'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-BoldItalic.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-Italic.eot');
+	src: local('HelveticaNeueCyr-Italic'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Italic.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Italic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-Roman.eot');
+	src: local('HelveticaNeueCyr-Roman'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Roman.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Roman.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-Bold.eot');
+	src: local('HelveticaNeueCyr-Bold'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Bold.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-Light.eot');
+	src: local('HelveticaNeueCyr-Light'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Light.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/fonts/Helvetica/HelveticaNeueCyr-Thin.eot');
+	src: local('HelveticaNeueCyr-Thin'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Thin.woff') format('woff'),
+		url('../assets/fonts/Helvetica/HelveticaNeueCyr-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+/* Lulo Clean */
+@font-face {
+    font-family: "LuloClean";
+    src: url("../assets/fonts/LuloClean/LuloClean.eot");
+    src: url("../assets/fonts/LuloClean/LuloClean.eot?#iefix") format("embedded-opentype"),
+        url("../assets/fonts/LuloClean/LuloClean.woff2") format("woff2"),
+        url("../assets/fonts/LuloClean/LuloClean.woff") format("woff"),
+        url("../assets/fonts/LuloClean/LuloClean.ttf") format("truetype"),
+        url("../assets/fonts/LuloClean/LuloClean.svg#LuloCleanW01-OneBold") format("svg");
+}

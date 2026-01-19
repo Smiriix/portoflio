@@ -1,0 +1,229 @@
+/* Rubkit */
+@font-face {
+	font-family: 'Rubik';
+	src: url('../fonts/Rubkit/Rubik-BlackItalic.eot');
+	src: local('Rubik Black Italic'), local('Rubik-BlackItalic'),
+		url('../fonts/Rubkit/Rubik-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Rubkit/Rubik-BlackItalic.woff') format('woff'),
+		url('../fonts/Rubkit/Rubik-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../fonts/Rubkit/Rubik-BoldItalic.eot');
+	src: local('Rubik Bold Italic'), local('Rubik-BoldItalic'),
+		url('../fonts/Rubkit/Rubik-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Rubkit/Rubik-BoldItalic.woff') format('woff'),
+		url('../fonts/Rubkit/Rubik-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../fonts/Rubkit/Rubik-Light.eot');
+	src: local('Rubik Light'), local('Rubik-Light'),
+		url('../fonts/Rubkit/Rubik-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Rubkit/Rubik-Light.woff') format('woff'),
+		url('../fonts/Rubkit/Rubik-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../fonts/Rubkit/Rubik-Medium.eot');
+	src: local('Rubik Medium'), local('Rubik-Medium'),
+		url('../fonts/Rubkit/Rubik-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Rubkit/Rubik-Medium.woff') format('woff'),
+		url('../fonts/Rubkit/Rubik-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../fonts/Rubkit/Rubik-Italic.eot');
+	src: local('Rubik Italic'), local('Rubik-Italic'),
+		url('../fonts/Rubkit/Rubik-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Rubkit/Rubik-Italic.woff') format('woff'),
+		url('../fonts/Rubkit/Rubik-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../fonts/Rubkit/Rubik-Bold.eot');
+	src: local('Rubik Bold'), local('Rubik-Bold'),
+		url('../fonts/Rubkit/Rubik-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Rubkit/Rubik-Bold.woff') format('woff'),
+		url('../fonts/Rubkit/Rubik-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../fonts/Rubkit/Rubik-LightItalic.eot');
+	src: local('Rubik Light Italic'), local('Rubik-LightItalic'),
+		url('../fonts/Rubkit/Rubik-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Rubkit/Rubik-LightItalic.woff') format('woff'),
+		url('../fonts/Rubkit/Rubik-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../fonts/Rubkit/Rubik-Regular.eot');
+	src: local('Rubik'), local('Rubik-Regular'),
+		url('../fonts/Rubkit/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Rubkit/Rubik-Regular.woff') format('woff'),
+		url('../fonts/Rubkit/Rubik-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../fonts/Rubkit/Rubik-MediumItalic.eot');
+	src: local('Rubik Medium Italic'), local('Rubik-MediumItalic'),
+		url('../fonts/Rubkit/Rubik-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Rubkit/Rubik-MediumItalic.woff') format('woff'),
+		url('../fonts/Rubkit/Rubik-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Rubik Mono One';
+	src: url('../fonts/Rubkit/RubikMonoOne-Regular.eot');
+	src: local('Rubik Mono One Regular'), local('RubikMonoOne-Regular'),
+		url('../fonts/Rubkit/RubikMonoOne-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Rubkit/RubikMonoOne-Regular.woff') format('woff'),
+		url('../fonts/Rubkit/RubikMonoOne-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../fonts/Rubkit/Rubik-Black.eot');
+	src: local('Rubik Black'), local('Rubik-Black'),
+		url('../fonts/Rubkit/Rubik-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Rubkit/Rubik-Black.woff') format('woff'),
+		url('../fonts/Rubkit/Rubik-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Fira sans */
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSans-Italic.eot');
+	src: local('Fira Sans Italic'), local('FiraSans-Italic'),
+		url('../fonts/FiraSans/FiraSans-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSans-Italic.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSans-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSans-Bold.eot');
+	src: local('Fira Sans Bold'), local('FiraSans-Bold'),
+		url('../fonts/FiraSans/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSans-Bold.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSans-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSansMedium-Italic.eot');
+	src: local('Fira Sans Medium Italic'), local('FiraSansMedium-Italic'),
+		url('../fonts/FiraSans/FiraSansMedium-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSansMedium-Italic.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSansMedium-Italic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSansLight.eot');
+	src: local('Fira Sans Light'), local('FiraSansLight'),
+		url('../fonts/FiraSans/FiraSansLight.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSansLight.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSansLight.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSans.eot');
+	src: local('Fira Sans'), local('FiraSans'),
+		url('../fonts/FiraSans/FiraSans.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSans.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSans.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSansMedium.eot');
+	src: local('Fira Sans Medium'), local('FiraSansMedium'),
+		url('../fonts/FiraSans/FiraSansMedium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSansMedium.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSansMedium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSansLight-Italic.eot');
+	src: local('Fira Sans Light Italic'), local('FiraSansLight-Italic'),
+		url('../fonts/FiraSans/FiraSansLight-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSansLight-Italic.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSansLight-Italic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSans-BoldItalic.eot');
+	src: local('Fira Sans Bold Italic'), local('FiraSans-BoldItalic'),
+		url('../fonts/FiraSans/FiraSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSans-BoldItalic.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSans-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}

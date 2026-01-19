@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR-Агенство</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Lightbox2 -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a href="" class="logo">
+                        <img src="assets/img/logo.png" alt="">
+                    </a>
+                    <nav class="d-none d-lg-block">
+                        <ul>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Проекты</a></li>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="data d-none d-lg-flex flex-column align-items-center">
+                        <a href="tel:+7 (926) 814-74-49" class="number">+7 (926) 814-74-49</a>
+                        <a href="tel:+7 (915) 031-84-09" class="number">+7 (915) 031-84-09</a>
+                        <a href="mailto:qr@qr-agency.com" class="mail">qr@qr-agency.com</a>
+                    </div>
+                    <div id="menubtn" class="d-flex flex-column d-lg-none">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobilemenu d-block d-lg-none">
+            <ul>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Проекты</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <div class="data">
+                <a href="tel:+7 (926) 814-74-49" class="number">+7 (926) 814-74-49</a>
+                <a href="tel:+7 (915) 031-84-09" class="number">+7 (915) 031-84-09</a>
+                <a href="mailto:qr@qr-agency.com" class="mail">qr@qr-agency.com</a>
+            </div>
+        </div>
+    </div>
+    <!-- Header end -->
+
+    <div class="banner">
+        <div class="slides">
+            <div class="slide active d-flex align-items-center justify-content-center flex-column"
+                style='background-image: url(assets/img/bannerbg.jpg);'>
+                <h1>Агентство кьюар</h1>
+                <h2>Организация мероприятий. Путешествия. Образование.</h2>
+            </div>
+            <div class="slide d-flex align-items-center justify-content-center flex-column"
+                style='background-image: url(assets/img/bannerbg.jpg);'>
+                <h1>Агентство кьюар</h1>
+                <h2>Организация мероприятий. Путешествия. Образование.</h2>
+            </div>
+        </div>
+        <div class="dots-arrows">
+            <div class="arrow prev" onclick="pluse(-1)"></div>
+            <div class="dots d-flex align-items-end justify-content-between">
+                <span class="dot active">1</span>
+                <span class="dot">2</span>
+            </div>
+            <div class="arrow next" onclick="pluse(1)"></div>
+        </div>
+    </div>
+    <div class="steps">
+        <div class="cloud"></div>
+        <div class="container">
+            <div class="row">
+                <div class="section__title">
+                    Более 17 лет<br>ДЕЛАЕМ ЛЮДЕЙ СЧАСТЛИВЕЕ
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex align-items-start justify-content-between item">
+                    <div class="info">
+                        <div class="number">
+                            01
+                        </div>
+                        <p>
+                            <b>Для укрепления отношений в Бизнесе</b>
+                        </p>
+                        <ul>
+                            <li>Выездные мероприятия для ваших<br>Клиентов / Партнёров / Сотрудников</li>
+                            <li>Деловые и торжественные события</li>
+                            <li>Корпоративные мероприятия со смыслом</li>
+                            <li>Фестивали</li>
+                        </ul>
+                        <a href="#">Узнать подробнее</a>
+                    </div>
+                    <div class="img__wrapper">
+                        <img src="assets/img/step1.jpg">
+                    </div>
+                </div>
+                <div class="d-flex align-items-start justify-content-between item">
+                    <div class="info">
+                        <div class="number">
+                            02
+                        </div>
+                        <p>
+                            <b>Для укрепления отношений в семье</b>
+                        </p>
+                        <ul>
+                            <li>Семейные ретриты по России и миру.</li>
+                            <li>Мужские туры для папы с сыном</li>
+                            <li>Путешествия только для девочек</li>
+                        </ul>
+                        <a href="#">Узнать подробнее</a>
+                    </div>
+                    <div class="img__wrapper">
+                        <img src="assets/img/step2.jpg">
+                    </div>
+                </div>
+                <div class="d-flex align-items-start justify-content-between item">
+                    <div class="info">
+                        <div class="number">
+                            03
+                        </div>
+                        <p>
+                            <b>Для увеличения продаж</b>
+                        </p>
+                        <ul>
+                            <li>Школа Красноречия</li>
+                            <li>Школа Переговорщика. Кратко. Интересно. Понятно. Эффективно!</li>
+                        </ul>
+                        <a href="#">Узнать подробнее</a>
+                    </div>
+                    <div class="img__wrapper">
+                        <img src="assets/img/step3.jpg">
+                    </div>
+                </div>
+                <div class="d-flex align-items-start justify-content-between item">
+                    <div class="info">
+                        <div class="number">
+                            04
+                        </div>
+                        <p>
+                            <b>Для запуска прибыльного бизнеса со стабильной прибылью от 1 млн / месяц</b>
+                        </p>
+                        <ul>
+                            <li>Семейная школа "СО-Знание" в вашем городе. Офлайн (франшиза)</li>
+                            <li>Альтернативное, качественное образование в начальной и средней школе</li>
+                            <li>Рядом с домом</li>
+                        </ul>
+                        <a href="#">Узнать подробнее</a>
+                    </div>
+                    <div class="img__wrapper">
+                        <img src="assets/img/step4.jpg">
+                    </div>
+                </div>
+                <div class="d-flex align-items-start justify-content-between item">
+                    <div class="info">
+                        <div class="number">
+                            05
+                        </div>
+                        <p>
+                            <b>Для образования и развития детей от 4-х до 17-ти лет</b>
+                        </p>
+                        <ul>
+                            <li>Каникулярная перезагрузка по России и миру</li>
+                            <li>Образовательные туры с погружением</li>
+                            <li>Личностные программы про мечты и цели, про ответственность и эмоции, про любовь и
+                                счастливое
+                                детство</li>
+                        </ul>
+                        <a href="#">Узнать подробнее</a>
+                    </div>
+                    <div class="img__wrapper">
+                        <img src="assets/img/step5.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="information">
+        <div class="cloud"></div>
+        <div class="cloud"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10 col-xl-6">
+                    <div class="text">
+                        <h3>Агентство QR<br> идеально подходит:</h3>
+                        <ul>
+                            <li>для предпринимателей, строящих бизнес на <b>крепких партнёрских отношениях.</b></li>
+                            <li>для собственников и ТОП-менеджеров, которым важно <b>увеличение продаж</b> и
+                                <b>расширение
+                                    бизнеса.</b>
+                            </li>
+                            <li>для тех, кто мечтает открыть своё дело.<br>Быстро. Эффективно. Надолго.</li>
+                            <li>для мужчин и женщин, которым важен <b>баланс</b> между <b>карьерой</b> и <b>личным
+                                    счастьем.</b></li>
+                            <li>для осознанных родителей, которые экологично взаимодействуют с детьми <b>для их
+                                    успешного
+                                    будущего.</b></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section__title">
+                    Наши проекты
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <img src="assets/img/project1.jpg">
+                </div>
+                <div class="col-12 col-lg-4">
+                    <img src="assets/img/project2.jpg">
+                </div>
+                <div class="col-12 col-lg-4">
+                    <img src="assets/img/project3.jpg">
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="assets/img/project4.jpg">
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="assets/img/project5.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex align-items-center justify-content-center">
+                    <a href="" class="morebtn">
+                        Смотреть больше проектов
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="formorder">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10 col-xl-6">
+                    <div class="formpanel">
+                        <div class="borderpunktir">
+                            <div class="formtitle">Задать вопрос</div>
+                            <span class="desc">
+                                Опишите задачу, которая перед нами стоит.<br>
+                                Мы свяжемся с вами в ближайшее время
+                            </span>
+                            <form action="">
+                                <p>
+                                    <span><input type="text" placeholder="ФИО"></span>
+                                    <span><input type="text" placeholder="Телефон"></span>
+                                    <span><input type="text" placeholder="E-mail"></span>
+                                    <span><textarea placeholder="Опишите свою задачу"></textarea></span>
+                                    <span class="politic">
+                                        * отправляя форму, вы даете согласие на <a href=''>обработку персональных
+                                            данных</a>
+                                    </span>
+                                    <input type="submit" value="Узнать подробнее">
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="cloud"></div>
+        <div class="cloud"></div>
+        <div class="container">
+            <div class="row">
+                <div class="section__title">О нас</div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10 col-xl-7">
+                    <div class="text">
+                        <p>Почему КьюАр?</p>
+                        <p>Нас выбирают за опыт, профессионализм, трудоголизм и ... неиссякаемое чувство юмора.</p>
+                        <ul>
+                            <li>17-летний опыт объединил нас с лучшими Партнерами и Подрядчиками. Привил
+                                стрессоустойчивость и готовность решить любую ситуацию «не по плану». Научил
+                                предусматривать мельчайшие ошибки на стадии подготовки. У нас получилось найти
+                                правильный баланс в соединении творчества, креативности, стратегического подхода,
+                                структурирования и планирования для каждого Проекта.</li>
+                            <li>Наличие режиссерского образования позволяет создавать Проекты со смыслом. Целостные.
+                                По-настоящему ценные. Необычные. Креативные. За которые точно не стыдно! В основе даже
+                                самого маленького Проекта всегда есть режиссерская концепция. Есть сверхзадача! Каждый
+                                Проект начинается с главного вопроса: «Зачем?».</li>
+                            <li>Навык переговорщика дает возможность ДОГОВАРИВАТЬСЯ даже в самых сложных и
+                                непредсказуемых ситуациях.</li>
+                            <li>Знание истории, изучение культурологии, любовь к постоянному образованию сделали из нас
+                                интересных, вдохновляющих собеседников.</li>
+                            <li>Здоровое чувства юмора позволяет сотрудничать с легкостью, вдохновением и позитивом даже
+                                с самыми требовательными и серьезными Клиентами.</li>
+                        </ul>
+                        <p>КЬЮАР - не просто работа! Это – образ жизни. Все направления нашей деятельности выбраны не
+                            случайно. Мы убеждены – на отлично можно сделать только то, что искренне любишь.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex align-items-center justify-content-center">
+                    <a href="#">Смотреть презентацию</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer start -->
+    <div class="footer">
+        <div class="punktirborder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <a href="#" class="logo">
+                            <img src="assets/img/logo.png">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="info d-flex align-items-center flex-column">
+                            <p>Контактная информация</p>
+                            <a href="#">+7 (926) 814-74-49</a>
+                            <a href="#">+7 (499) 653-80-85</a>
+                            <a href="#">qr@qr-agency.com</a>
+                            <div class="links d-flex align-items-center">
+                                <a href="#"><img src="assets/img/icon1.png"></a>
+                                <a href="#"><img src="assets/img/icon2.png"></a>
+                                <a href="#"><img src="assets/img/icon3.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="footer_desc">
+                            <p>Хотите стать частью нашей команды?</p>
+                            <p>Отправляйте ваше резюме</p><br>
+                            <p><a href="">qr@qr-agency.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="agrachoff d-flex align-items-center justify-content-center">
+                        <a href="#">
+                            <img src="assets/img/agrachoff.svg">Разработка и продвижение сайтов
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'FeHero';
+    src: url('FEHero-Regular.eot');
+    src: local('FeHero'),
+        url('FEHero-Regular.eot?#iefix') format('embedded-opentype'),
+        url('FEHero-Regular.woff') format('woff'),
+        url('FEHero-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

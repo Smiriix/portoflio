@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMR Group</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ваш API-ключ>" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="document" class="modal">
+        <div class="doc">
+            <div class="row">
+                <div class="d-flex justify-content-end">
+                    <a class="close_modal">&times;</a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="assets/img/svidetelstvo.jpg">
+            </div>
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <a href="#" download>Скачать PDF</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="order" class="modal">
+        <div class="panel">
+            <div class="d-flex justify-content-end">
+                <div class="close_modal">&times;</div>
+            </div>
+            <form action="">
+                <p>Оставьте свои контактные данные и мы Вам перезвоним.</p>
+                <span><input type="text" placeholder="Ваше имя (обязательно)"></span>
+                <span><input type="text" placeholder="Телефон (обязательно)"></span>
+                <span><input type="text" placeholder="e-mail"></span>
+                <span><textarea placeholder="Комментарий"></textarea></span>
+                <span><input type="submit"></span>
+            </form>
+        </div>
+    </div>
+    <div class="header container">
+        <div class="d-flex justify-content-between align-items-center align-items-lg-end flex-column flex-lg-row">
+            <a href="#" class="logo">
+                <img src="assets/img/logo.webp" alt="LMR GROUP">
+            </a>
+            <ul>
+                <li><a href="#about">О компании</a></li>
+                <li><a href="#products">Продукция</a></li>
+                <li><a href="#delivery">Доставка</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner"
+        style="background: linear-gradient(90deg, rgba(0, 36, 106, 0.9) 28.64%, rgba(0, 0, 0, 0) 79.69%), linear-gradient(0deg, rgba(0, 36, 106, 0.3), rgba(0, 36, 106, 0.3)), url(assets/img/main_banner.webp) no-repeat center center / cover;">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 col-xl-6 h-100">
+                    <div class="d-flex flex-column align-items-start justify-content-center h-100">
+                        <h1>Заголовок заголовок заголовок</h1>
+                        <h2>Подзаголовок подзаголовок подзаголовок подзаголовок подзаголовок подзаголовок подзаголовок
+                            подзаголовок</h2>
+                        <div class="btns d-flex align-items-center flex-column flex-lg-row">
+                            <a href="tel:+79263275185">+7 (926) 327-51-85</a>
+                            <a href="#order" class="showmodal">Оставить заявку</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="assortment container" id="products">
+        <div class="row">
+            <div class="d-flex">
+                <div class="title">Наш ассортимент</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-block">
+
+                <div class="owl-carousel owl-theme" id="itemSlider">
+                    <div class="item">
+                        <img src="assets/img/item 1.png">
+                        <p>Комплекс «Комотекс»</p>
+                        <span>Кабели силовые одножильные с изоляцией из сшитого полиэтилена или этиленпропиленовой
+                            резины (в
+                            дальнейшем именуемые кабели), предназначенные для электроснабжения электрифицированного
+                            транспорта на номинальное постоянное напряжение 1 – 3,3 кВ</span>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/item 2.png">
+                        <p>Комплексные поставки электропродукции</p>
+                        <span>Только ГОСТ! Все сечения, наличие и под заказ. Оптовые и розничные поставки</span>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/item 3.png">
+                        <p>Видеонаблюдение</p>
+                        <span>Масляные и сухие трансформаторы. Трансформаторы тока. По наличию и под изготовление от
+                            проверенных заводов.</span>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/item 1.png">
+                        <p>Комплекс «Комотекс»</p>
+                        <span>Кабели силовые одножильные с изоляцией из сшитого полиэтилена или этиленпропиленовой
+                            резины (в
+                            дальнейшем именуемые кабели), предназначенные для электроснабжения электрифицированного
+                            транспорта на номинальное постоянное напряжение 1 – 3,3 кВ</span>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/item 2.png">
+                        <p>Комплексные поставки электропродукции</p>
+                        <span>Только ГОСТ! Все сечения, наличие и под заказ. Оптовые и розничные поставки</span>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/item 3.png">
+                        <p>Видеонаблюдение</p>
+                        <span>Масляные и сухие трансформаторы. Трансформаторы тока. По наличию и под изготовление от
+                            проверенных заводов.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center">
+                <a href="#" class="download">Скачать прайс-лист</a>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="about"
+        style="background: linear-gradient(0deg, rgba(0, 36, 106, 0.6), rgba(0, 36, 106, 0.6)), url(assets/img/about_bg.jpg) no-repeat center center / cover;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-xl-5">
+                    <div class="d-flex align-items-start justify-content-center flex-column h-100">
+                        <p>О компании</p>
+                        <span>
+                            Наша компания молодая и амбициозная!<br>
+                            За год работы мы доказали свою состоятельность и<br>
+                            закрепили свои позиции на рынке! На сегодняшний день<br>
+                            мы являемся поставщикомна объекты Московского<br>
+                            метрополитена, МОЭСК, <br>
+                            а так же для строительных и электромонтажных<br>
+                            компаний.
+                        </span>
+                        <p class="znak">Знак качества</p>
+                        <a href="#document" class="showmodal">
+                            <div class="loop">
+                                <svg width="72" height="72" viewBox="0 0 72 72" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M69 69L55.8876 55.1283C61.103 49.7261 64.1624 42.6026 64.4891 35.1004C64.8159 27.5982 62.3874 20.2356 57.6615 14.4003C52.9355 8.565 46.2385 4.66003 38.8327 3.42142C31.4269 2.18281 23.8238 3.69612 17.4565 7.67611C11.0892 11.6561 6.39755 17.8279 4.26575 25.0281C2.13395 32.2284 2.70929 39.9599 5.88333 46.7652C9.05737 53.5706 14.6109 58.9798 21.4971 61.9734C28.3833 64.967 36.1266 65.3381 43.2675 63.0168"
+                                        stroke="white" stroke-width="5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <img width="100%" src="assets/img/svidetelstvo.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-5 d-none d-xl-block">
+                    <div class="img_wrapper">
+                        <img src="assets/img/about_man.png">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="download" download="">
+                        Скачать презентацию
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="why container">
+        <div class="row">
+            <div class="d-flex flex-wrap flex-column flex-lg-row">
+                <div class="col-12 col-lg-6 col-xl-3">
+                    <div class="data bg">
+                        Почему выбирают нас?
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-3">
+                    <div class="data">
+                        <div class="number">
+                            01
+                        </div>
+                        <p>Логистика - наша забота!</p>
+                        <div class="text">
+                            Мы сотрудничаем с проверенными и надежными логистическими компаниями, зарекомендовавшими
+                            себя на рынке перевозок! Это позволяет нам всегда доставлять заказанную продукцию на
+                            объекты покупателя, точно в срок, даже если объекты расположены в удаленных уголках
+                            нашей страны!
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-3">
+                    <div class="data">
+                        <img src="assets/img/why1.jpg">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-3">
+                    <div class="data">
+                        <div class="number">
+                            02
+                        </div>
+                        <p>Комплексные поставки</p>
+                        <div class="text">
+                            Мы обеспечим ваши объекты всем необходимым, в точно согласованные сроки, от опор,
+                            металлоизделий, электроизделий и кабельной продукции до крепежных элементов.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-3">
+                    <div class="data">
+                        <div class="number">
+                            03
+                        </div>
+                        <p>Ценовая политика</p>
+                        <div class="text">
+                            Предлагая продукцию и выставляя вам счет, мы зарабатываем не за счет наценки для своего
+                            покупателя, а за счет получения максимальной скидки у своих партнеров, таким образом мы
+                            предлагаем выгодные цены своим покупателям!
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-3">
+                    <div class="data">
+                        <img src="assets/img/why2.jpg">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-3">
+                    <div class="data">
+                        <div class="number">
+                            04
+                        </div>
+                        <p>Поставка продукции</p>
+                        <div class="text">
+                            Мы стараемся максимально удовлетворить потребности наших клиентов и всегда готовы предложить
+                            к поставке все необходимое!
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-3">
+                    <div class="data">
+                        <img src="assets/img/why3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="delivery" class="delivery"
+        style="background: linear-gradient(0deg, rgba(0, 36, 106, 0.7), rgba(0, 36, 106, 0.7)), url(assets/img/delivery_bg.jpg) no-repeat center center / cover;">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <h5>Доставка</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex justify-content-center flex-column flex-xl-row">
+
+                    <div class="col-12 col-xl-5">
+                        <div class="item d-flex flex-column align-items-center">
+                            <img src="assets/img/delivery_1.svg">
+                            <p class="caption">Доставка по России</p>
+                            <div class="text">
+                                <p>
+                                    Отправка грузов осуществляется транспортными компаниями (ТК):</p>
+                                <ul>
+                                    <li>Деловые линии</li>
+                                    <li>ПЭК</li>
+                                    <li>Байкал-сервис</li>
+                                </ul>
+                                <p>
+                                    или любой другой компанией на ваш выбор при предоставлении доверительного письма.
+                                    Услуги ТК оплачивает покупатель при получении товара.Стоимость доставки можно
+                                    рассчитать
+                                    на сайте транспортной компании.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-5">
+                        <div class="item d-flex flex-column align-items-center">
+                            <img src="assets/img/delivery_2.svg">
+                            <p class="caption">Самовывоз</p>
+                            <div class="text">
+                                <p>
+                                    г.Москва, Днепропетровский проезд д4а.Время работы склада: Понедельник — Четверг, с
+                                    10:00 до 16:30.Для прохода и въезда на территорию необходимо оформить пропуск. Иметь
+                                    при
+                                    себе паспорт.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="feedback">
+        <div id="map"></div>
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-end">
+                    <div class="col-12 col-xl-7">
+                        <form action="">
+                            <div class="title">Обратная связь</div>
+                            <span>
+                                <input type="text" placeholder="Ваше имя">
+                            </span>
+                            <span>
+                                <input type="text" placeholder="Ваш телефон">
+                            </span>
+                            <span>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Ваш комментарий"></textarea>
+                            </span>
+                            <span>
+                                <input type="submit" value="Отправить">
+                            </span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contacts container" id="contacts">
+        <div class="row">
+            <div class="d-flex justify-content-between flex-wrap">
+                <div class="item">
+                    <img src="assets/img/contact 1.svg" alt="">
+                    <p>Телефон</p>
+                    <a href="tel:+79263275185">
+                        +7 (926) 327-51-85
+                    </a>
+                </div>
+                <div class="item">
+                    <img src="assets/img/contact 2.svg" alt="">
+                    <p>Почта</p>
+                    <a href="mailto:mdn@lmrgroup.ru">
+                        mdn@lmrgroup.ru
+                    </a>
+                </div>
+                <div class="item">
+                    <img src="assets/img/contact 3.svg" alt="">
+                    <p>Адрес</p>
+                    <a href="http://yandex.ru/?text=г. Москва, ул. 3-я Кабельная, дом 1, строение 1, офис 45А">
+                        111024, г. Москва, ул. 3-я Кабельная,<br>
+                        дом 1, строение 1, офис 45А
+                    </a>
+                </div>
+                <div class="item">
+                    <img src="assets/img/contact 4.svg" alt="">
+                    <p>Рабочие часы</p>
+                    <span>
+                        Пн - Чт: 9:30 - 17:00<br>
+                        Пт - Вс: Выходные
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center align-items-center flex-column">
+                    <span>© ООО "ЛМР Групп", ИНН 7722473200, 2019 г.</span>
+                    <a target="_blank" href="http://agrachoff.ru">
+                        <img src="assets/img/agrachoff.svg" alt="agrachoffgroup">
+                        Разработка и продвижение сайтов
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</html>

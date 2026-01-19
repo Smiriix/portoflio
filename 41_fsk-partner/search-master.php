@@ -1,0 +1,101 @@
+<? require('elements/header.php') ?>
+<section class="breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ul class="breadcrumbs__list" style="margin-bottom: 0">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Кровля и гидроизоляция</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="has--master has--master__green">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="has--master__data">
+                    <h3 class="has--master__title">НУЖНЫ МАСТЕРА ИЛИ РАБОЧИЕ?</h3>
+                    <p>Компания «Строй Комплект Поставка» приглашает к сотрудничеству строительные компании, дизайн-агенства, производителей мебели, частные строительные бригады, бригадиров, прорабов, дизайнеров, а так же частных лиц.</p>
+                    <p>Мы предлагаем надежную, высококачественную продукцию типовых размеров. По индивидуальному заказу изготовим материал не стандартных размеров, а так же качественно нанесем лакокрасочное покрытие на заводском оборудовании.</p>
+                    <a href="#" class="action__btn fill">
+                        заполните объявление
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/images/master--green.webp" width="416" height="450" alt="man">
+            </div>
+        </div>
+    </div>
+</section>
+<seciton class="subcategories--subcategory">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h4 class="subcategories--subcategory__title">
+                    Мастер по: Электрооборудованию
+                </h4>
+                <div class="subcategories--subcategory__grid">
+                    <?
+                    include("elements/category__card.php");
+                    include("elements/category__card.php");
+                    include("elements/category__card.php");
+                    include("elements/category__card.php");
+                    include("elements/category__card.php");
+                    include("elements/category__card.php");
+                    include("elements/category__card.php");
+                    ?>
+                </div>
+                <label class="subcategories--subcategory__city">
+                    Ваш город: <select>
+                        <option value="">Выбрать город</option>
+                        <option value="">Выбрать город</option>
+                        <option value="">Выбрать город</option>
+                        <option value="">Выбрать город</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+    </div>
+</seciton>
+<section class="search--master">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="search--master__grid">
+                    <? include("elements/search--master__card.php"); ?>
+                    <? include("elements/search--master__card.php"); ?>
+                    <? include("elements/search--master__card.php"); ?>
+                    <? include("elements/search--master__card.php"); ?>
+                    <? include("elements/search--master__card.php"); ?>
+                    <? include("elements/search--master__card.php"); ?>
+                    <? include("elements/search--master__card.php"); ?>
+                    <? include("elements/search--master__card.php"); ?>
+                </div>
+                <ul class="catalog--wrapper__paginations">
+                    <li>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M14.5419 17.5941C14.7502 17.3858 14.8552 17.1391 14.8552 16.8533C14.8552 16.57 14.751 16.3225 14.5427 16.1141L8.43852 10.01L14.5635 3.88497C14.7577 3.69081 14.8552 3.44747 14.8552 3.15581C14.8552 2.86414 14.751 2.61414 14.5427 2.40581C14.4471 2.30585 14.3321 2.22655 14.2047 2.1728C14.0772 2.11905 13.9401 2.09199 13.8019 2.09331C13.5185 2.09331 13.271 2.19747 13.0627 2.40581L6.06269 9.42664C5.97936 9.50997 5.92102 9.60081 5.88519 9.69747C5.85019 9.79791 5.83272 9.90362 5.83352 10.01C5.83352 10.1216 5.85102 10.2258 5.88519 10.3225C5.92351 10.4248 5.98415 10.5173 6.06269 10.5933L13.0835 17.6141C13.2785 17.8091 13.5177 17.9058 13.8027 17.9058C14.0869 17.9058 14.3335 17.8025 14.5419 17.5941Z" fill="#015FC9" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li><span>1</span></li>
+                    <li><a href='#'>2</a></li>
+                    <li><a href='#'>3</a></li>
+                    <li><a href='#'>4</a></li>
+                    <li>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M5.45815 2.40586C5.24981 2.61419 5.14481 2.86086 5.14481 3.14669C5.14481 3.43003 5.24898 3.67753 5.45731 3.88586L11.5615 9.99003L5.43648 16.115C5.24231 16.3092 5.14481 16.5525 5.14481 16.8442C5.14481 17.1359 5.24898 17.3859 5.45731 17.5942C5.55288 17.6942 5.66793 17.7735 5.79535 17.8272C5.92277 17.881 6.05986 17.908 6.19814 17.9067C6.48148 17.9067 6.72898 17.8025 6.93731 17.5942L13.9373 10.5734C14.0206 10.49 14.079 10.3992 14.1148 10.3025C14.1498 10.2021 14.1673 10.0964 14.1665 9.99003C14.1665 9.87836 14.149 9.77419 14.1148 9.67753C14.0765 9.57519 14.0159 9.48267 13.9373 9.40669L6.91648 2.38586C6.72148 2.19086 6.48231 2.09419 6.19731 2.09419C5.91315 2.09419 5.66648 2.19753 5.45815 2.40586Z" fill="#015FC9" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<? require('elements/footer.php') ?>

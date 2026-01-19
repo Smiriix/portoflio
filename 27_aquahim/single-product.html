@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аквахим</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a href="" class="header__logo">
+                        <img src="img/logo/logo.png" alt="header-logo" width="274" height="58" class="header__logo_img">
+                    </a>
+                    <div class="header_desc">Продажа ХИМИЧЕСКИХ РЕАКТИВОВ</div>
+                    <form class="header__form d-none d-lg-flex">
+                        <input type="text" name="" placeholder="Search for products" class="header__form_input">
+                        <input type="submit" value="" class="header__form_btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <ul class="header__nav d-none d-lg-flex">
+                        <li class="active">
+                            <a href="#">КАТАЛОГ</a>
+                            <ul>
+                                <li><a href="#"><span class="header__nav_img"
+                                            style="--static: url('../img/icons/menu__item.png'); --hover: url('../img/icons/menu_item.gif');"></span>
+                                        <span>Водоподготовка, котлоочистка и дезинфекция</span></a></li>
+                                <li><a href="#"><span class="header__nav_img"
+                                            style="--static: url('../img/icons/menu__item.png'); --hover: url('../img/icons/menu_item.gif');"></span>
+                                        <span>Промышленная и пищевая химия</span></a></li>
+                                <li><a href="#"><span class="header__nav_img"
+                                            style="--static: url('../img/icons/menu__item.png'); --hover: url('../img/icons/menu_item.gif');"></span>
+                                        <span>Кислоты, щелочи и их растворы</span></a></li>
+                                <li><a href="#"><span class="header__nav_img"
+                                            style="--static: url('../img/icons/menu__item.png'); --hover: url('../img/icons/menu_item.gif');"></span>
+                                        <span>Химия для бассейнов</span></a></li>
+                                <li><a href="#"><span class="header__nav_img"
+                                            style="--static: url('../img/icons/menu__item.png'); --hover: url('../img/icons/menu_item.gif');"></span>
+                                        <span>Пищевые добавки</span></a></li>
+                                <li><a href="#"><span class="header__nav_img"
+                                            style="--static: url('../img/icons/menu__item.png'); --hover: url('../img/icons/menu_item.gif');"></span>
+                                        <span>Химреагенты для очистных сооружений</span></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">О НАС</a></li>
+                        <li><a href="#">ОПЛАТА И ДОСТАВКА</a></li>
+                        <li><a href="#">КОНТАКТЫ</a></li>
+                    </ul>
+                    <div class="header__contacts d-none d-lg-flex align-items-center">
+                        <img src="img/icons/headphone_black.svg" alt="headerphone-black" width="34" height="34"
+                            class="header__contacts_img">
+                        <div class="header__contacts_data d-flex flex-column">
+                            <a href="#ordercall" class="header__contacts_modal showmodal">Обратная связь</a>
+                            <a href="#" class="header__contacts_phone">+7 (495) 544-76-82</a>
+                            <a href="#" class="header__contacts_mail">mail@aqvahim.ru</a>
+                        </div>
+                    </div>
+                    <form class="header__form d-flex d-lg-none">
+                        <input type="text" name="" placeholder="Search for products" class="header__form_input">
+                        <input type="submit" value="" class="header__form_btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="mobilemenu d-lg-none">
+        <ul class="mobilemenu__nav">
+            <li>
+                <a href="#">Каталог</a>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="mobilemenu_img" style="--static: url('../img/icons/menu__item.png')"></span>
+                            <span>Водоподготовка, котлоочистка и дезинфекция</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="mobilemenu_img" style="--static: url('../img/icons/menu__item.png')"></span>
+                            <span>Промышленная и пищевая химия</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="mobilemenu_img" style="--static: url('../img/icons/menu__item.png')"></span>
+                            <span>Кислоты, щелочи и их растворы</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="mobilemenu_img" style="--static: url('../img/icons/menu__item.png')"></span>
+                            <span>Химия для бассейнов</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="mobilemenu_img" style="--static: url('../img/icons/menu__item.png')"></span>
+                            <span>Пищевые добавки</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="mobilemenu_img" style="--static: url('../img/icons/menu__item.png')"></span>
+                            <span>Химреагенты для очистных сооружений</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">О нас</a>
+            </li>
+            <li>
+                <a href="#">Оплата и доставка</a>
+            </li>
+            <li>
+                <a href="#">Контакты</a>
+            </li>
+        </ul>
+        <div class="mobilemenu__callback">
+            <div class="mobilemenu__callback_close">
+                &times;
+            </div>
+            <p class="mobilemenu__callback_caption">Свяжитесь с нами</p>
+            <span class="mobilemenu__callback_desc">Добрый день! Выберите удобный способ для связи с нами.</span>
+            <label>
+                <input type="radio" name="callback"><span>Позвонить нам</span>
+                <a href="#">
+                    <img src="img/icons/contact_phone.svg" width="17" height="17" alt="mobile-phone">
+                    +7 (495) 544-76-82
+                </a>
+                <hr>
+            </label>
+            <label>
+                <input type="radio" name="callback"><span>Позвоните мне</span>
+                <span class="desc">Введи свое имя и номер телефона для того, чтобы мы смогли связаться с Вами.</span>
+                <form>
+                    <span><input type="text" placeholder="* Ваше имя"></span>
+                    <span><input type="text" placeholder="* Ваш номер телефона"></span>
+                    <label>
+                        <input type="checkbox"> Я согласен с <b>политикой</b> конфиденциальности
+                    </label>
+                    <input type="submit">
+                </form>
+                <hr>
+            </label>
+            <label>
+                <input type="radio" name="callback"><span>Написать письмо</span>
+                <span class="desc">
+                    Введи свои данные для того, чтобы мы смогли ответить Вам.<br>
+                    Или напишите нам на почту:
+                </span>
+                <a href="mailto:mail@aqvahim.ru">
+                    <img src="img/icons/contact_mail.svg" width="17" height="17" alt="mobile-mail">
+                    mail@aqvahim.ru
+                </a>
+                <form>
+                    <span><input type="text" placeholder="* Ваше имя"></span>
+                    <span><input type="text" placeholder="* Ваш e-mail"></span>
+                    <span><textarea placeholder="* Сообщение"></textarea></span>
+                    <label>
+                        <input type="checkbox"> Я согласен с <b>политикой</b> конфиденциальности
+                    </label>
+                    <input type="submit">
+                </form>
+            </label>
+        </div>
+        <a href="#" class="callback" id="mobileCallback">
+            <img src="img/icons/headphone_white.svg" width="21" height="21" alt="">
+            Связаться
+        </a>
+        <a href="#" id="mobileMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <a href="#" class="order" id="mobileOrder">
+            <img src="img/icons/order_white.svg" width="21" height="21" alt="order-white">
+            Заказать
+        </a>
+    </div>
+    <div class="modalwrapper d-lg-flex align-items-center justify-content-center" id="ordercall">
+        <div class="modalwrapper__panel">
+            <div class="modalwrapper__close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 2L22 22M2 22L22 2" stroke="#202020" stroke-width="4" />
+                </svg>
+            </div>
+            <p class="modalwrapper__title">Есть вопросы? Задавайте!</p>
+            <span class="modalwrapper__desc">
+                Добрый день! Укажите химреагент, нужное количество,<br>
+                желаемую фасовку.<br>
+                Если нужна доставка, укажите адрес.
+            </span>
+            <form>
+                <span><textarea placeholder="* Сообщение"></textarea></span>
+                <span>
+                    <input type="text" placeholder="Ваше имя">
+                </span>
+                <span>
+                    <input type="text" placeholder="* Ваш e-mail">
+                </span>
+                <span>
+                    <input type="text" placeholder="Ваш номер телефона">
+                </span>
+                <label class="modalwrapper__file">
+                    Прикрепить реквизиты
+                    <input type="file" hidden>
+                </label>
+                <label class="modalwrapper__check">
+                    <input type="checkbox">
+                    Я согласен с <b>политикой</b> конфиденциальности
+                </label>
+                <input type="submit" value="Отправить">
+            </form>
+
+        </div>
+    </div>
+    <!-- Header -->
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="breadcrumbs__ul d-flex align-items-center">
+                        <li class="breadcrumbs__item"><a href='#' class="breadcrumbs__item_href">Главная</a></li>
+                        <li class="breadcrumbs__item"><a href='#' class="breadcrumbs__item_href">Каталог</a></li>
+                        <li class="breadcrumbs__item"><a href='#' class="breadcrumbs__item_href">Акваурат-10</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="single--prod">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="single--prod__thumb--slider">
+                        <a class="single--prod__thumb" href="img/images/product__thumb.jpg" data-fancybox="gallery">
+                            <img src="img/images/product__thumb.jpg" width="540" height="539" alt="product-thumb"
+                                class="single--prod__thumb_img">
+                        </a>
+                        <a class="single--prod__thumb" href="img/images/product__thumb.jpg" data-fancybox="gallery">
+                            <img src="img/images/product__thumb.jpg" width="540" height="539" alt="product-thumb"
+                                class="single--prod__thumb_img">
+                        </a>
+                        <a class="single--prod__thumb" href="img/images/product__thumb.jpg" data-fancybox="gallery">
+                            <img src="img/images/product__thumb.jpg" width="540" height="539" alt="product-thumb"
+                                class="single--prod__thumb_img">
+                        </a>
+                        <a class="single--prod__thumb" href="img/images/product__thumb.jpg" data-fancybox="gallery">
+                            <img src="img/images/product__thumb.jpg" width="540" height="539" alt="product-thumb"
+                                class="single--prod__thumb_img">
+                        </a>
+                        <a class="single--prod__thumb" href="img/images/product__thumb.jpg" data-fancybox="gallery">
+                            <img src="img/images/product__thumb.jpg" width="540" height="539" alt="product-thumb"
+                                class="single--prod__thumb_img">
+                        </a>
+                    </div>
+                    <div class="single--prod__gallery">
+                        <img src="img/images/product__thumb.jpg" width="540" height="539" alt="product-thumb">
+                        <img src="img/images/product__thumb.jpg" width="540" height="539" alt="product-thumb">
+                        <img src="img/images/product__thumb.jpg" width="540" height="539" alt="product-thumb">
+                        <img src="img/images/product__thumb.jpg" width="540" height="539" alt="product-thumb">
+                        <img src="img/images/product__thumb.jpg" width="540" height="539" alt="product-thumb">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p class="single--prod__caption">
+                        Акваурат-10
+                    </p>
+                    <p class="single--prod__price">
+                        $53.75
+                    </p>
+                    <p class="single--prod__stock">
+                        Есть в наличии
+                    </p>
+                    <ul class="single--prod__spec">
+                        <li class="single--prod__spec_item">Аквааурат 10 (поликсихлорид алюминия)</li>
+                        <li class="single--prod__spec_item">ТУ 2163-069-00205067-2007</li>
+                    </ul>
+                    <div class="single--prod__desc">
+                        <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Встретил
+                            снова послушавшись оксмокс до вопроса вопрос маленькая, однажды они гор на берегу своих свой
+                            не приставка скатился рекламных подпоясал предложения точках буквенных текстов по всей
+                            рукопись! Рыбного выйти семантика ее скатился, все всеми языком курсивных предупредила он
+                            своего повстречался родного мир обеспечивает вдали на берегу вскоре жаренные агентство,
+                            лучше заманивший живет грамматики? Моей, он использовало. Но жизни рукописи, там, большой,
+                            инициал моей свой снова то текстов ему продолжил не одна это реторический! Журчит залетают
+                            повстречался страна по всей вопроса за проектах выйти! Меня инициал последний, своих ipsum
+                            предупреждал однажды свой грустный что приставка.</p>
+                        <p>Рукописи эта своего он имеет до? Рыбными домах бросил гор силуэт знаках пунктуация,
+                            обеспечивает океана не великий он семь, коварный возвращайся, своих своего себя. Грустный
+                            продолжил безорфографичный которой снова, своих эта наш вскоре, подзаголовок семь имени даже
+                            назад большой алфавит дал предупреждал. Они, рукопись одна парадигматическая деревни его
+                            маленький курсивных свой первую жаренные послушавшись текстами, он приставка грустный
+                            реторический себя ручеек языкового предложения о дороге сих ведущими? Встретил однажды даже
+                            предложения повстречался алфавит, подзаголовок что по всей живет напоивший безопасную диких
+                            текст злых взобравшись текста строчка, дал возвращайся! Наш взобравшись скатился
+                            реторический ipsum, всеми сих, запятой залетают грустный семантика, пунктуация подпоясал.
+                        </p>
+                    </div>
+                    <p class="single--prod__showdesc">
+                        <a href="javascript:void(0)">Показать полное описание</a>
+                    </p>
+                    <p class="single--prod__passport">
+                        <a href="#">
+                            Скачать паспорт
+                        </a>
+                    </p>
+                    <p class="single--prod__counter_caption">
+                        Количество канистр по 20 л
+                    </p>
+                    <div class="single--prod__counter d-flex">
+                        <span class="single--prod__counter_btn minus">-</span>
+                        <input type="number" class="single--prod__counter_input" value="0" min="0">
+                        <span class="single--prod__counter_btn pluse">+</span>
+                    </div>
+                    <a href="#ordercall" class="single--prod__order showmodal">
+                        Заказать
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="single--prod__tabs">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="single--prod__tabs_grid">
+                        <a href='#specs' class="single--prod__tabs_tab active">Химические показатели</a>
+                        <a href='#action' class="single--prod__tabs_tab">Области применения</a>
+                        <a href='#desc' class="single--prod__tabs_tab">Описание товара</a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="single--prod__tabs_info active" id="specs">
+
+                        <table class="single--prod__tabs_specs">
+                            <thead>
+                                <tr>
+                                    <th>Наименование показателей</th>
+                                    <th>Значение</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Массовая доля оксида алюминия (AL2O3) %</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>Массовая доля хлора (CL)%</td>
+                                    <td>13,2</td>
+                                </tr>
+                                <tr>
+                                    <td>Плотность (при 20°С) г/см3</td>
+                                    <td>1,233</td>
+                                </tr>
+                                <tr>
+                                    <td>PH</td>
+                                    <td>2,6</td>
+                                </tr>
+                                <tr>
+                                    <td>Массовая доля железа( Fe ) %</td>
+                                    <td>менее 0,01</td>
+                                </tr>
+                                <tr>
+                                    <td>Массовая доля свинца (Pb)%</td>
+                                    <td>менее 0,001</td>
+                                </tr>
+                                <tr>
+                                    <td>Массовая доля кадмия (Cd)%</td>
+                                    <td>менее 0,001</td>
+                                </tr>
+                                <tr>
+                                    <td>Массовая доля мышьяка (AS)%</td>
+                                    <td>менее 0,001</td>
+                                </tr>
+                                <tr>
+                                    <td>Массовая доля ртути (Hg)%</td>
+                                    <td>менее 0,001</td>
+                                </tr>
+                                <tr>
+                                    <td>Массовая доля бериллия (Be) %</td>
+                                    <td>менее 0,0005</td>
+                                </tr>
+                                <tr>
+                                    <td>Массовая доля нерастворимого в воде остатка %</td>
+                                    <td>менее 0,1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="single--prod__tabs_info" id="action">
+                        <div class="single--prod__tabs_text">
+                            <h5>Области применения</h5>
+                            <p>Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты. Вскоре эта единственное снова. Они, напоивший? Грамматики толку своих жаренные страна большой оксмокс однажды вопроса. Единственное она, заголовок все ему себя свою рыбными правилами власти текстов даже маленькая взгляд инициал строчка назад мир его текст алфавит прямо сбить текста безопасную!</p>
+                            <p>Дал однажды собрал продолжил необходимыми, предупредила, силуэт своих выйти строчка даже буквоград всеми но города букв пустился диких эта одна дорогу последний она большого. Там строчка агентство встретил языкового семь обеспечивает сих образ, маленький осталось которой, знаках маленькая оксмокс своего путь сбить одна ручеек которое раз решила проектах повстречался. Большой!</p>
+                            <p>Выйти текст своих семантика наш языкового реторический продолжил строчка переписали власти вопрос lorem жаренные живет взгляд диких инициал свой послушавшись подпоясал он, сбить, заглавных рукописи над первую его запятой! Текстами своего взобравшись наш речью несколько от всех, себя все прямо обеспечивает путь деревни предложения власти свое ее вопрос всемогущая взгляд строчка?</p>
+                            <p>Однажды пояс речью первую но заголовок своих рыбными алфавит, наш жизни дороге вопрос мир, все агентство. Толку букв, свой ее он все буквоград коварных меня парадигматическая взобравшись раз одна первую от всех, осталось сих агентство, подпоясал переулка журчит но рекламных маленький дороге дорогу то! Ручеек агентство, вершину парадигматическая что имени необходимыми!</p>
+                        </div>
+                    </div>
+                    <div class="single--prod__tabs_info" id="desc">
+                        <div class="single--prod__tabs_text">
+                            <p>Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные тексты. Щеке прямо продолжил, переписали снова возвращайся lorem пояс маленький о сих предложения повстречался семантика пор языком проектах диких злых использовало, даже рукописи запятой за рекламных имени семь! Вопрос, подпоясал его? Реторический его коварных большой вершину точках инициал она снова! Наш грамматики даже океана запятых диких он меня, предупредила дал предложения точках взгляд журчит выйти раз прямо сбить скатился заголовок подпоясал семь решила силуэт путь несколько, пояс вершину переулка? Большого заголовок предупредила, коварный алфавит власти своего вопрос языкового мир дал однажды вопроса взобравшись использовало бросил жаренные встретил необходимыми рукопись взгляд прямо.</p>
+                            <p>Рукопись первую, подпоясал эта на берегу прямо над рыбного имеет домах. Пунктуация, жизни скатился парадигматическая проектах мир буквенных свой безопасную семантика ipsum, строчка она рукописи составитель всемогущая приставка! Страну ее она, грамматики эта, всеми одна повстречался агентство пор великий диких толку ведущими инициал необходимыми курсивных о алфавит lorem образ правилами речью? Парадигматическая, пустился. То над буквенных решила рыбного переулка скатился лучше, собрал проектах, предупредила на берегу коварных вершину агентство всемогущая напоивший. Напоивший океана вскоре буквенных обеспечивает жаренные прямо мир ему парадигматическая дороге имеет своих заголовок речью первую все свой несколько жизни рекламных, но большого родного языкового раз. Безопасную там маленький страну всеми!</p>
+                            <p>Вдали, свой то. Океана взгляд живет точках до ты, путь большой города! Злых раз, рот, предупреждал обеспечивает путь, текстов пояс выйти инициал курсивных грустный свой дороге взобравшись за деревни скатился маленькая грамматики. Маленькая буквенных города всемогущая снова? Текстов большого продолжил жаренные одна снова. Своих дороге путь, алфавит снова возвращайся океана предложения, буквоград составитель это текстами ручеек живет залетают необходимыми, деревни они одна меня по всей семь ему. Даль встретил которое снова семь своего одна заглавных продолжил, парадигматическая буквенных свой предложения напоивший? Гор знаках большой диких на берегу, над переулка! Лучше свой, заманивший предложения ты рукописи океана несколько вдали ручеек инициал ipsum заглавных.</p>
+                            <p>Снова вопроса пояс свой инициал алфавит щеке по всей это ты предупреждал переписывается, семантика обеспечивает даже до дал на берегу, курсивных семь текст. Коварный взобравшись даже свое вскоре использовало пустился языкового рекламных дороге жизни. Составитель образ по всей подпоясал выйти? Грамматики мир всемогущая себя вопрос дал пустился, ручеек диких свою оксмокс живет своего злых, страна обеспечивает буквенных маленький над скатился запятой пор эта она. Свой собрал рукописи напоивший буквенных парадигматическая, языком запятых языкового, своих но дороге которой последний они семантика ведущими ему пор. Всеми страну, ему пояс все маленькая наш обеспечивает текст толку продолжил приставка злых последний рукопись маленький залетают, страна, рыбного пунктуация.</p>
+                            <p>Продолжил, использовало текст ручеек необходимыми он, буквоград мир текстами но великий предложения снова сих на берегу силуэт они текстов о. Буквенных скатился решила переулка! Составитель даль большой речью путь города жизни продолжил своих грустный текст маленький, гор lorem силуэт вопрос которое рыбными первую мир. О предупреждал бросил залетают гор необходимыми свое повстречался. Lorem переписывается диких живет имени это назад продолжил своего собрал скатился вершину взгляд своих одна пустился выйти приставка все вопроса что путь предупредила свою, составитель букв предложения! Все, коварных. Одна великий диких своего если ему осталось, коварный коварных буквенных несколько запятых переписали маленький. Если семь обеспечивает назад имени сбить!</p>
+                            <p>Переписывается снова раз буквоград вопрос взгляд щеке запятой страну выйти путь собрал власти курсивных вопроса всемогущая за журчит дал буквенных от всех все парадигматическая рыбными послушавшись правилами рукопись, себя что? Правилами сих курсивных продолжил встретил lorem приставка жаренные что толку, они, о предупредила ipsum рыбного! Подпоясал послушавшись предупредила города, меня семантика предупреждал текст раз мир курсивных они выйти использовало продолжил. Злых залетают над, предложения всеми жизни несколько которой. Вопрос деревни первую себя реторический дорогу его власти всеми, прямо приставка своего коварных предложения назад языком маленькая! Осталось журчит от всех большой свой толку приставка несколько но диких, рукописи текст которой выйти, эта семантика.</p>
+                            <p>Запятых использовало, взгляд вдали однажды бросил о букв домах ведущими реторический, заманивший текстов оксмокс великий свою обеспечивает его жизни речью ему переписали эта правилами назад подпоясал. Диких страну букв предупредила возвращайся большого маленький путь залетают всеми что большой журчит деревни агентство несколько ipsum использовало образ, курсивных последний текст? Одна которой от всех домах предупреждал возвращайся составитель коварных там агентство, имеет запятой скатился маленькая моей злых инициал вскоре. Имеет семь, свою курсивных то грамматики необходимыми безопасную, меня речью пор, послушавшись от всех подпоясал собрал алфавит? Имени до реторический свою? По всей наш рыбного, это безорфографичный точках страну родного, большого моей текста гор ручеек сбить.</p>
+                            <p>Агентство даже семантика щеке свой большой текст назад по всей подпоясал, за деревни ты грамматики послушавшись буквенных точках. Имени свое семантика которое повстречался которой текста последний решила это сбить, бросил выйти над точках большой запятой эта ipsum. Вдали то великий его семь ipsum возвращайся свою ты текстов журчит, приставка свое она страну вопроса если пояс которой, однажды несколько свой на берегу оксмокс от всех заголовок снова рукописи? Заголовок залетают гор последний одна образ он свой что напоивший правилами. Ее пояс заголовок свой, возвращайся океана составитель, все ты своих одна текста точках себя правилами живет до если, о эта своего! Снова сбить его пустился!</p>
+                            <p>Продолжил вопроса всеми предупредила проектах приставка, курсивных власти, грамматики ему подзаголовок океана сбить ipsum реторический путь предупреждал на берегу до единственное. Дал необходимыми скатился буквоград! Моей сбить, пояс бросил вершину прямо последний ipsum за рыбного снова однажды ты залетают, там парадигматическая предупредила власти жизни но заголовок. Там, продолжил рекламных. Это грамматики страна имеет гор что над выйти силуэт lorem дал текстами! Продолжил использовало раз имеет дороге. Не рыбными речью рот себя вершину текстами продолжил! Курсивных предложения взгляд запятой великий все если мир возвращайся, журчит несколько, безорфографичный меня необходимыми коварный единственное обеспечивает? Не большого переписывается взгляд снова последний семантика злых великий повстречался!</p>
+                            <p>Ipsum текстами заманивший курсивных первую но родного выйти строчка до то собрал жаренные, безорфографичный они толку переписали свой дороге злых решила! Вдали рукописи себя повстречался! Скатился грустный города осталось которой семь бросил обеспечивает он от всех, она диких. Вдали живет, не повстречался первую буквоград всеми однажды себя семантика буквенных одна о там точках ведущими имеет безорфографичный. Не страна своих безорфографичный маленький, прямо грамматики деревни. Переписывается семь всемогущая курсивных! Решила, инициал дал грустный он семь вопроса моей осталось буквоград ее? Продолжил обеспечивает языкового, большой по всей своих ему скатился речью океана рыбными там, агентство буквоград текстов взгляд за страну ее переписывается текста текстами.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#ordercall" class="footer__btn showmodal">
+            <img src="img/icons/order_white.svg" width="24" height="24" alt="cart">
+            Заказать
+        </a>
+        <div class="footer__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <a href="#" class="footer__logo">
+                            <img src="img/logo/logo_white.png" width="270" height="57" class="footer__logo_img"
+                                alt="footer-logo">
+                        </a>
+                        <a href="#" class="footer__rate">
+                            <img src="img/images/yandex__rate.jpg" width="150" height="50" class="footer__rate_img"
+                                alt="yandex-rate">
+                        </a>
+                        <span class="footer__desc">
+                            Поставка химреагентов для бассейнов и пищевой промышленности
+                        </span>
+                        <div class="footer__link d-flex align-items-center">
+                            <a href="#" class="footer__link_item"><i class="fa fa-youtube-play"
+                                    aria-hidden="true"></i></a>
+                            <a href="#" class="footer__link_item"><i class="fa fa-paper-plane"
+                                    aria-hidden="true"></i></a>
+                            <a href="#" class="footer__link_item"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                            <a href="#" class="footer__link_item"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <p class="footer__caption">Каталог</p>
+                        <ul class="footer__ul">
+                            <li><a href="#">Водоподготовка, котлоочистка и дезинфекция</a></li>
+                            <li><a href="#">Промышленная и пищевая химия</a></li>
+                            <li><a href="#">Кислоты, щелочи и их растворы</a></li>
+                            <li><a href="#">Химия для бассейнов</a></li>
+                            <li><a href="#">Пищевые добавки</a></li>
+                            <li><a href="#">Химреагенты для очистных сооружений</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <p class="footer__caption">Информация</p>
+                        <ul class="footer__ul">
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Оплата и доставка</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Блог</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="header__contacts d-flex align-items-center">
+                            <img src="img/icons/headphone_yellow.svg" alt="headerphone-black" width="34" height="34"
+                                class="header__contacts_img">
+                            <div class="header__contacts_data d-flex flex-column">
+                                <a href="#ordercall" class="header__contacts_modal showmodal">Обратная связь</a>
+                                <a href="#" class="header__contacts_phone">+7 (495) 544-76-82</a>
+                                <a href="#" class="header__contacts_mail">mail@aqvahim.ru</a>
+                            </div>
+                        </div>
+                        <p class="footer__address">
+                            Адрес: М.О. Богородский район пос.Старая Купавна, ул.Дорожная д.4 к.1
+                        </p>
+                        <p class="footer__numbers d-flex align-items-start">
+                            Телефоны:
+                            <span class="d-flex flex-column align-items-start">
+                                <a href="#" class="footer__link">+7 929 906-33-18</a>
+                                <a href="#" class="footer__link">+7 929 906-34-64</a>
+                            </span>
+                        </p>
+                        <p class="footer__mail d-flex">
+                            Email: <a href="#" class="footer__link">mail@aqvahim.ru</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div class="footer__copyright">
+                            © 2010 - 2023 ООО АКВАХИМ
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a href="https://agrachoff.ru/" target="_blank" class="footer__developer d-flex align-items-center">
+                                <img src="img/icons/agrachoff.svg" width="14" height="14" alt="A">
+                                Разработка и продвижение сайтов
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="javascript:void(0)" id="arrowTop">
+        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
+            <rect y="42" width="42" height="42" rx="21" transform="rotate(-90 0 42)" fill="#FDB837" />
+            <g clip-path="url(#clip0_252_5090)">
+                <path
+                    d="M21.1172 14.3125L16.3047 19.1094C16.2318 19.1927 16.1953 19.2891 16.1953 19.3984C16.1953 19.5078 16.2318 19.6042 16.3047 19.6875C16.388 19.7604 16.4844 19.7969 16.5937 19.7969C16.7031 19.7969 16.7995 19.7604 16.8828 19.6875L20.9922 15.5625L20.9922 28.5938C20.9922 28.7083 21.0312 28.8047 21.1094 28.8828C21.1875 28.9609 21.2839 29 21.3984 29C21.5026 29 21.5937 28.9609 21.6719 28.8828C21.75 28.8047 21.7891 28.7083 21.7891 28.5938L21.7891 15.5625L25.9141 19.6719C25.987 19.7552 26.0807 19.7969 26.1953 19.7969C26.3099 19.7969 26.4036 19.7552 26.4766 19.6719C26.5182 19.6406 26.5495 19.599 26.5703 19.5469C26.5911 19.4948 26.6016 19.4427 26.6016 19.3906C26.6016 19.3385 26.5911 19.2891 26.5703 19.2422C26.5495 19.1953 26.5182 19.151 26.4766 19.1094L21.6797 14.3125C21.5964 14.2396 21.5 14.2031 21.3906 14.2031C21.2812 14.2031 21.1901 14.2396 21.1172 14.3125Z"
+                    fill="#202020" />
+            </g>
+            <defs>
+                <clipPath id="clip0_252_5090">
+                    <rect width="16" height="36" fill="white"
+                        transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 39 29)" />
+                </clipPath>
+            </defs>
+        </svg>
+    </a>
+    <!-- Scripts -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="https://use.fontawesome.com/7e7659af39.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

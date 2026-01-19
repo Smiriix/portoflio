@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft-window</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="darkscreen d-lg-none"></div>
+    <div class="modalwindow">
+        <div class="modalwindow__panel">
+            <div class="modalwindow__close"></div>
+            <p class="modalwindow__caption">Заказать обратный звонок</p>
+            <form>
+                <label>
+                    Ваше имя
+                    <span>
+                        <input type="text" placeholder="Ваше имя">
+                    </span>
+                </label>
+                <label>
+                    Ваш телефон
+                    <span>
+                        <input type="text">
+                    </span>
+                </label>
+                <label style="line-height: 1.66em;">
+                    Нажимая кнопку «заказать звонок», вы даете согласие на обработку персональных данных
+                </label>
+                <input type="submit" value="Заказать" class="action__btn">
+            </form>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__container d-none d-lg-flex justify-content-between align-items-center">
+            <a href="/" class="header__logo">
+                <img src="img/logo/logo.png" alt="logo" class="header__logo_img" width="160" height="38">
+            </a>
+            <div class="header__logo_desc">
+                Производство мягких окон и штор<br>
+                для уличных беседок, веранд и террас
+            </div>
+            <ul class="header__nav">
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Преимущества</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Портфолио</a></li>
+            </ul>
+            <ul class="header__socials">
+                <li><a href="#"><img src="img/icons/telegram--white.svg" width="22" height="22" alt=""></a></li>
+                <li><a href="#"><img src="img/icons/whatsapp--white.svg" width="22" height="22" alt=""></a></li>
+            </ul>
+            <a href="#" class="header__phone">
+                +7 495363-86-54
+            </a>
+            <a href="" class="action__btn white showmodal">
+                Заказать звонок
+            </a>
+        </div>
+        <div class="header__mobile--panel d-flex justify-content-center d-lg-none">
+            <div id="menuBTN">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="header__mobile--menu d-lg-none">
+            <ul class="header__mobile_menu">
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Преимущества</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Портфолио</a></li>
+            </ul>
+            <ul class="header__socials">
+                <li><a href="#"><img src="img/icons/telegram--white.svg" width="22" height="22" alt=""></a></li>
+                <li><a href="#"><img src="img/icons/whatsapp--white.svg" width="22" height="22" alt=""></a></li>
+            </ul>
+            <a href="#" class="header__phone">
+                +7 495363-86-54
+            </a>
+            <a href="#" class="action__btn white showmodal">
+                Заказать звонок
+            </a>
+        </div>
+    </header>
+    <section class="main--banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="main--banner__title">
+                        МЯГКИЕ ОКНА ПВХ<br>
+                        ОТ 600 РУБ. КВ.М
+                    </h1>
+                    <p class="main--banner__subtitle">
+                        Изготовление и монтаж по размерам заказчика
+                    </p>
+                    <a href="#" class="action__btn showmodal">
+                        Заказать
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/images/window--banner.png" width="977" height="715" alt="window"
+                        class="main--banner_img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="adventages">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="adventages__grid">
+                        <div class="adventages__item">
+                            <div class="adventages__item_data">
+                                <img src="img/icons/adventages_1.png" width="70" height="70" alt="adventaegs"
+                                    class="adventages__item_icon">
+                                <span class="adventages__item_name">
+                                    ОТВЕТСТВЕННОСТЬ
+                                </span>
+                            </div>
+                            <p class="adventages__item_text">
+                                Дорожим своей репутацией перед каждым клиентом
+                            </p>
+                        </div>
+                        <div class="adventages__item">
+                            <div class="adventages__item_data">
+                                <img src="img/icons/adventages_2.png" width="70" height="70" alt="adventaegs"
+                                    class="adventages__item_icon">
+                                <span class="adventages__item_name">
+                                    ОТВЕТСТВЕННОСТЬ
+                                </span>
+                            </div>
+                            <p class="adventages__item_text">
+                                Дорожим своей репутацией перед каждым клиентом
+                            </p>
+                        </div>
+                        <div class="adventages__item">
+                            <div class="adventages__item_data">
+                                <img src="img/icons/adventages_3.png" width="70" height="70" alt="adventaegs"
+                                    class="adventages__item_icon">
+                                <span class="adventages__item_name">
+                                    ОТВЕТСТВЕННОСТЬ
+                                </span>
+                            </div>
+                            <p class="adventages__item_text">
+                                Дорожим своей репутацией перед каждым клиентом
+                            </p>
+                        </div>
+                        <div class="adventages__item">
+                            <div class="adventages__item_data">
+                                <img src="img/icons/adventages_4.png" width="70" height="70" alt="adventaegs"
+                                    class="adventages__item_icon">
+                                <span class="adventages__item_name">
+                                    ОТВЕТСТВЕННОСТЬ
+                                </span>
+                            </div>
+                            <p class="adventages__item_text">
+                                Дорожим своей репутацией перед каждым клиентом
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__title">
+                        Услуги
+                    </div>
+                    <div class="services__grid">
+                        <div class="services__item">
+                            <div class="services__item_data">
+                                <h2 class="services__item_name">
+                                    Мягкие окна для беседок
+                                </h2>
+                                <a href="#" class="action__btn">
+                                    Заказать
+                                </a>
+                            </div>
+                            <img src="img/images/service__thumb.png" width="242" height="201" alt="service"
+                                class="services__item_img">
+                        </div>
+                        <div class="services__item">
+                            <div class="services__item_data">
+                                <h2 class="services__item_name">
+                                    Мягкие окна для беседок
+                                </h2>
+                                <a href="#" class="action__btn">
+                                    Заказать
+                                </a>
+                            </div>
+                            <img src="img/images/service__thumb.png" width="242" height="201" alt="service"
+                                class="services__item_img">
+                        </div>
+                        <div class="services__item">
+                            <div class="services__item_data">
+                                <h2 class="services__item_name">
+                                    Мягкие окна для беседок
+                                </h2>
+                                <a href="#" class="action__btn">
+                                    Заказать
+                                </a>
+                            </div>
+                            <img src="img/images/service__thumb.png" width="242" height="201" alt="service"
+                                class="services__item_img">
+                        </div>
+                        <div class="services__item">
+                            <div class="services__item_data">
+                                <h2 class="services__item_name">
+                                    Мягкие окна для беседок
+                                </h2>
+                                <a href="#" class="action__btn">
+                                    Заказать
+                                </a>
+                            </div>
+                            <img src="img/images/service__thumb.png" width="242" height="201" alt="service"
+                                class="services__item_img">
+                        </div>
+                        <div class="services__item">
+                            <div class="services__item_data">
+                                <h2 class="services__item_name">
+                                    Мягкие окна для беседок
+                                </h2>
+                                <a href="#" class="action__btn">
+                                    Заказать
+                                </a>
+                            </div>
+                            <img src="img/images/service__thumb.png" width="242" height="201" alt="service"
+                                class="services__item_img">
+                        </div>
+                        <div class="services__item">
+                            <div class="services__item_data">
+                                <h2 class="services__item_name">
+                                    Мягкие окна для беседок
+                                </h2>
+                                <a href="#" class="action__btn">
+                                    Заказать
+                                </a>
+                            </div>
+                            <img src="img/images/service__thumb.png" width="242" height="201" alt="service"
+                                class="services__item_img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="calculator">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-12">
+                    <div class="section__title white">
+                        Рассчитайте стоимость
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form>
+                        <label>
+                            Выбрать тип пленки
+                            <span>
+                                <select>
+                                    <option value="Прозрачная">Прозрачная</option>
+                                </select>
+                            </span>
+                        </label>
+                        <label>
+                            Вид плёнки
+                            <span>
+                                <select>
+                                    <option value="Плёнка ПВХ 700 МКН">Плёнка ПВХ 700 МКН</option>
+                                </select>
+                            </span>
+                        </label>
+                        <label>
+                            Выбрать цвет
+                            <span>
+                                <select>
+                                    <option value="Шоколад">Шоколад</option>
+                                </select>
+                            </span>
+                        </label>
+                        <div>
+                            <label>
+                                Длина (см)
+                                <span>
+                                    <input type="text" value="0 см">
+                                </span>
+                            </label>
+                            <label>
+                                Ширина (см)
+                                <span>
+                                    <input type="text" value="0 см">
+                                </span>
+                            </label>
+                        </div>
+                        <label>
+                            Монтаж
+                            <span>
+                                <select>
+                                    <option value="Дерево">Дерево</option>
+                                </select>
+                            </span>
+                        </label>
+                        <div>
+                            <label>
+                                Подвесной ремешок
+                                <span>
+                                    <input type="text" value="2">
+                                </span>
+                            </label>
+                            <label class="custom-input" style="margin-top: 30px;">
+                                <input type="checkbox">
+                                Молния
+                            </label>
+                        </div>
+                        <label class="custom-input">
+                            <input type="radio" name="type" checked>
+                            Без фурнитуры
+                        </label>
+                        <label class="custom-input">
+                            <input type="radio" name="type">
+                            На ремешках силиконовых
+                        </label>
+                        <label class="custom-input">
+                            <input type="radio" name="type">
+                            На скобе поворотной металлической
+                        </label>
+                        <label class="custom-input">
+                            <input type="radio" name="type">
+                            На круглом люверсе
+                        </label>
+                    </form>
+                </div>
+                <div class="col-lg-5">
+                    <div class="calculator__profit">
+                        Итого:
+                        <p class="calculator__profit_summ">
+                            316 000 руб.
+                        </p>
+                        <a href="#" class="action__btn white">
+                            Заказать звонок
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__title">
+                        О компании
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="about-us__img--wrapper">
+                        <img src="img/images/about--img-1.png" width="526" height="497" alt="dfgdfg">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <h3>swproduct</h3>
+                    <p>Компания swproduct специализируется на производстве и установке современных изделий из материалов
+                        для защиты от солнца, ветра, дождя и снега. Используемые нами материалы и комплектующие для
+                        мягких окон произведены ведущими компаниями Европы и России.</p>
+                    <p>Наша компания изготавливает защитные шторы в собственном цеху на современном ТВЧ оборудовании
+                        зарубежного производства. Работая с 2010 года, Наша компания уверенно удерживает позиции на
+                        рынке Москвы, Московской и Ростовской областей, а также Краснодарского края.</p>
+                    <p>У нас вы найдете самые современные решения для защиты и декорирования загородных домов,
+                        ресторанов и кафе по всей территории РФ. Качество нашей работы и продукции подтверждается
+                        положительными отзывами наших клиентов.</p>
+                    <a href="#" class="action__btn showmodal">Заказать звонок</a>
+                </div>
+            </div>
+            <div class="row flex-lg-row-reverse">
+                <div class="col-lg-5">
+                    <div class="about-us__img--wrapper">
+                        <img src="img/images/about--img-2.png" width="526" height="497" alt="dfgdfg">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <p><b>Основное направление деятельности</b></p>
+                    <p>Наша компания уверенно удерживает позиции на рынке Москвы, Московской и Ростовской областей, а
+                        также Краснодарского края. Используемые нами материалы и комплектующие для мягких окон
+                        произведены ведущими компаниями Европы и России. </p>
+                    <ul>
+                        <li>Подбираем необходимую конфигурацию агрегатов с оптимальным набором функций;</li>
+                        <li>Предлагаем для своих клиентов лучшее сочетание: цена, качество, надежность;</li>
+                        <li>Обеспечиваем индивидуальный подход и возможность оснащения с обозначенным бюджетом;</li>
+                        <li>Широкий спектр изделий для защиты от солнца, дождя, снега и ветра дачных построек (веранд,
+                            террас и беседок), по самым выгодным ценам.</li>
+                    </ul>
+                    <a href="#" class="action__btn">Заказать звонок</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__title white">
+                        Портфолио
+                    </div>
+                    <div class="portfolio__grid">
+                        <a href="img/images/portoflio--thumb.png" class="portfolio__item" data-fancybox="gallery">
+                            <img src="img/images/portoflio--thumb.png" width="416" height="318" alt="thumb"
+                                class="portfolio__item_thumb">
+                            <span class="portfolio__item_name">
+                                Промышленные помещения
+                            </span>
+                            <div class="d-none">
+
+                            </div>
+                        </a>
+                        <a href="#" class="portfolio__item">
+                            <img src="img/images/portoflio--thumb.png" width="416" height="318" alt="thumb"
+                                class="portfolio__item_thumb">
+                            <span class="portfolio__item_name">
+                                Промышленные помещения
+                            </span>
+                        </a>
+                        <a href="#" class="portfolio__item">
+                            <img src="img/images/portoflio--thumb.png" width="416" height="318" alt="thumb"
+                                class="portfolio__item_thumb">
+                            <span class="portfolio__item_name">
+                                Промышленные помещения
+                            </span>
+                        </a>
+                        <a href="#" class="portfolio__item">
+                            <img src="img/images/portoflio--thumb.png" width="416" height="318" alt="thumb"
+                                class="portfolio__item_thumb">
+                            <span class="portfolio__item_name">
+                                Промышленные помещения
+                            </span>
+                        </a>
+                        <a href="#" class="portfolio__item">
+                            <img src="img/images/portoflio--thumb.png" width="416" height="318" alt="thumb"
+                                class="portfolio__item_thumb">
+                            <span class="portfolio__item_name">
+                                Промышленные помещения
+                            </span>
+                        </a>
+                        <a href="#" class="portfolio__item">
+                            <img src="img/images/portoflio--thumb.png" width="416" height="318" alt="thumb"
+                                class="portfolio__item_thumb">
+                            <span class="portfolio__item_name">
+                                Промышленные помещения
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-12">
+                    <div class="section__title">
+                        FAQ
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="faq__item">
+                        <input type="checkbox" id="faq-1" hidden>
+                        <label for="faq-1">
+                            Какие типы окон вы предлагаете?
+                        </label>
+                        <div class="faq__item_text">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis veritatis sapiente
+                                facilis culpa voluptas ducimus vero, corrupti pariatur neque exercitationem itaque eius
+                                odit, alias commodi similique ea reiciendis quam officiis.
+                            </p>
+                            <p>
+                                Consequatur enim natus iusto harum temporibus magnam ipsa ducimus adipisci, nihil
+                                deleniti, unde consectetur explicabo aliquid eum nam rerum repellat ab perferendis.
+                                Natus commodi neque, laboriosam numquam dolor labore cumque!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq__item">
+                        <input type="checkbox" id="faq-2" hidden>
+                        <label for="faq-2">
+                            Какие типы окон вы предлагаете?
+                        </label>
+                        <div class="faq__item_text">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis veritatis sapiente
+                                facilis culpa voluptas ducimus vero, corrupti pariatur neque exercitationem itaque eius
+                                odit, alias commodi similique ea reiciendis quam officiis.
+                            </p>
+                            <p>
+                                Consequatur enim natus iusto harum temporibus magnam ipsa ducimus adipisci, nihil
+                                deleniti, unde consectetur explicabo aliquid eum nam rerum repellat ab perferendis.
+                                Natus commodi neque, laboriosam numquam dolor labore cumque!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq__item">
+                        <input type="checkbox" id="faq-3" hidden>
+                        <label for="faq-3">
+                            Какие типы окон вы предлагаете?
+                        </label>
+                        <div class="faq__item_text">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis veritatis sapiente
+                                facilis culpa voluptas ducimus vero, corrupti pariatur neque exercitationem itaque eius
+                                odit, alias commodi similique ea reiciendis quam officiis.
+                            </p>
+                            <p>
+                                Consequatur enim natus iusto harum temporibus magnam ipsa ducimus adipisci, nihil
+                                deleniti, unde consectetur explicabo aliquid eum nam rerum repellat ab perferendis.
+                                Natus commodi neque, laboriosam numquam dolor labore cumque!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-xl-4">
+                    <div class="faq__form">
+                        <p class="faq__form_title">
+                            Есть дополнительные вопросы?
+                        </p>
+                        <span class="faq__form_subtitle">
+                            Оставьте свои контакты, мы перезвоним:
+                        </span>
+                        <form>
+                            <span>
+                                <input type="text" placeholder="+7(___) ___-____">
+                            </span>
+                            <input type="submit" value="Заказать звонок" class="action__btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer--form">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer--form__wrapper">
+                        <h5 class="footer--form__title">У Вас остались вопросы?</h5>
+                        <p class="footer--form__subtitle">Заполните форму и в самое ближайшее время мы с Вами свяжемся.
+                        </p>
+                        <form>
+                            <span><input type="text" placeholder="Ваше имя*"></span>
+                            <span><input type="text" placeholder="Адрес почты"></span>
+                            <span><input type="text" placeholder="Номер телефона *"></span>
+                            <label>
+                                <span>
+                                    <input type="checkbox" checked>
+                                </span>
+                                Я даю свое согласие на обработку персональных данных и соглашаюсь с условиями и
+                                политикой конфиденциальности.
+                            </label>
+                            <input type="submit" value="Заказать звонок" class="action__btn white">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="header__container d-lg-flex align-items-center justify-content-between">
+                <a href="#" class="footer__logo">
+                    <img src="img/logo/logo_white.png" width="220" height="52" alt="site" class="footer__logo_img">
+                </a>
+                <ul class="footer__nav">
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Преимущества</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Портфолио</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="header__container d-flex align-items-center justify-content-between">
+                <span class="footer__politic">
+                    © 2023 agrachoff.ru
+                    <b>Все приведённые цены и характеристики носят ознакомительный характер и не являются публичной
+                        офертой.</b>
+                </span>
+                <ul class="footer__contacts">
+                    <li><a href="#" class="footer__contacts_phone">+7 926 814-74-49</a></li>
+                    <li><a href="#" class="footer__contacts_mail">qr@qr-agency.com</a></li>
+                </ul>
+                <a href="#" class="action__btn white showmodal">
+                    Заказать звонок
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

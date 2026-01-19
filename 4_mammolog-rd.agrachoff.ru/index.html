@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Маммолог</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Scripts -->
+    <script defer src="js/jquery-3.6.1.min.js"></script>
+    <script defer src="js/owl.carousel.min.js"></script>
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+    <script defer src="js/lightbox.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <div id="modal">
+        <div class="panel">
+            <div id="close_modal">
+                <span></span>
+            </div>
+            <p>Написать специалисту</p>
+            <div class="form">
+                <div class="str">
+                    <input type="text" placeholder="Ваша почта"><input type="text" placeholder="Ваш телефон">
+                </div>
+                <textarea placeholder="Ваше сообщение"></textarea>
+                <p>
+                    <button class='msg-special' href="#">
+                        Вызвать врача
+                        <span class="arrow"></span>
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid header">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="#" class="logo d-none d-lg-block">
+                    <img src="assets/img/logo.png">
+                </a>
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                        <a href="#" class="logo d-block d-lg-none">
+                            <img src="assets/img/logo.png">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Переключатель навигации">
+                            <!-- <span class="navbar-toggler-icon"></span> -->
+                            <img src="assets/img/burger.png">
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#services">Услуги</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#about">О нас</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#dia">Этапы диагностики</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#clinik">О клинике</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#lic">Лицензии</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#photo_slider">Фото</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="right d-none d-lg-flex align-items-center">
+                    <a class='phone' href="tel:+78005553535">+7 800 555 35 35</a>
+                    <p>
+                        <a class='msg-special' href="#">
+                            написать специалисту
+                            <span class="arrow"></span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid banner" style="margin-bottom: 100px">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="col-12 col-lg-6">
+                        <span class="circle" style="width: 36px; height: 36px; left: -139px;top: 230px;"></span>
+                        <span class="circle" style="width: 20px; height: 20px; left: -161px;bottom: 204px;"></span>
+                        <span class="circle" style="width: 100px; height: 100px; right: 85px;bottom: 107px;"></span>
+                        <div class="data">
+                            <h1>
+                                Заголовок Заголовок Заголовок Заголовок Заголовок Заголовок Заголовок
+                            </h1>
+                            <p>
+                                <a class='msg-special' href="#">
+                                    Вызвать врача
+                                    <span class="arrow"></span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-1"></div>
+                    <div class="col-12 col-lg-5">
+                        <img src="assets/img/banner_img.png">
+                        <span class="circle"
+                            style="width: 58px; height: 58px; left: 104px; top: 16px;z-index: 2;"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container services" id="services">
+        <div class="row">
+            <h3>наши услуги</h3>
+        </div>
+        <div class="row">
+            <h2 class="title">
+                Заголовок
+            </h2>
+            <p class="subtitle">
+                Подзаголовок Подзаголовок Подзаголовок Подзаголовок
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <input type="checkbox" id="panel1" hidden>
+                <label class="d-block d-lg-none" for="panel1">
+                    <a class='msg-special'>
+                        УЗИ
+                        <span class="arrow"></span>
+                    </a>
+                </label>
+                <div class="panel">
+                    <p class="caption d-none d-lg-block">Узи</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <input type="checkbox" id="panel2" hidden>
+                <label class="d-block d-lg-none" for="panel2">
+                    <a class='msg-special'>
+                        Рентген
+                        <span class="arrow"></span>
+                    </a>
+                </label>
+                <div class="panel">
+                    <p class="caption d-none d-lg-block">Рентген</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <input type="checkbox" id="panel3" hidden>
+                <label class="d-block d-lg-none" for="panel3">
+                    <a class='msg-special'>
+                        Маммология
+                        <span class="arrow"></span>
+                    </a>
+                </label>
+                <div class="panel">
+                    <p class="caption d-none d-lg-block">Маммология </p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrow"></div>
+                                Название услуги
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container_fluid about" style="margin-bottom: 85px">
+        <div class="container" id="about">
+            <div class="row">
+                <h3>О нас</h3>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                        <h2 class="title">
+                            Заголовок Заголовок Заголовок Заголовок Заголовок
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, tempora eligendi esse,
+                            voluptates voluptatem neque architecto vero ad optio repellat perferendis non quam iure
+                            modi. Corporis deserunt laborum nesciunt similique! Amet, quo ea eum inventore consectetur
+                            magnam neque doloremque nulla optio labore distinctio! Atque error doloremque magni
+                            temporibus quae aperiam ipsam corrupti, quo vel pariatur, sed in totam debitis officia
+                            minus? Voluptas cum ipsum harum officia quis explicabo facere nam ipsa magni in a temporibus
+                            qui deserunt eum, corporis incidunt quidem fugit impedit expedita odit unde itaque est,
+                            dolor modi? Dolorem totam inventore, harum sint at nobis fugiat, modi perferendis animi
+                            sapiente quasi! Accusantium, quibusdam veniam? In eum iste eligendi enim dolore ad
+                            necessitatibus reiciendis delectus veniam animi rerum quasi repudiandae quibusdam numquam
+                            cupiditate consectetur voluptas facere distinctio earum nobis error, cum hic adipisci iusto?
+                            Necessitatibus temporibus provident ab deserunt, consequatur quis facere!
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="about_items d-flex align-items-center">
+                            <div class="item d-flex align-items-center">
+                                <img src="assets/img/apteka-icon.png">
+                                <div class="d-flex flex-column align-items-start">
+                                    <p>25 Лет</p>
+                                    <span>Профессионального опыта</span>
+                                </div>
+                            </div>
+                            <div class="item d-flex align-items-center">
+                                <img src="assets/img/podpis.png">
+                                <div class="d-flex flex-column align-items-start">
+                                    <p>Александр Евгеньевич</p>
+                                    <span>Главный врач</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 g-man">
+                    <img src="assets/img/g-man.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container lvl-diagnostic" id="dia">
+        <div class="row">
+            <h3>этапы диагностики</h3>
+            <h2 class="title" style="margin-bottom: 50px">ЗаголовокЗаголовок</h2>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="item">
+                    <p class="name">
+                        1 <span>дистанционная диагностика</span>
+                    </p>
+                    <span class="desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, dolore!
+                    </span>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="item">
+                    <p class="name">
+                        2 <span>поликлиническая диагностика</span>
+                    </p>
+                    <span class="desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, dolore!
+                    </span>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="item">
+                    <p class="name">
+                        3 <span>мобильная диагностика</span>
+                    </p>
+                    <span class="desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, dolore!
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="row btns">
+            <div class="d-flex align-items-center justify-content-between">
+                <p>
+                    <a class='msg-special' href="#">
+                        Написать специалисту
+                        <span class="arrow"></span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container advantages">
+        <div class="row">
+            <h3>наши преимущества</h3>
+        </div>
+        <div class="row">
+            <h2 class="title" style="margin-bottom: 50px">Почему люди обращаются именно к нам?</h2>
+        </div>
+        <div class="row">
+            <div class="col-6 col-lg-3">
+                <div class="item">
+                    <div class="img" style="background-image: url('assets/img/adv1.png')"></div>
+                    <span class="name">Интерпретация  снимков и протоколов исследований</span>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="item">
+                    <div class="img" style="background-image: url('assets/img/adv2.png')"></div>
+                    <span class="name">Мобильное узи</span>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="item">
+                    <div class="img" style="background-image: url('assets/img/adv3.png')"></div>
+                    <span class="name">Помощь при необходимости исследований</span>
+                    <span class="desc">Балашихинский Ногинский Люберецкий Щелковский районы</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid about_clinik" id="clinik">
+        <div class="container" style="padding: 98px 0 93px">
+            <div class="row">
+                <h2 class="title" style="margin-bottom: 44px;">Информация о клинике </h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem repellat voluptates
+                        minus sunt. Qui, suscipit voluptate molestias ipsa dolores tempore in eligendi quisquam?
+                        Eligendi tempora, explicabo quas neque modi adipisci dolorem dolorum numquam corrupti provident,
+                        ex, ad consectetur repudiandae facilis. Quasi nam illo unde vel. Consequuntur quidem consectetur
+                        eaque necessitatibus ratione officiis, aliquid perspiciatis ab itaque doloremque beatae eius
+                        corrupti explicabo, repellendus voluptatibus repellat commodi odio facilis dicta velit
+                        repudiandae enim consequatur quisquam! Ad eveniet unde, magni itaque maxime laborum iste modi
+                        molestiae inventore dignissimos tempore dolore! Soluta veritatis, repellendus molestiae rerum
+                        ratione </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container license" id="lic">
+        <div class="row">
+            <h2 class="title" style="margin-bottom: 50px">Лицензии</h2>
+        </div>
+        <div class="row">
+            <div class="owl-carousel owl-theme" id="license-slider">
+                <div class="item">
+                    <a href="assets/img/sertificate.png" data-lightbox="image-1">
+                        <img src="assets/img/sertificate.png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="assets/img/sertificate.png" data-lightbox="image-1">
+                        <img src="assets/img/sertificate.png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="assets/img/sertificate.png" data-lightbox="image-1">
+                        <img src="assets/img/sertificate.png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="assets/img/sertificate.png" data-lightbox="image-1">
+                        <img src="assets/img/sertificate.png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="assets/img/sertificate.png" data-lightbox="image-1">
+                        <img src="assets/img/sertificate.png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="assets/img/sertificate.png" data-lightbox="image-1">
+                        <img src="assets/img/sertificate.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid information-block">
+        <div class="container">
+            <div class="row">
+                <h2 class="title">Информационный блок</h2>
+            </div>
+            <div class="row">
+                <p class="text" style="margin-bottom: 40px;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus obcaecati, doloribus voluptatem
+                    explicabo assumenda debitis eum dolorem omnis cupiditate excepturi in cum earum pariatur nam
+                    reiciendis eligendi sed quidem perspiciatis facilis repellat molestias maiores vitae? Sapiente,
+                    tempore fugiat incidunt nisi totam nobis? Quaerat deleniti.
+                </p>
+                <div class="col-21 col-lg-8">
+                    <div class="row">
+                        <p class="subtitle">Подзаголовок Подзаголовок Подзаголовок Подзаголовок Подзаголовок </p>
+                        <ul>
+                            <li>
+                                <div class="number">1</div>
+                                <span>Nam architecto excepturi voluptas quisquam, vitae quaerat reiciendis fuga
+                                    consequuntur, sunt repudiandae culpa obcaecati autem velit quidem asperiores hic rem
+                                    consectetur, soluta amet similique aliquid. </span>
+                            </li>
+                            <li>
+                                <div class="number">2</div>
+                                <span>Nam architecto excepturi voluptas quisquam, vitae quaerat reiciendis fuga
+                                    consequuntur, sunt repudiandae culpa obcaecati autem velit quidem asperiores hic rem
+                                    consectetur, soluta amet similique aliquid. </span>
+                            </li>
+                            <li>
+                                <div class="number">3</div>
+                                <span>Nam architecto excepturi voluptas quisquam, vitae quaerat reiciendis fuga
+                                    consequuntur, sunt repudiandae culpa obcaecati autem velit quidem asperiores hic rem
+                                    consectetur, soluta amet similique aliquid. </span>
+                            </li>
+                            <li>
+                                <div class="number">4</div>
+                                <span>Nam architecto excepturi voluptas quisquam, vitae quaerat reiciendis fuga
+                                    consequuntur, sunt repudiandae culpa obcaecati autem velit quidem asperiores hic rem
+                                    consectetur, soluta amet similique aliquid. </span>
+                            </li>
+                            <li>
+                                <div class="number">5</div>
+                                <span>Nam architecto excepturi voluptas quisquam, vitae quaerat reiciendis fuga
+                                    consequuntur, sunt repudiandae culpa obcaecati autem velit quidem asperiores hic rem
+                                    consectetur, soluta amet similique aliquid. </span>
+                            </li>
+                            <li>
+                                <div class="number">6</div>
+                                <span>Nam architecto excepturi voluptas quisquam, vitae quaerat reiciendis fuga
+                                    consequuntur, sunt repudiandae culpa obcaecati autem velit quidem asperiores hic rem
+                                    consectetur, soluta amet similique aliquid. </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptatum ipsa, inventore
+                    recusandae non eius eligendi ipsum debitis ut impedit, cum totam veniam unde molestiae iste vero.
+                    Aperiam repellat fugit consequuntur nam, ipsam debitis vitae dolores optio at est voluptatem
+                    molestias, sunt velit quod ducimus? Ad reprehenderit beatae dignissimos omnis repellendus asperiores
+                    non nesciunt maiores corrupti atque soluta, veniam natus deserunt repellat incidunt, numquam tenetur
+                    amet possimus velit. Vel eligendi natus laboriosam ipsa pariatur error? Eum, natus sed amet illo
+                    repellat necessitatibus totam consequatur nostrum accusamus recusandae. Similique atque, vero
+                    obcaecati ducimus at ad aliquam, id, reiciendis maiores fuga soluta?
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container photo" id="photo">
+        <div class="row">
+            <h2 class="title" style="margin-bottom: 50px">Предоставляем комфортные условия</h2>
+        </div>
+        <div class="row">
+            <div class="owl-carousel owl-theme" id="photo_slider">
+                <div class="item">
+                    <a href="assets/img/slider (1).png" data-lightbox="image-1">
+                        <img src="assets/img/slider (1).png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="assets/img/slider (2).png" data-lightbox="image-1">
+                        <img src="assets/img/slider (2).png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="assets/img/slider (1).png" data-lightbox="image-1">
+                        <img src="assets/img/slider (1).png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="assets/img/slider (2).png" data-lightbox="image-1">
+                        <img src="assets/img/slider (2).png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="assets/img/slider (1).png" data-lightbox="image-1">
+                        <img src="assets/img/slider (1).png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="assets/img/slider (2).png" data-lightbox="image-1">
+                        <img src="assets/img/slider (2).png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-between flex-column flex-lg-row">
+                    <div class="left">
+                        <a href="#" class="logo">
+                            <img src="assets/img/logo.png">
+                        </a>
+                        <div class="links d-flex">
+                            <a href="http://vk.com/">
+                                <svg width="24px" height="24px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.802 12.298s1.617 1.597 2.017 2.336a.127.127 0 0 1 .018.035c.163.273.203.487.123.645-.135.261-.592.392-.747.403h-2.858c-.199 0-.613-.052-1.117-.4-.385-.269-.768-.712-1.139-1.145-.554-.643-1.033-1.201-1.518-1.201a.548.548 0 0 0-.18.03c-.367.116-.833.639-.833 2.032 0 .436-.344.684-.585.684H9.674c-.446 0-2.768-.156-4.827-2.327C2.324 10.732.058 5.4.036 5.353c-.141-.345.155-.533.475-.533h2.886c.387 0 .513.234.601.444.102.241.48 1.205 1.1 2.288 1.004 1.762 1.621 2.479 2.114 2.479a.527.527 0 0 0 .264-.07c.644-.354.524-2.654.494-3.128 0-.092-.001-1.027-.331-1.479-.236-.324-.638-.45-.881-.496.065-.094.203-.238.38-.323.441-.22 1.238-.252 2.029-.252h.439c.858.012 1.08.067 1.392.146.628.15.64.557.585 1.943-.016.396-.033.842-.033 1.367 0 .112-.005.237-.005.364-.019.711-.044 1.512.458 1.841a.41.41 0 0 0 .217.062c.174 0 .695 0 2.108-2.425.62-1.071 1.1-2.334 1.133-2.429.028-.053.112-.202.214-.262a.479.479 0 0 1 .236-.056h3.395c.37 0 .621.056.67.196.082.227-.016.92-1.566 3.016-.261.349-.49.651-.691.915-1.405 1.844-1.405 1.937.083 3.337z"/></svg>
+                            </a>
+                            <a href="http://t.me">
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#dia">Этапы диагностики</a></li>
+                        <li><a href="#clinik">О клинике</a></li>
+                        <li><a href="#lic">Лицензии</a></li>
+                        <li><a href="#photo_slider">Фото</a></li>
+                    </ul>
+                    <div class="right">
+                        <div class="numbers d-flex flex-column">
+                            <a href="tel:+7 123 123-12-12">+7 123 123-12-12</a>
+                            <a href="tel:+7 123 123-11-76">+7 123 123-11-76</a>
+                        </div>
+                        <p>
+                            <a class='msg-special' href="#">
+                                Обратный звонок
+                                <span class="arrow"></span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</html>

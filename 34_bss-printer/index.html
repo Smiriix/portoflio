@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documents</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <a href="#" class="header__logo">
+                                <img src="img/logo/logo.png" alt="logo" width="196" height="75">
+                            </a>
+                            <a href="#" class="header__address">
+                                г.Краснодар, Московское шоссе, дом 13 литер АЩ, помещение 3Н п26
+                            </a>
+                            <form class="header__search" method="GET">
+                                <input type="text" name="s" placeholder="Поиск по товарам">
+                                <button type="submit"></button>
+                            </form>
+                            <div class="header__phones">
+                                <a href="#">8 800 000-00-79</a>
+                                <input type="checkbox" id="header_phones" hidden>
+                                <label class="header__phones_arrow" for="header_phones"></label>
+                                <ul>
+                                    <li><a href="#">8 800 000-00-79</a></li>
+                                    <li><a href="#">8 800 000-00-79</a></li>
+                                </ul>
+                            </div>
+                            <a href="" class="header__profile">
+                                Войти
+                            </a>
+                            <a href="#" class="action__btn">
+                                Вам позвонить
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between h-100">
+                            <div id="menuBtn" class="d-flex d-lg-none flex-column align-items-center justify-content-center">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <ul class="header__nav d-flex align-items-center">
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Каталог товаров</a></li>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Доставка и оплата</a></li>
+                                <li><a href="#">Оборудование</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                            <div class="header__cart">
+                                <a href="#" class="header__cart_btn">
+                                    <span>
+                                        <span>Товаров: <span>2</span></span>
+                                        <span><span>2 000</span> р.</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main--banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main--banner__grid">
+                        <div class="main--banner__slider">
+                            <div class="main--banner__slide">
+                                <div class="main--banner__slide_data">
+                                    <h1 class="main--banner__slide_title">Заправка и восстановление картриджей</h1>
+                                    <a href="#" class="action__btn">Подробнее</a>
+                                </div>
+                                <img src="img/images/main__banner.jpg" width="440" height="430"
+                                    class="main--banner__slide_img" alt="#">
+                            </div>
+                            <div class="main--banner__slide">
+                                <div class="main--banner__slide_data">
+                                    <h1 class="main--banner__slide_title">Заправка и восстановление картриджей</h1>
+                                    <a href="#" class="action__btn">Подробнее</a>
+                                </div>
+                                <img src="img/images/main__banner.jpg" width="440" height="430"
+                                    class="main--banner__slide_img" alt="#">
+                            </div>
+                            <div class="main--banner__slide">
+                                <div class="main--banner__slide_data">
+                                    <h1 class="main--banner__slide_title">Заправка и восстановление картриджей</h1>
+                                    <a href="#" class="action__btn">Подробнее</a>
+                                </div>
+                                <img src="img/images/main__banner.jpg" width="440" height="430"
+                                    class="main--banner__slide_img" alt="#">
+                            </div>
+                        </div>
+                        <div class="main--banner__grid_right">
+                            <div class="main--banner__service">
+                                <div class="main--banner__service_data">
+                                    <h2 class="main--banner__service_title">Ремонт техники</h2>
+                                    <a href="#" class="action__btn">Подробнее</a>
+                                </div>
+                                <img src="img/images/service__thumb--banner.jpg" width="195" height="170" alt=""
+                                    class="main--banner__service_img">
+                            </div>
+                            <div class="main--banner__service">
+                                <div class="main--banner__service_data">
+                                    <h2 class="main--banner__service_title">3D Моделирование и печать</h2>
+                                    <a href="#" class="action__btn">Подробнее</a>
+                                </div>
+                                <img src="img/images/service__thumb--banner.jpg" width="195" height="170" alt=""
+                                    class="main--banner__service_img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main--forms">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main--forms__tabs">
+                        <a href="#" class="main--forms__tab active">
+                            <svg width="18" height="21" viewBox="0 0 18 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.8322 6.38855C12.8322 7.82391 12.4808 9.08935 11.8171 9.9862C11.1625 10.8708 10.1891 11.4197 8.87104 11.4197C7.55297 11.4197 6.57961 10.8708 5.92497 9.9862C5.26132 9.08935 4.90991 7.82391 4.90991 6.38855C4.90991 4.93362 5.17572 3.67117 5.79127 2.7817C6.38976 1.91687 7.3494 1.36018 8.85975 1.35742C10.4592 1.46123 11.4228 2.02568 12.0028 2.86226C12.5986 3.72159 12.8322 4.92703 12.8322 6.38855Z"
+                                    fill="white" stroke="white" />
+                                <path
+                                    d="M11.3796 12.2344C12.3081 12.7699 14.9347 13.9504 15.8432 14.4124C16.7517 14.8745 16.8423 17.9471 16.3427 18.5541C15.8432 19.1611 10.9002 20.2857 8.77344 20.4464"
+                                    fill="white" />
+                                <path
+                                    d="M11.3796 12.2344C12.3081 12.7699 14.9347 13.9504 15.8432 14.4124C16.7517 14.8745 16.8423 17.9471 16.3427 18.5541C15.8432 19.1611 10.9002 20.2857 8.77344 20.4464"
+                                    stroke="white" />
+                                <path
+                                    d="M6.26486 12.2344C5.33635 12.7699 2.7098 13.9504 1.80126 14.4124C0.892713 14.8745 0.80217 17.9471 1.30171 18.5541C1.80126 19.1611 6.74428 20.2857 8.871 20.4464"
+                                    fill="white" />
+                                <path
+                                    d="M6.26486 12.2344C5.33635 12.7699 2.7098 13.9504 1.80126 14.4124C0.892713 14.8745 0.80217 17.9471 1.30171 18.5541C1.80126 19.1611 6.74428 20.2857 8.871 20.4464"
+                                    stroke="white" />
+                            </svg>
+                            Вызвать инженера!
+                        </a>
+                        <a href="#" class="main--forms__tab">
+                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.978 19.5758L17.1489 13.1092C17.1247 13.056 17.0856 13.011 17.0364 12.9794C16.9872 12.9479 16.9299 12.9312 16.8715 12.9313H13.419C14.8304 10.9552 16.176 8.47118 16.176 6.17218C16.176 4.53522 15.5257 2.9653 14.3682 1.80779C13.2107 0.650281 11.6408 0 10.0038 0C8.36683 0 6.79691 0.650281 5.6394 1.80779C4.4819 2.9653 3.83161 4.53522 3.83161 6.17218C3.83161 8.47296 5.17455 10.957 6.58864 12.9313H3.1308C3.07234 12.9312 3.01508 12.9479 2.96587 12.9794C2.91666 13.011 2.87758 13.056 2.85331 13.1092L0.02425 19.5758C0.00467043 19.6219 -0.00324444 19.6721 0.00120499 19.7221C0.00565441 19.772 0.0223311 19.82 0.049761 19.8619C0.077191 19.9039 0.114529 19.9384 0.158476 19.9625C0.202423 19.9866 0.251624 19.9995 0.301731 20H19.7005C19.7506 19.9995 19.7998 19.9866 19.8438 19.9625C19.8877 19.9384 19.9251 19.9039 19.9525 19.8619C19.9799 19.82 19.9966 19.772 20.001 19.7221C20.0055 19.6721 19.9976 19.6219 19.978 19.5758ZM16.6722 13.5343L17.8213 16.1606H10.7286C11.5259 15.3283 12.2753 14.4515 12.9734 13.5343H16.6722ZM4.43549 6.16684C4.69696 -1.20064 15.3071 -1.19797 15.5668 6.16684C15.5668 10.1628 11.039 14.9831 10.0011 16.0388C8.96324 14.984 4.43549 10.1645 4.43549 6.16684ZM3.33001 13.5343H5.59166L4.81169 16.2584H2.13293L3.33001 13.5343ZM0.765979 19.3943L1.87235 16.865H5.04026C5.10656 16.8655 5.17121 16.8443 5.22435 16.8046C5.27749 16.765 5.31622 16.709 5.33464 16.6453L6.224 13.5326H7.03065C7.7904 14.5314 8.61169 15.4819 9.48974 16.3785L3.46698 19.3943H0.765979ZM4.81881 19.3943L10.0732 16.7663H14.5982L15.2688 19.3943H4.81881ZM15.894 19.3943L15.2235 16.7663H18.0872L19.2372 19.3943H15.894ZM13.7596 8.57435C13.8141 8.55095 13.8605 8.51213 13.8932 8.46267C13.9259 8.41321 13.9435 8.35527 13.9437 8.29598V4.1471C13.9435 4.08781 13.9259 4.02987 13.8932 3.98041C13.8605 3.93095 13.8141 3.89214 13.7596 3.86873L10.1203 2.30701C10.0825 2.29074 10.0418 2.28234 10.0007 2.28234C9.95955 2.28234 9.91884 2.29074 9.88106 2.30701L6.24446 3.86873C6.19008 3.89217 6.14375 3.93103 6.11119 3.9805C6.07863 4.02996 6.06127 4.08788 6.06125 4.1471V8.29598C6.06127 8.3552 6.07863 8.41312 6.11119 8.46259C6.14375 8.51205 6.19008 8.55091 6.24446 8.57435L9.88106 10.1379C9.91896 10.1537 9.95962 10.1618 10.0007 10.1618C10.0417 10.1618 10.0824 10.1537 10.1203 10.1379L13.7596 8.57435ZM13.3389 8.09676L10.308 9.39879V5.90982L13.3389 4.60779V8.09676ZM9.70141 9.39879L6.66868 8.09676V4.60779L9.69963 5.90982L9.70141 9.39879ZM10.0047 5.37976L7.13204 4.1471L10.0002 2.91444L12.8702 4.1471L10.0047 5.37976Z"
+                                    fill="#4A4949" />
+                            </svg>
+                            Вызвать курьера
+                        </a>
+                        <a href="#" class="main--forms__tab">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.815 6.86942L19.3745 6.42891C19.1312 6.18554 18.7366 6.18554 18.4932 6.42891L15.0013 9.9208V0.630139C15.0013 0.284918 14.7217 0.00530515 14.3765 0.00530515H5.00398C4.79185 0.00530515 4.58128 -0.0321849 4.45694 0.0921571L0.0921571 4.45694C-0.0321849 4.58128 0.00530514 4.77217 0.00530514 5.00398V19.3752C0.00530514 19.7204 0.284918 20 0.630139 20H14.3765C14.7217 20 15.0013 19.7204 15.0013 19.3752V12.5645L19.815 7.75075C20.0584 7.50738 20.0584 7.11279 19.815 6.86942ZM4.37914 1.07034V4.37914H1.07034L4.37914 1.07034ZM14.3765 19.3752H0.630139V5.00398H4.69156C4.86402 5.00398 5.00398 4.86402 5.00398 4.69156V0.630139H14.3765V10.5456L11.7366 13.1856C11.6866 13.1515 11.6297 13.1271 11.5647 13.1271H3.44189C3.26944 13.1271 3.12948 13.2671 3.12948 13.4396C3.12948 13.612 3.26944 13.752 3.44189 13.752H11.1705L9.29315 15.6293C9.17506 15.6462 9.07602 15.7277 9.04791 15.8508L8.78579 16.997C8.74611 17.0673 8.73486 17.1551 8.76173 17.2435C8.77079 17.2735 8.78829 17.2988 8.80453 17.3245C8.80703 17.3288 8.80859 17.3329 8.81109 17.337C8.82547 17.3582 8.84233 17.3757 8.86077 17.3932C8.87826 17.4113 8.89576 17.4282 8.917 17.4426C8.92106 17.4451 8.92544 17.4469 8.92981 17.4494C8.95574 17.4657 8.98074 17.4829 9.01073 17.4922C9.09914 17.5194 9.18662 17.5078 9.25691 17.4682L10.4032 17.2061C10.5344 17.1761 10.6191 17.0667 10.6278 16.9383L14.3768 13.1893L14.3765 19.3752ZM10.0808 16.6034L9.52215 16.7312L9.65556 16.1473L18.9334 6.86942L19.3739 7.30993L10.0808 16.6034ZM3.44158 7.50332H11.5644C11.7369 7.50332 11.8768 7.36335 11.8768 7.1909C11.8768 7.01844 11.7369 6.87848 11.5644 6.87848H3.44158C3.26913 6.87848 3.12916 7.01844 3.12916 7.1909C3.12916 7.36335 3.26913 7.50332 3.44158 7.50332ZM3.44158 10.6275H11.5644C11.7369 10.6275 11.8768 10.4875 11.8768 10.3151C11.8768 10.1426 11.7369 10.0027 11.5644 10.0027H3.44158C3.26913 10.0027 3.12916 10.1426 3.12916 10.3151C3.12916 10.4875 3.26913 10.6275 3.44158 10.6275Z"
+                                    fill="#4A4949" />
+                            </svg>
+                            Написать руководителю
+                        </a>
+                        <a href="#" class="main--forms__tab">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.815 6.86942L19.3745 6.42891C19.1312 6.18554 18.7366 6.18554 18.4932 6.42891L15.0013 9.9208V0.630139C15.0013 0.284918 14.7217 0.00530515 14.3765 0.00530515H5.00398C4.79185 0.00530515 4.58128 -0.0321849 4.45694 0.0921571L0.0921571 4.45694C-0.0321849 4.58128 0.00530514 4.77217 0.00530514 5.00398V19.3752C0.00530514 19.7204 0.284918 20 0.630139 20H14.3765C14.7217 20 15.0013 19.7204 15.0013 19.3752V12.5645L19.815 7.75075C20.0584 7.50738 20.0584 7.11279 19.815 6.86942ZM4.37914 1.07034V4.37914H1.07034L4.37914 1.07034ZM14.3765 19.3752H0.630139V5.00398H4.69156C4.86402 5.00398 5.00398 4.86402 5.00398 4.69156V0.630139H14.3765V10.5456L11.7366 13.1856C11.6866 13.1515 11.6297 13.1271 11.5647 13.1271H3.44189C3.26944 13.1271 3.12948 13.2671 3.12948 13.4396C3.12948 13.612 3.26944 13.752 3.44189 13.752H11.1705L9.29315 15.6293C9.17506 15.6462 9.07602 15.7277 9.04791 15.8508L8.78579 16.997C8.74611 17.0673 8.73486 17.1551 8.76173 17.2435C8.77079 17.2735 8.78829 17.2988 8.80453 17.3245C8.80703 17.3288 8.80859 17.3329 8.81109 17.337C8.82547 17.3582 8.84233 17.3757 8.86077 17.3932C8.87826 17.4113 8.89576 17.4282 8.917 17.4426C8.92106 17.4451 8.92544 17.4469 8.92981 17.4494C8.95574 17.4657 8.98074 17.4829 9.01073 17.4922C9.09914 17.5194 9.18662 17.5078 9.25691 17.4682L10.4032 17.2061C10.5344 17.1761 10.6191 17.0667 10.6278 16.9383L14.3768 13.1893L14.3765 19.3752ZM10.0808 16.6034L9.52215 16.7312L9.65556 16.1473L18.9334 6.86942L19.3739 7.30993L10.0808 16.6034ZM3.44158 7.50332H11.5644C11.7369 7.50332 11.8768 7.36335 11.8768 7.1909C11.8768 7.01844 11.7369 6.87848 11.5644 6.87848H3.44158C3.26913 6.87848 3.12916 7.01844 3.12916 7.1909C3.12916 7.36335 3.26913 7.50332 3.44158 7.50332ZM3.44158 10.6275H11.5644C11.7369 10.6275 11.8768 10.4875 11.8768 10.3151C11.8768 10.1426 11.7369 10.0027 11.5644 10.0027H3.44158C3.26913 10.0027 3.12916 10.1426 3.12916 10.3151C3.12916 10.4875 3.26913 10.6275 3.44158 10.6275Z"
+                                    fill="#4A4949" />
+                            </svg>
+                            Запросить коммерческое предложение
+                        </a>
+                    </div>
+                    <div class="main--forms__panels">
+                        <div class="main--forms__panel injer active">
+                            <form>
+                                <div class="main--forms__panel_item active">
+                                    <p class="main--forms__panel_caption">
+                                        Ваша правовая форма:
+                                    </p>
+                                    <label><input type="radio" name="injer_face" value="1">Физическое лицо</label>
+                                    <label><input type="radio" name="injer_face" value="2">Представитель юр. лица/ Индивидуальный
+                                        предприниматель</label>
+                                    <a href="#" class="action__btn stroke injer_next">
+                                        Далее
+                                    </a>
+                                </div>
+                                <div class="main--forms__panel_item">
+                                    <p class="main--forms__panel_caption">
+                                        Запросить обратный звонок
+                                    </p>
+                                    <div class="main--forms__panel_table">
+                                        <span>Работаете ли Вы уже с нами?*</span>
+                                        <div class="d-flex align-items-center" style="gap: 44px;"><label><input type="radio" name="injer_work">Да</label><label><input type="radio" name="injer_work">Нет</label></div>
+                                        <span>Как мы можем к Вам обращаться?</span>
+                                        <input type="text" placeholder="Ввведите имя">
+                                        <span>Укажите контактный номер телефона</span>
+                                        <input type="text" placeholder="+7 (___) ___-__-__">
+                                        <span>Какое оборудование требуется отремонтировать?*</span>
+                                        <textarea placeholder="Тип: Принтер, компьютерная техника (ноутбук, компьютер) и т.д. 
+Модель: HP M225dn/ASUS Laptop 15"></textarea>
+                                        <span>С какой неисправностью Вы столкнулись?</span>
+                                        <textarea placeholder="Описание неисправности"></textarea>
+                                        <span>Укажите удобные для Вас дату и время приезда инженера*</span>
+                                        <div class="d-flex"><input type="date" placeholder="Выберите дату"><input type="time" placeholder="Выберите время"></div>
+                                        <div class="main--forms__panel_table--last">
+                                            Стоимость вызова инженера <span>800 руб*</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex" style="gap: 10px;">
+                                        <a href="#" class="action__btn stroke injer_prev">
+                                            Назад
+                                        </a>
+                                        <a href="#" class="action__btn stroke injer_success">
+                                            Далее
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="main--forms__panel_item">
+                                    <p class="main--forms__panel_caption">
+                                        Запросить обратный звонок
+                                    </p>
+                                    <div class="main--forms__panel_table">
+                                        <span>Как мы можем к Вам обращаться?</span>
+                                        <input type="text" placeholder="Ввведите имя">
+                                        <span>Укажите контактный номер телефона</span>
+                                        <input type="text" placeholder="+7 (___) ___-__-__">
+                                        <span>Какое оборудование требуется отремонтировать?*</span>
+                                        <textarea placeholder="Тип: Принтер, компьютерная техника (ноутбук, компьютер) и т.д. 
+Модель: HP M225dn/ASUS Laptop 15"></textarea>
+                                        <span>С какой неисправностью Вы столкнулись?</span>
+                                        <textarea placeholder="Описание неисправности"></textarea>
+                                        <span>Укажите удобные для Вас дату и время приезда инженера*</span>
+                                        <div class="d-flex"><input type="date" placeholder="Выберите дату"><input type="time" placeholder="Выберите время"></div>
+                                    </div>
+                                    <div class="d-flex" style="gap: 10px;">
+                                        <a href="#" class="action__btn stroke injer_prev">
+                                            Назад
+                                        </a>
+                                        <a href="#" class="action__btn stroke injer_success">
+                                            Далее
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="main--forms__panel_item success">
+                                    <p class="main--forms__panel_caption">
+                                        Ваша заявка на вызов инженера<br>
+                                        - подтверждена!
+                                    </p>
+                                    <span class="main--forms__panel_desc">
+                                        Ожидайте инженера в указанное Вами время.
+                                    </span>
+                                    <a href="#" class="action__btn stroke injer_prev">
+                                        Назад
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="main--forms__panel">
+                            2
+                        </div>
+                        <div class="main--forms__panel">
+                            3
+                        </div>
+                        <div class="main--forms__panel">
+                            4
+                        </div>
+                        <div class="main--forms__info">
+                            <p class="main--forms__info_caption">Есть вопросы или нужна помощь?</p>
+                            <span class="main--forms__info_desc">
+                                Мы всегда рады помочь и ответить на все интересующие вас вопросы.Вы можете задать вопрос
+                                в онлайн-чате или позвонить
+                            </span>
+                            <a href="#" class="action__btn white">
+                                8 800 000-00-79
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="we--products">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__title">Наши товары</div>
+                    <div class="we--products__grid">
+                        <div class="single--product">
+                            <p class="single--product__caption">
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                            </p>
+                            <p class="single--product__sku">Артикул: 5223350000</p>
+                            <img src="img/images/single_product.jpg" width="304" height="198" alt="item" class="single--product__thumb">
+                            <div class="single--product__price" data-old="45 000 ₽">
+                                от 40 000 ₽
+                            </div>
+                            <a href="#" class="action__btn">Купить</a>
+                        </div>
+                        <div class="single--product">
+                            <p class="single--product__caption">
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                            </p>
+                            <p class="single--product__sku">Артикул: 5223350000</p>
+                            <img src="img/images/single_product.jpg" width="304" height="198" alt="item" class="single--product__thumb">
+                            <div class="single--product__price" data-old="45 000 ₽">
+                                от 40 000 ₽
+                            </div>
+                            <a href="#" class="action__btn">Купить</a>
+                        </div>
+                        <div class="single--product">
+                            <p class="single--product__caption">
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                            </p>
+                            <p class="single--product__sku">Артикул: 5223350000</p>
+                            <img src="img/images/single_product.jpg" width="304" height="198" alt="item" class="single--product__thumb">
+                            <div class="single--product__price" data-old="45 000 ₽">
+                                от 40 000 ₽
+                            </div>
+                            <a href="#" class="action__btn">Купить</a>
+                        </div>
+                        <div class="single--product">
+                            <p class="single--product__caption">
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                            </p>
+                            <p class="single--product__sku">Артикул: 5223350000</p>
+                            <img src="img/images/single_product.jpg" width="304" height="198" alt="item" class="single--product__thumb">
+                            <div class="single--product__price" data-old="45 000 ₽">
+                                от 40 000 ₽
+                            </div>
+                            <a href="#" class="action__btn">Купить</a>
+                        </div>
+                        <div class="single--product">
+                            <p class="single--product__caption">
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                            </p>
+                            <p class="single--product__sku">Артикул: 5223350000</p>
+                            <img src="img/images/single_product.jpg" width="304" height="198" alt="item" class="single--product__thumb">
+                            <div class="single--product__price" data-old="45 000 ₽">
+                                от 40 000 ₽
+                            </div>
+                            <a href="#" class="action__btn">Купить</a>
+                        </div>
+                        <div class="single--product">
+                            <p class="single--product__caption">
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                            </p>
+                            <p class="single--product__sku">Артикул: 5223350000</p>
+                            <img src="img/images/single_product.jpg" width="304" height="198" alt="item" class="single--product__thumb">
+                            <div class="single--product__price" data-old="45 000 ₽">
+                                от 40 000 ₽
+                            </div>
+                            <a href="#" class="action__btn">Купить</a>
+                        </div>
+                        <div class="single--product">
+                            <p class="single--product__caption">
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                            </p>
+                            <p class="single--product__sku">Артикул: 5223350000</p>
+                            <img src="img/images/single_product.jpg" width="304" height="198" alt="item" class="single--product__thumb">
+                            <div class="single--product__price" data-old="45 000 ₽">
+                                от 40 000 ₽
+                            </div>
+                            <a href="#" class="action__btn">Купить</a>
+                        </div>
+                        <div class="single--product">
+                            <p class="single--product__caption">
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                                Картридж для ( 56) HP DJ 5550/Photosmart 7150 C6656A (восстановленный) Black (19ml) Unijet
+                            </p>
+                            <p class="single--product__sku">Артикул: 5223350000</p>
+                            <img src="img/images/single_product.jpg" width="304" height="198" alt="item" class="single--product__thumb">
+                            <div class="single--product__price" data-old="45 000 ₽">
+                                от 40 000 ₽
+                            </div>
+                            <a href="#" class="action__btn">Купить</a>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <a href="#" class="action__btn stroke">
+                            Смотреть еще
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="special--banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__title">
+                        Наши предложения
+                    </div>
+                    <div class="special--banner__slider">
+                        <a href="#">
+                            <img src="img/images/special_banner_1.jpg" width="635" height="299" alt="banner">
+                        </a>
+                        <a href="#">
+                            <img src="img/images/special_banner_2.jpg" width="635" height="299" alt="banner">
+                        </a>
+                        <a href="#">
+                            <img src="img/images/special_banner_2.jpg" width="635" height="299" alt="banner">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main--info">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3">
+                    <img src="img/images/logo__red.png" width="196" height="75" alt="logo_red">
+                    <p><b>Сервисное обслуживание копировальной и компьютерной техники:</b></p>
+                    <ul>
+                        <li>Ремонт компьютерной и копировально-печатающей техники; </li>
+                        <li>Продажа картриджей к копировальной техники, принтерам, МФУ, заправка картриджей к лазерным принтерам, копирам, МФУ</li>
+                    </ul>
+                    <a href="#" class="action__btn stroke">
+                        О компании
+                    </a>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <p>За время работы на Российском рынке с копировально-печатающей техникой, мы получили довольно большой опыт. На данный момент, появились компании- производители совместимых картриджей, весьма конкурирующие с компаниями-брендами ведущих производителей расходных материалов и комплектующих копировальных и печатающих аппаратов. Как профессионалы, благодаря опыту мы выделили ряд производителей-конкурентов и предлагаем своим заказчикам как заправку картриджей, так и продажу совместимых картриджей для лазерных аппаратов.</p>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <img src="img/images/main__about.jpg" width="502" height="349" alt="main--about">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main--services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="section__title">Услуги которые мы оказываем: </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <span class="main--services__desc">Цены на мои услуги адекватные и не завышенные, а качество – гарантированно профессиональное. Готов к сотрудничеству как с частными лицами, так и с организациями.</span>
+                </div>
+                <div class="col-12">
+                    <div class="main--services__grid">
+                        <div class="main--services__item">
+                            <img src="img/images/service__thumb.jpg" width="416" height="349" class="main--services__item_thumb" alt="thumb">
+                            <div class="main--services__item_meta">
+                                <span class="main--services__item_caption">Ремонт и обслуживание</span>
+                                <span class="main--services__item_category">Принтеры</span>
+                            </div>
+                            <div class="main--services__item_permalink">
+                                <span class="main--services__item_price">от 10 000 ₽</span>
+                                <a href="#" class="main--services__item_href">Узнать стоимость</a>
+                            </div>
+                        </div>
+                        <div class="main--services__item">
+                            <img src="img/images/service__thumb.jpg" width="416" height="349" class="main--services__item_thumb" alt="thumb">
+                            <div class="main--services__item_meta">
+                                <span class="main--services__item_caption">Ремонт и обслуживание</span>
+                                <span class="main--services__item_category">Принтеры</span>
+                            </div>
+                            <div class="main--services__item_permalink">
+                                <span class="main--services__item_price">от 10 000 ₽</span>
+                                <a href="#" class="main--services__item_href">Узнать стоимость</a>
+                            </div>
+                        </div>
+                        <div class="main--services__item">
+                            <img src="img/images/service__thumb.jpg" width="416" height="349" class="main--services__item_thumb" alt="thumb">
+                            <div class="main--services__item_meta">
+                                <span class="main--services__item_caption">Ремонт и обслуживание</span>
+                                <span class="main--services__item_category">Принтеры</span>
+                            </div>
+                            <div class="main--services__item_permalink">
+                                <span class="main--services__item_price">от 10 000 ₽</span>
+                                <a href="#" class="main--services__item_href">Узнать стоимость</a>
+                            </div>
+                        </div>
+                        <div class="main--services__item">
+                            <img src="img/images/service__thumb.jpg" width="416" height="349" class="main--services__item_thumb" alt="thumb">
+                            <div class="main--services__item_meta">
+                                <span class="main--services__item_caption">Ремонт и обслуживание</span>
+                                <span class="main--services__item_category">Принтеры</span>
+                            </div>
+                            <div class="main--services__item_permalink">
+                                <span class="main--services__item_price">от 10 000 ₽</span>
+                                <a href="#" class="main--services__item_href">Узнать стоимость</a>
+                            </div>
+                        </div>
+                        <div class="main--services__item">
+                            <img src="img/images/service__thumb.jpg" width="416" height="349" class="main--services__item_thumb" alt="thumb">
+                            <div class="main--services__item_meta">
+                                <span class="main--services__item_caption">Ремонт и обслуживание</span>
+                                <span class="main--services__item_category">Принтеры</span>
+                            </div>
+                            <div class="main--services__item_permalink">
+                                <span class="main--services__item_price">от 10 000 ₽</span>
+                                <a href="#" class="main--services__item_href">Узнать стоимость</a>
+                            </div>
+                        </div>
+                        <div class="main--services__item">
+                            <img src="img/images/service__thumb.jpg" width="416" height="349" class="main--services__item_thumb" alt="thumb">
+                            <div class="main--services__item_meta">
+                                <span class="main--services__item_caption">Ремонт и обслуживание</span>
+                                <span class="main--services__item_category">Принтеры</span>
+                            </div>
+                            <div class="main--services__item_permalink">
+                                <span class="main--services__item_price">от 10 000 ₽</span>
+                                <a href="#" class="main--services__item_href">Узнать стоимость</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="action__btn stroke">
+                        Смотреть все услуги
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main--stats">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex align-items-start">
+                        <p class="main--stats__caption">
+                            Высокие стандарты сервиса
+                        </p>
+                        <div class="main--stats__items">
+                            <div class="main--stats__item">
+                                <p class="main--stats__item_caption">25 лет</p>
+                                <span class="main--stats__item_desc">на рынке услуг по технической поддержке компьютерного и офисного оборудования</span>
+                            </div>
+                            <div class="main--stats__item">
+                                <p class="main--stats__item_caption">8</p>
+                                <span class="main--stats__item_desc">сертифицированных инженеров выполняют ремонт техники любой сложности</span>
+                            </div>
+                            <div class="main--stats__item">
+                                <p class="main--stats__item_caption">40+</p>
+                                <span class="main--stats__item_desc">сертифицированных инженеров выполняют ремонт техники любой сложности</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="adventages">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                    <div class="section__title">
+                        Мы продолжаем следовать тому же видению в сегодняшнем сложном, неопределенном мире, работая каждый день
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="adventages__grid">
+                        <div class="adventages__item">
+                            <img src="img/icons/adventages_1.svg" width="28" height="28" alt="" class="adventages__item_icon">
+                            <p class="adventages__item_caption">Более 10 лет на рынке ИТ-услуг </p>
+                            <span class="adventages__item_desc">Компания основана в 2009 году, и успешно развивается на IT-рынке. Мы помогаем компаниям автоматизировать бизнес-процессы, разработать и внедрить информационные системы, создать корпоративные системы управления IT.</span>
+                        </div>
+                        <div class="adventages__item">
+                            <img src="img/icons/adventages_2.svg" width="28" height="28" alt="" class="adventages__item_icon">
+                            <p class="adventages__item_caption">Скорость решения задач</p>
+                            <span class="adventages__item_desc">Компания «ITCORE» в кратчайшие сроки решит все проблемы и задачи, связанные с IT-инфраструктурой организации и поломкой оборудования. Большинство проблем решается либо диагностируется онлайн.</span>
+                        </div>
+                        <div class="adventages__item">
+                            <img src="img/icons/adventages_3.svg" width="28" height="28" alt="" class="adventages__item_icon">
+                            <p class="adventages__item_caption">Собственный сервисный центр</p>
+                            <span class="adventages__item_desc">В сервисном центре «ITCORE» отремонтируем ноутбук, компьютер, монитор, принтер, а также заправить картридж. Специальное оборудование позволяет выполнять сложные виды работ.</span>
+                        </div>
+                        <div class="adventages__item">
+                            <img src="img/icons/adventages_4.svg" width="28" height="28" alt="" class="adventages__item_icon">
+                            <p class="adventages__item_caption">Гарантия качества</p>
+                            <span class="adventages__item_desc">Многолетний опыт, регулярное повышение квалификации и любовь к своему делу позволяют нам предоставлять клиентам гарантию качества.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="we--service">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="section__title white">
+                        Наш сервис
+                    </div>
+                    <span class="we--service__desc">
+                        Мы авторизованный сервисный центр в Краснодаре, предлагаем ремонт принтеров и плоттеров, а также заправку картриджей. Работаем с техникой таких производителей, как Canon, Epson, Brother, HP, Samsung, Xerox, Oki, Kyocera и других марок.
+                    </span>
+                    <div class="we--service__grid">
+                        <div class="we--service__item">
+                            <img src="img/images/we_tools.png" width="196" height="144" alt="service" class="we--service__item_img">
+                            <p class="we--service__item_caption">Наше оборудование</p>
+                            <a href="#" class="action__btn white">
+                                Подробнее
+                            </a>
+                        </div>
+                        <div class="we--service__item">
+                            <img src="img/images/we_sertificates.png" width="196" height="144" alt="service" class="we--service__item_img">
+                            <p class="we--service__item_caption">Наши сертификаты</p>
+                            <a href="#" class="action__btn white">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq--accordion">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__title">
+                        Часто задаваемые вопросы 
+                    </div>
+                    <div class="faq--accordion__item">
+                        <input type="checkbox" id="faq-1" hidden>
+                        <label for="faq-1">Сколько стоит переустановить виндовс и как быстро вы можете это сделать?</label>
+                        <div class="faq--accordion__item_text">
+                            <p>Переустановка операционной системы может выполняться двумя способами в зависимости от поставленной задачи.</p>
+                            <br>
+                            <p><b>Первый способ: с сохранением данных пользователя.</b></p>
+                            <p>При данной работе мы выполняем следующее</p>
+                            <ul>
+                                <li>копируем данные пользователя на отдельный накопитель</li>
+                                <li>переустанавливаем операционную систему</li>
+                                <li>устанавливаем драйверы</li>
+                                <li>выполняем полное обновление операционной системы</li>
+                                <li>устанавливаем стандартное программное обеспечение</li>
+                                <li>проверяем ранее скопированные данные на вирусы</li>
+                                <li>после этого возвращаем данные на новую операционную систему</li>
+                                <li>далее инженер делает окончательную проверку и выдает оборудование. Такая процедура занимает от 1 до 2 рабочих дня и стоит 1500 руб.</li>
+                            </ul>
+                            <br>
+                            <p><b>Второй способ: без сохранения данных</b></p>
+                            <p>При данном способе проводятся следующие работы:</p>
+                            <ul>
+                                <li>удаляются данные находящиеся на оборудовании</li>
+                                <li>устанавливается операционная система</li>
+                                <li>устанавливаются драйверы</li>
+                                <li>далее ставим стандартное программное обеспечение</li>
+                                <li>выполняем обновление операционной системы</li>
+                                <li>после этого инженер делает окончательную проверку и выдает оборудование.</li>
+                            </ul>
+                            <p>Данная процедура занимает от 4 до 8 часов рабочего времени и стоит 1000 рублей.</p>
+                        </div>
+                    </div>
+                    <div class="faq--accordion__item">
+                        <input type="checkbox" id="faq-2" hidden>
+                        <label for="faq-2">Сколько стоит переустановить виндовс и как быстро вы можете это сделать?</label>
+                        <div class="faq--accordion__item_text">
+                            <p>Переустановка операционной системы может выполняться двумя способами в зависимости от поставленной задачи.</p>
+                            <br>
+                            <p><b>Первый способ: с сохранением данных пользователя.</b></p>
+                            <p>При данной работе мы выполняем следующее</p>
+                            <ul>
+                                <li>копируем данные пользователя на отдельный накопитель</li>
+                                <li>переустанавливаем операционную систему</li>
+                                <li>устанавливаем драйверы</li>
+                                <li>выполняем полное обновление операционной системы</li>
+                                <li>устанавливаем стандартное программное обеспечение</li>
+                                <li>проверяем ранее скопированные данные на вирусы</li>
+                                <li>после этого возвращаем данные на новую операционную систему</li>
+                                <li>далее инженер делает окончательную проверку и выдает оборудование. Такая процедура занимает от 1 до 2 рабочих дня и стоит 1500 руб.</li>
+                            </ul>
+                            <br>
+                            <p><b>Второй способ: без сохранения данных</b></p>
+                            <p>При данном способе проводятся следующие работы:</p>
+                            <ul>
+                                <li>удаляются данные находящиеся на оборудовании</li>
+                                <li>устанавливается операционная система</li>
+                                <li>устанавливаются драйверы</li>
+                                <li>далее ставим стандартное программное обеспечение</li>
+                                <li>выполняем обновление операционной системы</li>
+                                <li>после этого инженер делает окончательную проверку и выдает оборудование.</li>
+                            </ul>
+                            <p>Данная процедура занимает от 4 до 8 часов рабочего времени и стоит 1000 рублей.</p>
+                        </div>
+                    </div>
+                    <div class="faq--accordion__item">
+                        <input type="checkbox" id="faq-3" hidden>
+                        <label for="faq-3">Сколько стоит переустановить виндовс и как быстро вы можете это сделать?</label>
+                        <div class="faq--accordion__item_text">
+                            <p>Переустановка операционной системы может выполняться двумя способами в зависимости от поставленной задачи.</p>
+                            <br>
+                            <p><b>Первый способ: с сохранением данных пользователя.</b></p>
+                            <p>При данной работе мы выполняем следующее</p>
+                            <ul>
+                                <li>копируем данные пользователя на отдельный накопитель</li>
+                                <li>переустанавливаем операционную систему</li>
+                                <li>устанавливаем драйверы</li>
+                                <li>выполняем полное обновление операционной системы</li>
+                                <li>устанавливаем стандартное программное обеспечение</li>
+                                <li>проверяем ранее скопированные данные на вирусы</li>
+                                <li>после этого возвращаем данные на новую операционную систему</li>
+                                <li>далее инженер делает окончательную проверку и выдает оборудование. Такая процедура занимает от 1 до 2 рабочих дня и стоит 1500 руб.</li>
+                            </ul>
+                            <br>
+                            <p><b>Второй способ: без сохранения данных</b></p>
+                            <p>При данном способе проводятся следующие работы:</p>
+                            <ul>
+                                <li>удаляются данные находящиеся на оборудовании</li>
+                                <li>устанавливается операционная система</li>
+                                <li>устанавливаются драйверы</li>
+                                <li>далее ставим стандартное программное обеспечение</li>
+                                <li>выполняем обновление операционной системы</li>
+                                <li>после этого инженер делает окончательную проверку и выдает оборудование.</li>
+                            </ul>
+                            <p>Данная процедура занимает от 4 до 8 часов рабочего времени и стоит 1000 рублей.</p>
+                        </div>
+                    </div>
+                    <div class="faq--accordion__item">
+                        <input type="checkbox" id="faq-4" hidden>
+                        <label for="faq-4">Сколько стоит переустановить виндовс и как быстро вы можете это сделать?</label>
+                        <div class="faq--accordion__item_text">
+                            <p>Переустановка операционной системы может выполняться двумя способами в зависимости от поставленной задачи.</p>
+                            <br>
+                            <p><b>Первый способ: с сохранением данных пользователя.</b></p>
+                            <p>При данной работе мы выполняем следующее</p>
+                            <ul>
+                                <li>копируем данные пользователя на отдельный накопитель</li>
+                                <li>переустанавливаем операционную систему</li>
+                                <li>устанавливаем драйверы</li>
+                                <li>выполняем полное обновление операционной системы</li>
+                                <li>устанавливаем стандартное программное обеспечение</li>
+                                <li>проверяем ранее скопированные данные на вирусы</li>
+                                <li>после этого возвращаем данные на новую операционную систему</li>
+                                <li>далее инженер делает окончательную проверку и выдает оборудование. Такая процедура занимает от 1 до 2 рабочих дня и стоит 1500 руб.</li>
+                            </ul>
+                            <br>
+                            <p><b>Второй способ: без сохранения данных</b></p>
+                            <p>При данном способе проводятся следующие работы:</p>
+                            <ul>
+                                <li>удаляются данные находящиеся на оборудовании</li>
+                                <li>устанавливается операционная система</li>
+                                <li>устанавливаются драйверы</li>
+                                <li>далее ставим стандартное программное обеспечение</li>
+                                <li>выполняем обновление операционной системы</li>
+                                <li>после этого инженер делает окончательную проверку и выдает оборудование.</li>
+                            </ul>
+                            <p>Данная процедура занимает от 4 до 8 часов рабочего времени и стоит 1000 рублей.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="manufactures">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__title">
+                        45 производителей IT-оборудования доверили<br>нам право выполнять гарантийный ремонт
+                    </div>
+                    <div class="manufactures__slider">
+                        <img src="img/images/manufacture.png" width="196" height="93" alt="gachiman">
+                        <img src="img/images/manufacture.png" width="196" height="93" alt="gachiman">
+                        <img src="img/images/manufacture.png" width="196" height="93" alt="gachiman">
+                        <img src="img/images/manufacture.png" width="196" height="93" alt="gachiman">
+                        <img src="img/images/manufacture.png" width="196" height="93" alt="gachiman">
+                        <img src="img/images/manufacture.png" width="196" height="93" alt="gachiman">
+                        <img src="img/images/manufacture.png" width="196" height="93" alt="gachiman">
+                        <img src="img/images/manufacture.png" width="196" height="93" alt="gachiman">
+                        <img src="img/images/manufacture.png" width="196" height="93" alt="gachiman">
+                        <img src="img/images/manufacture.png" width="196" height="93" alt="gachiman">
+                        <img src="img/images/manufacture.png" width="196" height="93" alt="gachiman">
+                        <img src="img/images/manufacture.png" width="196" height="93" alt="gachiman">
+                        <img src="img/images/manufacture.png" width="196" height="93" alt="gachiman">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map--wrapper">
+        <div class="container">
+            <div class="row flex-column-reverse flex-lg-row">
+                <div class="col-12 col-lg-3">
+                    <div class="map--wrapper__office">
+                        <a href="#" class="map--wrapper__office_btn">
+                            Наши офисы
+                        </a>
+                        <ul class="map--wrapper__office_list">
+                            <li data-coords="45.035470, 38.975313"><a href="#">Краснодар</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9">
+                    <div class="d-flex flex-column flex-lg-row align-items-center h-100">
+                        <p class="map--wrapper__caption">
+                            Мы всегда рады помочь и ответить<br>
+                            на все интересующие вас вопросы
+                        </p>
+                        <form action="">
+                            <input type="text" placeholder="Ваш телефон">
+                            <input type="submit" value="Позвонить вам">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="map" class="map--wrapper__canvas"></div>
+    </section>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ваш API-ключ>" type="text/javascript"></script>
+    <script>
+        ymaps.ready(()=>{
+            var myMap = new ymaps.Map("map",{
+                center: [45.035470, 38.975313],
+                zoom: 17,
+                controls: []
+            });
+            document.querySelectorAll(".map--wrapper__office_list li").forEach(item => {
+                let coords = item.getAttribute("data-coords").split(",");
+                myMap.geoObjects.add(new ymaps.Placemark(coords,{},{iconColor: 'red'}));
+                item.onclick = () => {
+                    myMap.setCenter(coords, 17);
+                    return false;
+                }
+            });
+        });
+    </script>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-2">
+                    <a href="" class="footer__logo">
+                        <img src="img/logo/logo_white.png" width="196" height="75" alt="footer_logo" class="footer__logo_img">
+                    </a>
+                    <a href="#" class="footer__phone">
+                        <img src="img/icons/phone--circle__lightgrey.svg" width="" height="" alt="circle-phone">
+                        <span>
+                            <span>+7 800 800-00-00</span>
+                            <span>Связаться с нами!</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <p class="footer__caption">Главная</p>
+                    <ul>
+                        <li>
+                            <a href="#">Услуги</a>
+                        </li>
+                        <li>
+                            <a href="#">Каталог товаров</a>
+                        </li>
+                        <li>
+                            <a href="#">О компании</a>
+                        </li>
+                        <li>
+                            <a href="#">Доставка и оплата</a>
+                        </li>
+                        <li>
+                            <a href="#">Оборудование</a>
+                        </li>
+                        <li>
+                            <a href="#">Новости</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <p class="footer__caption">Контакты</p>
+                    <ul>
+                        <li>
+                            <img src="img/icons/mail_lightgrey.svg" width="15" height="15" alt="mail">
+                            <ul>
+                                <li>
+                                    <a href="#">zakaz@bcc.ru</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <img src="img/icons/phone_lightgrey.svg" width="15" height="15" alt="phone">
+                            <ul>
+                                <li>
+                                    <a href="#">+7 800 800-00-18</a>
+                                </li>
+                                <li>
+                                    <a href="#">+7 800 800-00-18</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <p class="footer__caption mini">Адрес:</p>
+                    <span class="footer__address">
+                        196158, город Краснодар, Московское шоссе, дом 13 литер АЩ, помещение 3Н п26
+                    </span>
+                    <p class="footer__caption mini">Мы работаем:</p>
+                    <span class="footer__jobtime">
+                        С 10:00 до 19:00
+                    </span>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <p class="footer__caption">Будь вкурсе</p>
+                    <span class="footer__desc">
+                        Подпишитесь на рассылку новостей и будте вкурсе последних собитий компании
+                    </span>
+                    <form>
+                        <input type="text" placeholder="E-mail">
+                        <input type="submit" hidden>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

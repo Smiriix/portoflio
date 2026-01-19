@@ -1,0 +1,39 @@
+<div class="modal--wrapper__panel modal--wrapper__panel_delivery">
+    <div class="modal--wrapper__close"></div>
+    <div id="map"></div>
+    <div class="modal--wrapper__panel_delivery--data">
+        <p class="modal--wrapper__panel_delivery--caption">Условия доставки</p>
+        <span class="modal--wrapper__panel_delivery--desc">Внимание! Ассортимент и цены могут
+            отличаться — доставки от ресторана. Подача блюд на доставке может отличаться от подачи
+            блюд в ресторане. Время и районы доставки уточняйте у оператора</span>
+        <span class="modal--wrapper__panel_delivery--jobtime">
+            <b>Время работы доставки:</b>
+            <span>Ежедневно <br>С 10:00 до 22:00</span>
+        </span>
+        <b>Условия доставки:</b>
+        <ul class="modal--wrapper__panel_delivery--adventages">
+            <li><span>Готовим из свежих и качественных продуктов</span></li>
+            <li><span>Упаковываем с любовью</span></li>
+            <li><span>Доставляем быстро (до 90 мин.)</span></li>
+        </ul>
+    </div>
+    <p class="modal--wrapper__panel_delivery--min">
+        Минимальная сумма заказа 3000 руб.
+    </p>
+    <a href="#" class="action__btn">
+        Оформить
+    </a>
+</div>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ваш API-ключ>"
+    type="text/javascript"></script>
+<script>
+    ymaps.ready(() => {
+        var myMap = new ymaps.Map("map", {
+            center: [0, 0],
+            zoom: 17,
+            controls: []
+        });
+
+        myMap.geoObjects.add(new ymaps.Placemark([0, 0], {}, { iconColor: "#BE9600" }));
+    });
+</script>

@@ -1,0 +1,6 @@
+.rekvizits table td {
+    padding-bottom: 10px;
+}
+.rekvizits table td:first-child {
+    font-weight: bold;
+}

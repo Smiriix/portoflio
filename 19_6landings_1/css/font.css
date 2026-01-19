@@ -1,0 +1,53 @@
+/* Cochin */
+@font-face {
+    font-family: 'Cochin LT Std';
+    src: url('../assets/fonts/Cochin/CochinLTStd-Italic.eot');
+    src: local('Cochin LT Std Italic'), local('CochinLTStd-Italic'),
+        url('../assets/fonts/Cochin/CochinLTStd-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Cochin/CochinLTStd-Italic.woff2') format('woff2'),
+        url('../assets/fonts/Cochin/CochinLTStd-Italic.woff') format('woff'),
+        url('../assets/fonts/Cochin/CochinLTStd-Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cochin LT Std';
+    src: url('../assets/fonts/Cochin/CochinLTStd-Bold.eot');
+    src: local('Cochin LT Std Bold'), local('CochinLTStd-Bold'),
+        url('../assets/fonts/Cochin/CochinLTStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Cochin/CochinLTStd-Bold.woff2') format('woff2'),
+        url('../assets/fonts/Cochin/CochinLTStd-Bold.woff') format('woff'),
+        url('../assets/fonts/Cochin/CochinLTStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cochin LT Std';
+    src: url('../assets/fonts/Cochin/CochinLTStd.eot');
+    src: local('Cochin LT Std Roman'), local('CochinLTStd'),
+        url('../assets/fonts/Cochin/CochinLTStd.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Cochin/CochinLTStd.woff2') format('woff2'),
+        url('../assets/fonts/Cochin/CochinLTStd.woff') format('woff'),
+        url('../assets/fonts/Cochin/CochinLTStd.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cochin LT Std';
+    src: url('../assets/fonts/Cochin/CochinLTStd-BoldItalic.eot');
+    src: local('Cochin LT Std Bold Italic'), local('CochinLTStd-BoldItalic'),
+        url('../assets/fonts/Cochin/CochinLTStd-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Cochin/CochinLTStd-BoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/Cochin/CochinLTStd-BoldItalic.woff') format('woff'),
+        url('../assets/fonts/Cochin/CochinLTStd-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+

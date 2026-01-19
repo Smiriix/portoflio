@@ -1,0 +1,401 @@
+/* Lato */
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('../fonts/Lato/Lato-Hairline.eot');
+    src: local('Lato Hairline'), local('Lato-Hairline'),
+        url('../fonts/Lato/Lato-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-Hairline.woff') format('woff'),
+        url('../fonts/Lato/Lato-Hairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Heavy.eot');
+    src: local('Lato Heavy'), local('Lato-Heavy'),
+        url('../fonts/Lato/Lato-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-Heavy.woff') format('woff'),
+        url('../fonts/Lato/Lato-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-HeavyItalic.eot');
+    src: local('Lato Heavy Italic'), local('Lato-HeavyItalic'),
+        url('../fonts/Lato/Lato-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-HeavyItalic.woff') format('woff'),
+        url('../fonts/Lato/Lato-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Regular.eot');
+    src: local('Lato Regular'), local('Lato-Regular'),
+        url('../fonts/Lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-Regular.woff') format('woff'),
+        url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Black.eot');
+    src: local('Lato Black'), local('Lato-Black'),
+        url('../fonts/Lato/Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-Black.woff') format('woff'),
+        url('../fonts/Lato/Lato-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-SemiboldItalic.eot');
+    src: local('Lato Semibold Italic'), local('Lato-SemiboldItalic'),
+        url('../fonts/Lato/Lato-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-SemiboldItalic.woff') format('woff'),
+        url('../fonts/Lato/Lato-SemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-BlackItalic.eot');
+    src: local('Lato Black Italic'), local('Lato-BlackItalic'),
+        url('../fonts/Lato/Lato-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-BlackItalic.woff') format('woff'),
+        url('../fonts/Lato/Lato-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('../fonts/Lato/Lato-HairlineItalic.eot');
+    src: local('Lato Hairline Italic'), local('Lato-HairlineItalic'),
+        url('../fonts/Lato/Lato-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-HairlineItalic.woff') format('woff'),
+        url('../fonts/Lato/Lato-HairlineItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-MediumItalic.eot');
+    src: local('Lato Medium Italic'), local('Lato-MediumItalic'),
+        url('../fonts/Lato/Lato-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-MediumItalic.woff') format('woff'),
+        url('../fonts/Lato/Lato-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-ThinItalic.eot');
+    src: local('Lato Thin Italic'), local('Lato-ThinItalic'),
+        url('../fonts/Lato/Lato-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-ThinItalic.woff') format('woff'),
+        url('../fonts/Lato/Lato-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Thin.eot');
+    src: local('Lato Thin'), local('Lato-Thin'),
+        url('../fonts/Lato/Lato-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-Thin.woff') format('woff'),
+        url('../fonts/Lato/Lato-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Medium.eot');
+    src: local('Lato Medium'), local('Lato-Medium'),
+        url('../fonts/Lato/Lato-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-Medium.woff') format('woff'),
+        url('../fonts/Lato/Lato-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Italic.eot');
+    src: local('Lato Italic'), local('Lato-Italic'),
+        url('../fonts/Lato/Lato-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-Italic.woff') format('woff'),
+        url('../fonts/Lato/Lato-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Semibold.eot');
+    src: local('Lato Semibold'), local('Lato-Semibold'),
+        url('../fonts/Lato/Lato-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-Semibold.woff') format('woff'),
+        url('../fonts/Lato/Lato-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Bold.eot');
+    src: local('Lato Bold'), local('Lato-Bold'),
+        url('../fonts/Lato/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-Bold.woff') format('woff'),
+        url('../fonts/Lato/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-BoldItalic.eot');
+    src: local('Lato Bold Italic'), local('Lato-BoldItalic'),
+        url('../fonts/Lato/Lato-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-BoldItalic.woff') format('woff'),
+        url('../fonts/Lato/Lato-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-LightItalic.eot');
+    src: local('Lato Light Italic'), local('Lato-LightItalic'),
+        url('../fonts/Lato/Lato-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-LightItalic.woff') format('woff'),
+        url('../fonts/Lato/Lato-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Light.eot');
+    src: local('Lato Light'), local('Lato-Light'),
+        url('../fonts/Lato/Lato-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato/Lato-Light.woff') format('woff'),
+        url('../fonts/Lato/Lato-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+
+/* Exo */
+
+@font-face {
+	font-family: 'Exo 2.0';
+	src: url('../fonts/Exo/Exo20-Regular.eot');
+	src: local('Exo 2.0 Regular'), local('Exo2.0-Regular'),
+		url('../fonts/Exo/Exo20-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-Regular.woff') format('woff'),
+		url('../fonts/Exo/Exo20-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Exo 2.0';
+	src: url('../fonts/Exo/Exo20-LightItalic.eot');
+	src: local('Exo 2.0 Light Italic'), local('Exo2.0-LightItalic'),
+		url('../fonts/Exo/Exo20-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-LightItalic.woff') format('woff'),
+		url('../fonts/Exo/Exo20-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Exo 2.0';
+	src: url('../fonts/Exo/Exo20-Medium.eot');
+	src: local('Exo 2.0 Medium'), local('Exo2.0-Medium'),
+		url('../fonts/Exo/Exo20-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-Medium.woff') format('woff'),
+		url('../fonts/Exo/Exo20-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Exo 2.0';
+	src: url('../fonts/Exo/Exo20-Thin.eot');
+	src: local('Exo 2.0 Thin'), local('Exo2.0-Thin'),
+		url('../fonts/Exo/Exo20-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-Thin.woff') format('woff'),
+		url('../fonts/Exo/Exo20-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Exo 2.0 Extra';
+	src: url('../fonts/Exo/Exo20-ExtraLight.eot');
+	src: local('Exo 2.0 Extra Light'), local('Exo2.0-ExtraLight'),
+		url('../fonts/Exo/Exo20-ExtraLight.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-ExtraLight.woff') format('woff'),
+		url('../fonts/Exo/Exo20-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Exo 2.0';
+	src: url('../fonts/Exo/Exo20-ThinItalic.eot');
+	src: local('Exo 2.0 Thin Italic'), local('Exo2.0-ThinItalic'),
+		url('../fonts/Exo/Exo20-ThinItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-ThinItalic.woff') format('woff'),
+		url('../fonts/Exo/Exo20-ThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Exo 2.0';
+	src: url('../fonts/Exo/Exo20-MediumItalic.eot');
+	src: local('Exo 2.0 Medium Italic'), local('Exo2.0-MediumItalic'),
+		url('../fonts/Exo/Exo20-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-MediumItalic.woff') format('woff'),
+		url('../fonts/Exo/Exo20-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Exo 2.0 Extra';
+	src: url('../fonts/Exo/Exo20-ExtraBoldItalic.eot');
+	src: local('Exo 2.0 Extra Bold Italic'), local('Exo2.0-ExtraBoldItalic'),
+		url('../fonts/Exo/Exo20-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-ExtraBoldItalic.woff') format('woff'),
+		url('../fonts/Exo/Exo20-ExtraBoldItalic.ttf') format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Exo 2.0 Extra';
+	src: url('../fonts/Exo/Exo20-ExtraLightItalic.eot');
+	src: local('Exo 2.0 Extra Light Italic'), local('Exo2.0-ExtraLightItalic'),
+		url('../fonts/Exo/Exo20-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-ExtraLightItalic.woff') format('woff'),
+		url('../fonts/Exo/Exo20-ExtraLightItalic.ttf') format('truetype');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Exo 2.0';
+	src: url('../fonts/Exo/Exo20-Bold.eot');
+	src: local('Exo 2.0 Bold'), local('Exo2.0-Bold'),
+		url('../fonts/Exo/Exo20-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-Bold.woff') format('woff'),
+		url('../fonts/Exo/Exo20-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Exo 2.0';
+	src: url('../fonts/Exo/Exo20-BoldItalic.eot');
+	src: local('Exo 2.0 Bold Italic'), local('Exo2.0-BoldItalic'),
+		url('../fonts/Exo/Exo20-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-BoldItalic.woff') format('woff'),
+		url('../fonts/Exo/Exo20-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Exo 2.0';
+	src: url('../fonts/Exo/Exo20-Italic.eot');
+	src: local('Exo 2.0 Italic'), local('Exo2.0-Italic'),
+		url('../fonts/Exo/Exo20-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-Italic.woff') format('woff'),
+		url('../fonts/Exo/Exo20-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Exo 2.0';
+	src: url('../fonts/Exo/Exo20-BlackItalic.eot');
+	src: local('Exo 2.0 Black Italic'), local('Exo2.0-BlackItalic'),
+		url('../fonts/Exo/Exo20-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-BlackItalic.woff') format('woff'),
+		url('../fonts/Exo/Exo20-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Exo 2.0 Semi';
+	src: url('../fonts/Exo/Exo20-SemiBold.eot');
+	src: local('Exo 2.0 Semi Bold'), local('Exo2.0-SemiBold'),
+		url('../fonts/Exo/Exo20-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-SemiBold.woff') format('woff'),
+		url('../fonts/Exo/Exo20-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Exo 2.0';
+	src: url('../fonts/Exo/Exo20-Light.eot');
+	src: local('Exo 2.0 Light'), local('Exo2.0-Light'),
+		url('../fonts/Exo/Exo20-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-Light.woff') format('woff'),
+		url('../fonts/Exo/Exo20-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Exo 2.0';
+	src: url('../fonts/Exo/Exo20-Black.eot');
+	src: local('Exo 2.0 Black'), local('Exo2.0-Black'),
+		url('../fonts/Exo/Exo20-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-Black.woff') format('woff'),
+		url('../fonts/Exo/Exo20-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Exo 2.0 Semi';
+	src: url('../fonts/Exo/Exo20-SemiBoldItalic.eot');
+	src: local('Exo 2.0 Semi Bold Italic'), local('Exo2.0-SemiBoldItalic'),
+		url('../fonts/Exo/Exo20-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-SemiBoldItalic.woff') format('woff'),
+		url('../fonts/Exo/Exo20-SemiBoldItalic.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Exo 2.0 Extra';
+	src: url('../fonts/Exo/Exo20-ExtraBold.eot');
+	src: local('Exo 2.0 Extra Bold'), local('Exo2.0-ExtraBold'),
+		url('../fonts/Exo/Exo20-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo/Exo20-ExtraBold.woff') format('woff'),
+		url('../fonts/Exo/Exo20-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}

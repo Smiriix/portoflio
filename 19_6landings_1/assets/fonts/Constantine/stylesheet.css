@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Constantine';
+    src:url('Constantine.ttf.woff') format('woff'),
+        url('Constantine.ttf.svg#Constantine') format('svg'),
+        url('Constantine.ttf.eot'),
+        url('Constantine.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}

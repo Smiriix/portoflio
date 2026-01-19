@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аквахим</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a href="" class="header__logo">
+                        <img src="img/logo/logo.png" alt="header-logo" width="274" height="58" class="header__logo_img">
+                    </a>
+                    <div class="header_desc">Продажа ХИМИЧЕСКИХ РЕАКТИВОВ</div>
+                    <form class="header__form d-none d-lg-flex">
+                        <input type="text" name="" placeholder="Search for products" class="header__form_input">
+                        <input type="submit" value="" class="header__form_btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <ul class="header__nav d-none d-lg-flex">
+                        <li class="active">
+                            <a href="#">КАТАЛОГ</a>
+                            <ul>
+                                <li><a href="#"><span class="header__nav_img"
+                                            style="--static: url('../img/icons/menu__item.png'); --hover: url('../img/icons/menu_item.gif');"></span>
+                                        <span>Водоподготовка, котлоочистка и дезинфекция</span></a></li>
+                                <li><a href="#"><span class="header__nav_img"
+                                            style="--static: url('../img/icons/menu__item.png'); --hover: url('../img/icons/menu_item.gif');"></span>
+                                        <span>Промышленная и пищевая химия</span></a></li>
+                                <li><a href="#"><span class="header__nav_img"
+                                            style="--static: url('../img/icons/menu__item.png'); --hover: url('../img/icons/menu_item.gif');"></span>
+                                        <span>Кислоты, щелочи и их растворы</span></a></li>
+                                <li><a href="#"><span class="header__nav_img"
+                                            style="--static: url('../img/icons/menu__item.png'); --hover: url('../img/icons/menu_item.gif');"></span>
+                                        <span>Химия для бассейнов</span></a></li>
+                                <li><a href="#"><span class="header__nav_img"
+                                            style="--static: url('../img/icons/menu__item.png'); --hover: url('../img/icons/menu_item.gif');"></span>
+                                        <span>Пищевые добавки</span></a></li>
+                                <li><a href="#"><span class="header__nav_img"
+                                            style="--static: url('../img/icons/menu__item.png'); --hover: url('../img/icons/menu_item.gif');"></span>
+                                        <span>Химреагенты для очистных сооружений</span></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">О НАС</a></li>
+                        <li><a href="#">ОПЛАТА И ДОСТАВКА</a></li>
+                        <li><a href="#">КОНТАКТЫ</a></li>
+                    </ul>
+                    <div class="header__contacts d-none d-lg-flex align-items-center">
+                        <img src="img/icons/headphone_black.svg" alt="headerphone-black" width="34" height="34"
+                            class="header__contacts_img">
+                        <div class="header__contacts_data d-flex flex-column">
+                            <a href="#ordercall" class="header__contacts_modal showmodal">Обратная связь</a>
+                            <a href="#" class="header__contacts_phone">+7 (495) 544-76-82</a>
+                            <a href="#" class="header__contacts_mail">mail@aqvahim.ru</a>
+                        </div>
+                    </div>
+                    <form class="header__form d-flex d-lg-none">
+                        <input type="text" name="" placeholder="Search for products" class="header__form_input">
+                        <input type="submit" value="" class="header__form_btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="mobilemenu d-lg-none">
+        <ul class="mobilemenu__nav">
+            <li>
+                <a href="#">Каталог</a>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="mobilemenu_img" style="--static: url('../img/icons/menu__item.png')"></span>
+                            <span>Водоподготовка, котлоочистка и дезинфекция</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="mobilemenu_img" style="--static: url('../img/icons/menu__item.png')"></span>
+                            <span>Промышленная и пищевая химия</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="mobilemenu_img" style="--static: url('../img/icons/menu__item.png')"></span>
+                            <span>Кислоты, щелочи и их растворы</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="mobilemenu_img" style="--static: url('../img/icons/menu__item.png')"></span>
+                            <span>Химия для бассейнов</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="mobilemenu_img" style="--static: url('../img/icons/menu__item.png')"></span>
+                            <span>Пищевые добавки</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="mobilemenu_img" style="--static: url('../img/icons/menu__item.png')"></span>
+                            <span>Химреагенты для очистных сооружений</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">О нас</a>
+            </li>
+            <li>
+                <a href="#">Оплата и доставка</a>
+            </li>
+            <li>
+                <a href="#">Контакты</a>
+            </li>
+        </ul>
+        <div class="mobilemenu__callback">
+            <div class="mobilemenu__callback_close">
+                &times;
+            </div>
+            <p class="mobilemenu__callback_caption">Свяжитесь с нами</p>
+            <span class="mobilemenu__callback_desc">Добрый день! Выберите удобный способ для связи с нами.</span>
+            <label>
+                <input type="radio" name="callback"><span>Позвонить нам</span>
+                <a href="#">
+                    <img src="img/icons/contact_phone.svg" width="17" height="17" alt="mobile-phone">
+                    +7 (495) 544-76-82
+                </a>
+                <hr>
+            </label>
+            <label>
+                <input type="radio" name="callback"><span>Позвоните мне</span>
+                <span class="desc">Введи свое имя и номер телефона для того, чтобы мы смогли связаться с Вами.</span>
+                <form>
+                    <span><input type="text" placeholder="* Ваше имя"></span>
+                    <span><input type="text" placeholder="* Ваш номер телефона"></span>
+                    <label>
+                        <input type="checkbox"> Я согласен с <b>политикой</b> конфиденциальности
+                    </label>
+                    <input type="submit">
+                </form>
+                <hr>
+            </label>
+            <label>
+                <input type="radio" name="callback"><span>Написать письмо</span>
+                <span class="desc">
+                    Введи свои данные для того, чтобы мы смогли ответить Вам.<br>
+                    Или напишите нам на почту:
+                </span>
+                <a href="mailto:mail@aqvahim.ru">
+                    <img src="img/icons/contact_mail.svg" width="17" height="17" alt="mobile-mail">
+                    mail@aqvahim.ru
+                </a>
+                <form>
+                    <span><input type="text" placeholder="* Ваше имя"></span>
+                    <span><input type="text" placeholder="* Ваш e-mail"></span>
+                    <span><textarea placeholder="* Сообщение"></textarea></span>
+                    <label>
+                        <input type="checkbox"> Я согласен с <b>политикой</b> конфиденциальности
+                    </label>
+                    <input type="submit">
+                </form>
+            </label>
+        </div>
+        <a href="#" class="callback" id="mobileCallback">
+            <img src="img/icons/headphone_white.svg" width="21" height="21" alt="">
+            Связаться
+        </a>
+        <a href="#" id="mobileMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <a href="#" class="order" id="mobileOrder">
+            <img src="img/icons/order_white.svg" width="21" height="21" alt="order-white">
+            Заказать
+        </a>
+    </div>
+    <div class="modalwrapper d-lg-flex align-items-center justify-content-center" id="ordercall">
+        <div class="modalwrapper__panel">
+            <div class="modalwrapper__close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 2L22 22M2 22L22 2" stroke="#202020" stroke-width="4" />
+                </svg>
+            </div>
+            <p class="modalwrapper__title">Есть вопросы? Задавайте!</p>
+            <span class="modalwrapper__desc">
+                Добрый день! Укажите химреагент, нужное количество,<br>
+                желаемую фасовку.<br>
+                Если нужна доставка, укажите адрес.
+            </span>
+            <form>
+                <span><textarea placeholder="* Сообщение"></textarea></span>
+                <span>
+                    <input type="text" placeholder="Ваше имя">
+                </span>
+                <span>
+                    <input type="text" placeholder="* Ваш e-mail">
+                </span>
+                <span>
+                    <input type="text" placeholder="Ваш номер телефона">
+                </span>
+                <label class="modalwrapper__file">
+                    Прикрепить реквизиты
+                    <input type="file" hidden>
+                </label>
+                <label class="modalwrapper__check">
+                    <input type="checkbox">
+                    Я согласен с <b>политикой</b> конфиденциальности
+                </label>
+                <input type="submit" value="Отправить">
+            </form>
+
+        </div>
+    </div>
+    <!-- Header -->
+    <section class="mainbanner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mainbanner__slider">
+                        <div class="mainbanner__slide" style="background-image: url('img/images/main__banner.jpg')">
+                            <p class="mainbanner__suptitle">Ваш надежный<br>поставщик химии</p>
+                            <h1 class="mainbanner__title">Аква<span>хим</span></h1>
+                            <span class="mainbanner__desc">Широкий выбор химических реактивов для различных<br> отраслей
+                                промышленности</span>
+                        </div>
+                        <div class="mainbanner__slide" style="background-image: url('img/images/main__banner.jpg')">
+                            <p class="mainbanner__suptitle">Ваш надежный<br>поставщик химии</p>
+                            <h1 class="mainbanner__title">Аква<span>хим</span></h1>
+                            <span class="mainbanner__desc">Широкий выбор химических реактивов для различных<br> отраслей
+                                промышленности</span>
+                        </div>
+                        <div class="mainbanner__slide" style="background-image: url('img/images/main__banner.jpg')">
+                            <p class="mainbanner__suptitle">Ваш надежный<br>поставщик химии</p>
+                            <h1 class="mainbanner__title">Аква<span>хим</span></h1>
+                            <span class="mainbanner__desc">Широкий выбор химических реактивов для различных<br> отраслей
+                                промышленности</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="advantages__grid">
+                        <div class="advantages__item" style="background-image: url('img/images/advantages_1.png')">
+                            <p class="advantages__item_name">Высокое качество</p>
+                            <span class="advantages__item_desc">
+                                Работая напрямую с<br>
+                                производителями по всему<br>
+                                миру, мы обеспечиваем наших<br>
+                                партнеров химической<br>
+                                продукцией высокого качества
+                            </span>
+                        </div>
+                        <div class="advantages__item" style="background-image: url('img/images/advantages_2.png')">
+                            <p class="advantages__item_name">Выгодные цены</p>
+                            <span class="advantages__item_desc">
+                                При изначально низких<br>
+                                ценах, предоставляем<br>
+                                значительные скидки в<br>
+                                зависимости от объема<br>
+                                закупаемой продукции
+                            </span>
+                        </div>
+                        <div class="advantages__item" style="background-image: url('img/images/advantages_3.png')">
+                            <p class="advantages__item_name">Быстрая отгрузка</p>
+                            <span class="advantages__item_desc">
+                                Четкая работа наших<br>
+                                складов позволяет<br>
+                                осуществлять отгрузку<br>
+                                продукции в <br>
+                                кратчайшие сроки
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="popular--items">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex align-items-center justify-content-between popular--items__top">
+                        <p class="popular--items__caption">
+                            Популярные товары
+                        </p>
+                        <a href="#" class="popular--items__btn d-none d-md-block">
+                            перейти в каталог всех товаров
+                        </a>
+                    </div>
+                    <div class="popular--items__slider">
+                        <div class="product__single">
+                            <a href="#">
+                                <img src="img/images/product__thumb.jpg" width="350" height="348" alt="product-img"
+                                    class="product__single_img">
+                                <p class="product__single_caption">Аквааурат 10, канистры 20 л</p>
+                                <p class="product__single_price">от 50 ₽/кг</p>
+                            </a>
+                            <a href="#ordercall" class="product__single_order showmodal">Заказать</a>
+                            <a href="#" class="product__single_desc">Описание товара</a>
+                        </div>
+                        <div class="product__single">
+                            <a href="#">
+                                <img src="img/images/product__thumb.jpg" width="350" height="348" alt="product-img"
+                                    class="product__single_img">
+                                <p class="product__single_caption">Аквааурат 10, канистры 20 л</p>
+                                <p class="product__single_price">от 50 ₽/кг</p>
+                            </a>
+                            <a href="#ordercall" class="product__single_order showmodal">Заказать</a>
+                            <a href="#" class="product__single_desc">Описание товара</a>
+                        </div>
+                        <div class="product__single">
+                            <a href="#">
+                                <img src="img/images/product__thumb.jpg" width="350" height="348" alt="product-img"
+                                    class="product__single_img">
+                                <p class="product__single_caption">Аквааурат 10, канистры 20 л</p>
+                                <p class="product__single_price">от 50 ₽/кг</p>
+                            </a>
+                            <a href="#ordercall" class="product__single_order showmodal">Заказать</a>
+                            <a href="#" class="product__single_desc">Описание товара</a>
+                        </div>
+                        <div class="product__single">
+                            <a href="#">
+                                <img src="img/images/product__thumb.jpg" width="350" height="348" alt="product-img"
+                                    class="product__single_img">
+                                <p class="product__single_caption">Аквааурат 10, канистры 20 л</p>
+                                <p class="product__single_price">от 50 ₽/кг</p>
+                            </a>
+                            <a href="#ordercall" class="product__single_order showmodal">Заказать</a>
+                            <a href="#" class="product__single_desc">Описание товара</a>
+                        </div>
+                    </div>
+                    <div class="d-flex d-md-none">
+                        <a href="#" class="popular--items__btn">
+                            перейти в каталог всех товаров
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#ordercall" class="footer__btn showmodal">
+            <img src="img/icons/order_white.svg" width="24" height="24" alt="cart">
+            Заказать
+        </a>
+        <div class="footer__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <a href="#" class="footer__logo">
+                            <img src="img/logo/logo_white.png" width="270" height="57" class="footer__logo_img"
+                                alt="footer-logo">
+                        </a>
+                        <a href="#" class="footer__rate">
+                            <img src="img/images/yandex__rate.jpg" width="150" height="50" class="footer__rate_img"
+                                alt="yandex-rate">
+                        </a>
+                        <span class="footer__desc">
+                            Поставка химреагентов для бассейнов и пищевой промышленности
+                        </span>
+                        <div class="footer__link d-flex align-items-center">
+                            <a href="#" class="footer__link_item"><i class="fa fa-youtube-play"
+                                    aria-hidden="true"></i></a>
+                            <a href="#" class="footer__link_item"><i class="fa fa-paper-plane"
+                                    aria-hidden="true"></i></a>
+                            <a href="#" class="footer__link_item"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                            <a href="#" class="footer__link_item"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <p class="footer__caption">Каталог</p>
+                        <ul class="footer__ul">
+                            <li><a href="#">Водоподготовка, котлоочистка и дезинфекция</a></li>
+                            <li><a href="#">Промышленная и пищевая химия</a></li>
+                            <li><a href="#">Кислоты, щелочи и их растворы</a></li>
+                            <li><a href="#">Химия для бассейнов</a></li>
+                            <li><a href="#">Пищевые добавки</a></li>
+                            <li><a href="#">Химреагенты для очистных сооружений</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <p class="footer__caption">Информация</p>
+                        <ul class="footer__ul">
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Оплата и доставка</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Блог</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="header__contacts d-flex align-items-center">
+                            <img src="img/icons/headphone_yellow.svg" alt="headerphone-black" width="34" height="34"
+                                class="header__contacts_img">
+                            <div class="header__contacts_data d-flex flex-column">
+                                <a href="#ordercall" class="header__contacts_modal showmodal">Обратная связь</a>
+                                <a href="#" class="header__contacts_phone">+7 (495) 544-76-82</a>
+                                <a href="#" class="header__contacts_mail">mail@aqvahim.ru</a>
+                            </div>
+                        </div>
+                        <p class="footer__address">
+                            Адрес: М.О. Богородский район пос.Старая Купавна, ул.Дорожная д.4 к.1
+                        </p>
+                        <p class="footer__numbers d-flex align-items-start">
+                            Телефоны:
+                            <span class="d-flex flex-column align-items-start">
+                                <a href="#" class="footer__link">+7 929 906-33-18</a>
+                                <a href="#" class="footer__link">+7 929 906-34-64</a>
+                            </span>
+                        </p>
+                        <p class="footer__mail d-flex">
+                            Email: <a href="#" class="footer__link">mail@aqvahim.ru</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div class="footer__copyright">
+                            © 2010 - 2023 ООО АКВАХИМ
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a href="https://agrachoff.ru/" target="_blank"
+                                class="footer__developer d-flex align-items-center">
+                                <img src="img/icons/agrachoff.svg" width="14" height="14" alt="A">
+                                Разработка и продвижение сайтов
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="javascript:void(0)" id="arrowTop">
+        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
+            <rect y="42" width="42" height="42" rx="21" transform="rotate(-90 0 42)" fill="#FDB837" />
+            <g clip-path="url(#clip0_252_5090)">
+                <path
+                    d="M21.1172 14.3125L16.3047 19.1094C16.2318 19.1927 16.1953 19.2891 16.1953 19.3984C16.1953 19.5078 16.2318 19.6042 16.3047 19.6875C16.388 19.7604 16.4844 19.7969 16.5937 19.7969C16.7031 19.7969 16.7995 19.7604 16.8828 19.6875L20.9922 15.5625L20.9922 28.5938C20.9922 28.7083 21.0312 28.8047 21.1094 28.8828C21.1875 28.9609 21.2839 29 21.3984 29C21.5026 29 21.5937 28.9609 21.6719 28.8828C21.75 28.8047 21.7891 28.7083 21.7891 28.5938L21.7891 15.5625L25.9141 19.6719C25.987 19.7552 26.0807 19.7969 26.1953 19.7969C26.3099 19.7969 26.4036 19.7552 26.4766 19.6719C26.5182 19.6406 26.5495 19.599 26.5703 19.5469C26.5911 19.4948 26.6016 19.4427 26.6016 19.3906C26.6016 19.3385 26.5911 19.2891 26.5703 19.2422C26.5495 19.1953 26.5182 19.151 26.4766 19.1094L21.6797 14.3125C21.5964 14.2396 21.5 14.2031 21.3906 14.2031C21.2812 14.2031 21.1901 14.2396 21.1172 14.3125Z"
+                    fill="#202020" />
+            </g>
+            <defs>
+                <clipPath id="clip0_252_5090">
+                    <rect width="16" height="36" fill="white"
+                        transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 39 29)" />
+                </clipPath>
+            </defs>
+        </svg>
+    </a>
+    <!-- Scripts -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="https://use.fontawesome.com/7e7659af39.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

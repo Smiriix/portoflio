@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamTechno | Интернет магазин Электроники</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="shorcut icon" href="favicon.svg">
+    <!-- Yandex -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=0eda1fad-11f1-4dbe-bf77-e7833c03e1fb&lang=ru_RU" type="text/javascript"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div id="menuBtn">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header__top">
+            <div class="header__container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a href="#" class="header__logo">
+                        <img src="img/logo/logo.png">
+                    </a>
+                    <a href="#" class="header__location">
+                        <svg width="11" height="15" viewBox="0 0 11 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M4.92969 13.9766C0.9375 8.23438 0.226562 7.63281 0.226562 5.5C0.226562 2.60156 2.55078 0.25 5.47656 0.25C8.375 0.25 10.7266 2.60156 10.7266 5.5C10.7266 7.63281 9.98828 8.23438 5.99609 13.9766C5.75 14.3594 5.17578 14.3594 4.92969 13.9766ZM5.47656 7.6875C6.67969 7.6875 7.66406 6.73047 7.66406 5.5C7.66406 4.29688 6.67969 3.3125 5.47656 3.3125C4.24609 3.3125 3.28906 4.29688 3.28906 5.5C3.28906 6.73047 4.24609 7.6875 5.47656 7.6875Z"
+                                fill="#76BB20" />
+                        </svg>
+                        <span>Москва</span>
+                    </a>
+                    <form method="GET" class="header__search">
+                        <input type="text" name="search" class="header__searchinput" placeholder="Поиск по товарам">
+                        <input type="submit" class="header__searchbtn" value="">
+                    </form>
+                    <p class="header__numbers d-flex align-items-center">
+                        <svg width="13" height="20" viewBox="0 0 13 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.7812 0H2.3846C1.57526 0 0.91626 0.659 0.91626 1.46834V18.5314C0.91626 19.341 1.57526 20 2.3846 20H10.781C11.5906 20 12.2496 19.341 12.2496 18.5317V1.46834C12.2496 0.659 11.5906 0 10.7812 0ZM1.58293 2.66666H11.583V15.3334H1.58293V2.66666ZM2.3846 0.666667H10.781C11.2232 0.666667 11.583 1.02634 11.583 1.46834V2H1.58293V1.46834C1.58293 1.02634 1.9426 0.666667 2.3846 0.666667ZM10.7812 19.3334H2.3846C1.9426 19.3334 1.58293 18.9736 1.58293 18.5317V16H11.583V18.5317C11.583 18.9736 11.2232 19.3334 10.7812 19.3334Z"
+                                fill="#76BB20" />
+                            <path
+                                d="M6.58287 16.3335C5.84751 16.3335 5.24951 16.9315 5.24951 17.6669C5.24951 18.4021 5.84751 19.0001 6.58287 19.0001C7.31815 19.0001 7.91615 18.4021 7.91615 17.6669C7.91615 16.9315 7.31815 16.3335 6.58287 16.3335ZM6.58287 18.3335C6.21515 18.3335 5.91615 18.0345 5.91615 17.6669C5.91615 17.2991 6.21515 17.0001 6.58287 17.0001C6.95051 17.0001 7.24951 17.2991 7.24951 17.6669C7.24951 18.0345 6.95051 18.3335 6.58287 18.3335Z"
+                                fill="#76BB20" />
+                        </svg>
+                        <a href="tel:88000000079">8 800 000 - 00 - 79</a>
+                        <span class="header__numbersarrow"></span>
+                        <span class="header__numbers_ul">
+                            <a href="#">8 800 000 - 00 - 79</a>
+                            <a href="#">8 800 000 - 00 - 79</a>
+                            <a href="#">8 800 000 - 00 - 79</a>
+                        </span>
+                    </p>
+                    <a href="#" class="header__profile">
+                        <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M13.0524 5.38806C13.0524 6.82342 12.701 8.08886 12.0373 8.98572C11.3827 9.87036 10.4093 10.4192 9.09126 10.4192C7.77318 10.4192 6.79983 9.87036 6.14518 8.98572C5.48153 8.08886 5.13013 6.82342 5.13013 5.38806C5.13013 3.93313 5.39593 2.67068 6.01148 1.78121C6.60997 0.91638 7.56961 0.359691 9.07997 0.356934C10.6794 0.460739 11.643 1.02519 12.223 1.86177C12.8188 2.7211 13.0524 3.92654 13.0524 5.38806Z"
+                                stroke="#76BB20" />
+                            <path
+                                d="M11.5998 11.2344C12.5283 11.7699 15.1549 12.9504 16.0634 13.4124C16.9719 13.8745 17.0625 16.9471 16.5629 17.5541C16.0634 18.1611 11.1204 19.2857 8.99365 19.4464"
+                                stroke="#76BB20" />
+                            <path
+                                d="M6.48507 11.2344C5.55656 11.7699 2.93001 12.9504 2.02147 13.4124C1.11293 13.8745 1.02238 16.9471 1.52193 17.5541C2.02147 18.1611 6.9645 19.2857 9.09121 19.4464"
+                                stroke="#76BB20" />
+                        </svg>
+                        <span>Войти</span>
+                    </a>
+                    <a href="#" class="header__ordercall">
+                        Заказать звонок
+                    </a>
+                    <a href="#" class="header__cart">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 24H17V28H21V24Z" fill="#76BB20" />
+                            <path d="M28 24H24V28H28V24Z" fill="#76BB20" />
+                            <path d="M21 17H17V21H21V17Z" fill="#76BB20" />
+                            <path d="M28 17H24V21H28V17Z" fill="#76BB20" />
+                            <path
+                                d="M28 11H22V7C22 5.3 20.7 4 19 4H13C11.3 4 10 5.3 10 7V11H4C3.4 11 3 11.4 3 12C3 12.1 3 12.1 3 12.2L4.9 24.3C5 25.3 5.9 26 6.9 26H15V24H6.9L5.2 13H28V11ZM12 7C12 6.4 12.4 6 13 6H19C19.6 6 20 6.4 20 7V11H12V7Z"
+                                fill="#76BB20" />
+                        </svg>
+                        <span class="header__cartinfo">
+                            <span>Товаров: <span style="color: #76BB20">2</span></span><br>
+                            <span style="color: #76BB20">2 000</span> р.
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="header__container">
+                <div class="d-flex justify-content-between">
+                    <ul class="header__nav">
+                        <li class="header__navcatalog">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <svg width="22" height="28" viewBox="0 0 22 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17 21H9V23H17V21Z" fill="white" />
+                                    <path d="M7 21H5V23H7V21Z" fill="white" />
+                                    <path d="M17 16H9V18H17V16Z" fill="white" />
+                                    <path d="M7 16H5V18H7V16Z" fill="white" />
+                                    <path d="M17 11H9V13H17V11Z" fill="white" />
+                                    <path d="M7 11H5V13H7V11Z" fill="white" />
+                                    <path
+                                        d="M20 3H17V2C17 1.46957 16.7893 0.960859 16.4142 0.585786C16.0391 0.210714 15.5304 0 15 0H7C6.46957 0 5.96086 0.210714 5.58579 0.585786C5.21071 0.960859 5 1.46957 5 2V3H2C1.46957 3 0.960859 3.21071 0.585786 3.58579C0.210714 3.96086 0 4.46957 0 5V26C0 26.5304 0.210714 27.0391 0.585786 27.4142C0.960859 27.7893 1.46957 28 2 28H20C20.5304 28 21.0391 27.7893 21.4142 27.4142C21.7893 27.0391 22 26.5304 22 26V5C22 4.46957 21.7893 3.96086 21.4142 3.58579C21.0391 3.21071 20.5304 3 20 3ZM7 2H15V6H7V2ZM20 26H2V5H5V8H17V5H20V26Z"
+                                        fill="white" />
+                                </svg>
+                                <a href="#">Каталог Товаров</a>
+                            </div>
+                            <label></label>
+                            <ul>
+                                <li class="nav__item active">
+                                    <a href="#"><img src="img/icons/category.png">
+                                        Смартфоны
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#"><img src="img/icons/category.png">
+                                        Ноутбуки, планшеты, периферия
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#"><img src="img/icons/category.png">
+                                        Товары для дома
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#"><img src="img/icons/category.png">
+                                        Гаджеты
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#"><img src="img/icons/category.png">
+                                        Транспорт
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#"><img src="img/icons/category.png">
+                                        Аудио
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#"><img src="img/icons/category.png">
+                                        Телевизоры
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#"><img src="img/icons/category.png">
+                                        Аксессуары
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Уценка</a>
+                        </li>
+                        <li>
+                            <a href="#">ГАРАНТИЯ</a>
+                        </li>
+                        <li>
+                            <a href="#">ДОСТАВКА И ОПЛАТА</a>
+                        </li>
+                        <li>
+                            <a href="#">О Магазине</a>
+                        </li>
+                        <li>
+                            <a href="#">новости</a>
+                        </li>
+                        <li>
+                            <a href="#">Отзывы</a>
+                        </li>
+                        <li>
+                            <a href="#">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="header__cart d-flex">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 24H17V28H21V24Z" fill="#76BB20" />
+                            <path d="M28 24H24V28H28V24Z" fill="#76BB20" />
+                            <path d="M21 17H17V21H21V17Z" fill="#76BB20" />
+                            <path d="M28 17H24V21H28V17Z" fill="#76BB20" />
+                            <path
+                                d="M28 11H22V7C22 5.3 20.7 4 19 4H13C11.3 4 10 5.3 10 7V11H4C3.4 11 3 11.4 3 12C3 12.1 3 12.1 3 12.2L4.9 24.3C5 25.3 5.9 26 6.9 26H15V24H6.9L5.2 13H28V11ZM12 7C12 6.4 12.4 6 13 6H19C19.6 6 20 6.4 20 7V11H12V7Z"
+                                fill="#76BB20" />
+                        </svg>
+                        <span class="header__cartinfo">
+                            <span>Товаров: <span style="color: #76BB20">2</span></span><br>
+                            <span style="color: #76BB20">2 000</span> р.
+                        </span>
+                    </a>
+                </div>
+                <div class="header__category">
+                    <ul>
+                        <li class="nav__item active">
+                            <a href="#"><img src="img/icons/category.png">
+                                Смартфоны
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#"><img src="img/icons/category.png">
+                                Ноутбуки, планшеты, периферия
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#"><img src="img/icons/category.png">
+                                Товары для дома
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#"><img src="img/icons/category.png">
+                                Гаджеты
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#"><img src="img/icons/category.png">
+                                Транспорт
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#"><img src="img/icons/category.png">
+                                Аудио
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#"><img src="img/icons/category.png">
+                                Телевизоры
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#"><img src="img/icons/category.png">
+                                Аксессуары
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="header__panels">
+                        <div class="header__panel active">
+                            <div class="header__panel_grid">
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                            </div>
+                            <a href="#" class="header__panel_href">
+                                <img src="img/images/menu_category.jpg">
+                                <p class="header__panel_title">
+                                    Смартфоны
+                                    <span>В раздел</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="header__panel">
+                            <div class="header__panel_grid">
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                            </div>
+                            <a href="#" class="header__panel_href">
+                                <img src="img/images/menu_category.jpg">
+                                <p class="header__panel_title">
+                                    Ноутбуки, планшеты, периферия
+                                    <span>В раздел</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="header__panel">
+                            <div class="header__panel_grid">
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                            </div>
+                            <a href="#" class="header__panel_href">
+                                <img src="img/images/menu_category.jpg">
+                                <p class="header__panel_title">
+                                    Товары для дома
+                                    <span>В раздел</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="header__panel">
+                            <div class="header__panel_grid">
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                            </div>
+                            <a href="#" class="header__panel_href">
+                                <img src="img/images/menu_category.jpg">
+                                <p class="header__panel_title">
+                                    Гаджеты
+                                    <span>В раздел</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="header__panel">
+                            <div class="header__panel_grid">
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                            </div>
+                            <a href="#" class="header__panel_href">
+                                <img src="img/images/menu_category.jpg">
+                                <p class="header__panel_title">
+                                    Транспорт
+                                    <span>В раздел</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="header__panel">
+                            <div class="header__panel_grid">
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                            </div>
+                            <a href="#" class="header__panel_href">
+                                <img src="img/images/menu_category.jpg">
+                                <p class="header__panel_title">
+                                    Аудио
+                                    <span>В раздел</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="header__panel">
+                            <div class="header__panel_grid">
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                            </div>
+                            <a href="#" class="header__panel_href">
+                                <img src="img/images/menu_category.jpg">
+                                <p class="header__panel_title">
+                                    Телевизоры
+                                    <span>В раздел</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="header__panel">
+                            <div class="header__panel_grid">
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                                <a href="#" class="header__item">
+                                    <img src="img/images/product.jpg">
+                                    <span>Xiaomi Mi Mix Alpha</span>
+                                </a>
+                            </div>
+                            <a href="#" class="header__panel_href">
+                                <img src="img/images/menu_category.jpg">
+                                <p class="header__panel_title">
+                                    Аксессуары
+                                    <span>В раздел</span>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a href="#" class="header__location">
+                    <svg width="11" height="15" viewBox="0 0 11 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.92969 13.9766C0.9375 8.23438 0.226562 7.63281 0.226562 5.5C0.226562 2.60156 2.55078 0.25 5.47656 0.25C8.375 0.25 10.7266 2.60156 10.7266 5.5C10.7266 7.63281 9.98828 8.23438 5.99609 13.9766C5.75 14.3594 5.17578 14.3594 4.92969 13.9766ZM5.47656 7.6875C6.67969 7.6875 7.66406 6.73047 7.66406 5.5C7.66406 4.29688 6.67969 3.3125 5.47656 3.3125C4.24609 3.3125 3.28906 4.29688 3.28906 5.5C3.28906 6.73047 4.24609 7.6875 5.47656 7.6875Z"
+                            fill="#76BB20" />
+                    </svg>
+                    <span>Москва</span>
+                </a>
+                <div class="header__jobtime d-flex align-items-center">
+                    <img src="img/icons/contacts_clock.svg">
+                    <span>
+                        Работаем Пн-Сб:
+                        <b>с 8:00 до 17:00</b>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Регистрация</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Header -->
+    <section class="register">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2><span>Быстрая</span> регистрация</h2>
+                    <p class="register__desc">
+                        Если Вы уже зарегистрированы, перейдите на страницу <a href=''>Входа в систему</a>.
+                    </p>
+                    <form>
+                        <table>
+                            <tr>
+                                <td>Оформить заказ как:</td>
+                                <td><select>
+                                    <option value="Физ. лицо">Физ. лицо</option>
+                                    <option value="Юрид. лицо">Юрид. лицо</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td>Имя</td>
+                                <td><input type="text" placeholder="Ваше имя"></td>
+                            </tr>
+                            <tr>
+                                <td>Фамилия</td>
+                                <td><input type="text" placeholder="Ваше фамилия"></td>
+                            </tr>
+                            <tr>
+                                <td>Телефон</td>
+                                <td><input type="text" placeholder="+7(_ _ _) _ _ _ - _ _ - _ _"></td>
+                            </tr>
+                            <tr>
+                                <td>E-mail</td>
+                                <td><input type="text" placeholder="info@mail.ru"></td>
+                            </tr>
+                            <tr>
+                                <td>Страна</td>
+                                <td><select>
+                                    <option value="Россия" selected>Россия</option>
+                                    <option value="Россия">Россия</option>
+                                    <option value="Россия">Россия</option>
+                                    <option value="Россия">Россия</option>
+                                    <option value="Россия">Россия</option>
+                                    <option value="Россия">Россия</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td>Регион</td>
+                                <td><select>
+                                    <option value="0" selected>Выбрать</option>
+                                    <option value="0">Выбрать</option>
+                                    <option value="0">Выбрать</option>
+                                    <option value="0">Выбрать</option>
+                                    <option value="0">Выбрать</option>
+                                    <option value="0">Выбрать</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td>Адрес</td>
+                                <td><input type="text" placeholder="Улица, дом"></td>
+                            </tr>
+                        </table>
+                        <input type="submit" value="Зарегистрировать">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Foooter -->
+    <section class="callback">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <p class="callback__title">Затрудняетесь с выбором?</p>
+                        <p class="callback__subtitle">Время приема заявок до 19.00 согласно графику логистики</p>
+                        <form action="#" class="callback__form">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <input type="text" placeholder="Введите Ваше имя">
+                                <input type="tel" placeholder="+7 (___) ___-__-__">
+                                <input type="submit">
+                            </div>
+                            <label>
+                                <input type="checkbox" hidden>
+                                <span class="indicator"></span>
+                                <span>
+                                    Нажимая кнопку вы даете согласие на обработку персональных данных и соглашаетесь с
+                                    <a href='#'>Политикой конфеденциальности</a>
+                                </span>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="header__container">
+            <div class="d-flex justify-content-between">
+                <a href="/" class="footer__logo">
+                    <img src="img/logo/logow.png">
+                </a>
+                <ul>
+                    <li>
+                        <b>
+                            <a href="#">Главная</a>
+                        </b>
+                    </li>
+                    <li><a href='#'>Новости</a></li>
+                    <li><a href='#'>Гарантии</a></li>
+                    <li><a href='#'>Отзывы</a></li>
+                    <li><a href='#'>Контакты</a></li>
+                    <li><a href='#'>Уцененка</a></li>
+                    <li><a href='#'>Доставка и оплата</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <b>
+                            <a href="#">Каталог продукции</a>
+                        </b>
+                    </li>
+                    <li><a href='#'>Смартфоны</a></li>
+                    <li><a href='#'>Ноутбуки, планшеты, периферия</a></li>
+                    <li><a href='#'>Товары для дома</a></li>
+                    <li><a href='#'>Гаджеты</a></li>
+                    <li><a href='#'>Транспорт</a></li>
+                    <li><a href='#'>Посмотреть все</a></li>
+                </ul>
+                <ul class="footer__contacts">
+                    <li>
+                        <b>Контакты</b>
+                    </li>
+                    <li>
+                        <img src="img/icons/mappoint_icon.svg">
+                        <span class="span">
+                            <span>
+                                Email:
+                            </span>
+                            <a href="#">Москва, Мира 23 корп.2</a>
+                        </span>
+                    </li>
+                    <li>
+                        <img src="img/icons/mail_icon.svg">
+                        <span class="span">
+                            <span>
+                                Email:
+                            </span>
+                            <a href="#">infot@mail.ru</a>
+                        </span>
+                    </li>
+                    <li>
+                        <img src="img/icons/phone_icon.svg">
+                        <span class="span">
+                            <span>
+                                Email:
+                            </span>
+                            <a href="#">8 800 000-00-00</a>
+                        </span>
+                    </li>
+                </ul>
+                <div class="footer__map">
+                    <p class="footer__caption">
+                        Как нас найти
+                    </p>
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        ymaps.ready(() => {
+            var myMap = new ymaps.Map('map', {
+                center: [0, 0],
+                zoom: 17,
+                controls: []
+            });
+            myMap.geoObjects.add(new ymaps.Placemark([0, 0], {}, { iconColor: '#76bb20' }));
+        });
+    </script>
+</body>
+
+</html>
